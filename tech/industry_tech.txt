@@ -7,22 +7,22 @@ technology =
   { tag      = TECH_CAT_AGRICULTURE
     position = { x = 554 y = 10 }
   }
-  # ÔçÆÚÅ©Òµ¼¼Êõ 
+  # æ—©æœŸå†œä¸šæŠ€æœ¯ 
   application =
   { id        = 5700
     name      = TECH_APP_INDUSTRY_70_NAME
     position  = { x = 556 y = 24 }
     picture   = "DH5700"
     year      = 1910
-    # µç¶¯¸û×÷ 
+    # ç”µåŠ¨è€•ä½œ 
     component = { id = 5701 name = TECH_CMP_INDUSTRY_70_1_NAME type = mechanics difficulty = 4 }
-    # Ô­ĞÍÍÏÀ­»ú 
+    # åŸå‹æ‹–æ‹‰æœº 
     component = { id = 5702 name = TECH_CMP_INDUSTRY_70_2_NAME type = mechanics difficulty = 4 }
-    # ×Ô¶¯Ñ¹»ú 
+    # è‡ªåŠ¨å‹æœº 
     component = { id = 5703 name = TECH_CMP_INDUSTRY_70_3_NAME type = mechanics difficulty = 4 }
-    # Å©³¡µçÆø»¯ 
+    # å†œåœºç”µæ°”åŒ– 
     component = { id = 5704 name = TECH_CMP_INDUSTRY_70_4_NAME type = mechanics difficulty = 4 }
-    # ÓÅ»¯¸ûÖÖ¼¼Êõ 
+    # ä¼˜åŒ–è€•ç§æŠ€æœ¯ 
     component = { id = 5705 name = TECH_CMP_INDUSTRY_70_5_NAME type = management difficulty = 4 double_time = yes }
     required  = { }
     effects =
@@ -30,22 +30,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # ÔçÆÚ»úĞµ»¯¸û×÷ 
+  # æ—©æœŸæœºæ¢°åŒ–è€•ä½œ 
   application =
   { id        = 5710
     name      = TECH_APP_INDUSTRY_71_NAME
     position  = { x = 556 y = 42 }
     picture   = "DH5710"
     year      = 1915
-    # ÔçÆÚÍÏÀ­»ú
+    # æ—©æœŸæ‹–æ‹‰æœº
     component = { id = 5711 name = TECH_CMP_INDUSTRY_71_1_NAME type = mechanics difficulty = 4 }
-    # Á¼ºÃÊÕ³É 
+    # è‰¯å¥½æ”¶æˆ 
     component = { id = 5712 name = TECH_CMP_INDUSTRY_71_2_NAME type = mechanics difficulty = 4 }
-    # »úĞµ»¯ÍÀÔ×³¡ 
+    # æœºæ¢°åŒ–å± å®°åœº 
     component = { id = 5713 name = TECH_CMP_INDUSTRY_71_3_NAME type = mechanics difficulty = 4 }
-    # ²ã¼ÜÊ½¼¦Áı 
+    # å±‚æ¶å¼é¸¡ç¬¼ 
     component = { id = 5714 name = TECH_CMP_INDUSTRY_71_4_NAME type = mechanics difficulty = 4 }
-    # ÔçÆÚ»úĞµ»¯Å©ÒµÉú²ú 
+    # æ—©æœŸæœºæ¢°åŒ–å†œä¸šç”Ÿäº§ 
     component = { id = 5715 name = TECH_CMP_INDUSTRY_71_5_NAME type = management difficulty = 4 double_time = yes }
     required  = { 5700 5550 }
     effects =
@@ -53,22 +53,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # ÏÖ´úÅ©Òµ¼¼Êõ 
+  # ç°ä»£å†œä¸šæŠ€æœ¯ 
   application =
   { id        = 5010
     name      = TECH_APP_INDUSTRY_1_NAME
     position  = { x = 556 y = 60 }
     picture   = "5010"
     year      = 1922
-    # ¿ÆÑ§¸û×÷¼¼Êõ 
+    # ç§‘å­¦è€•ä½œæŠ€æœ¯ 
     component = { id = 5011 name = TECH_CMP_INDUSTRY_1_1_NAME type = mechanics difficulty = 4 }
-    # ¿ÆÑ§²¥ÖÖ¼¼Êõ 
+    # ç§‘å­¦æ’­ç§æŠ€æœ¯ 
     component = { id = 5012 name = TECH_CMP_INDUSTRY_1_2_NAME type = mechanics difficulty = 4 }
-    # ¿ÆÑ§ÊÕ¸î¼¼Êõ 
+    # ç§‘å­¦æ”¶å‰²æŠ€æœ¯ 
     component = { id = 5013 name = TECH_CMP_INDUSTRY_1_3_NAME type = mechanics difficulty = 4 }
-    # ¿ÆÑ§³ı²İ¼¼Êõ 
+    # ç§‘å­¦é™¤è‰æŠ€æœ¯ 
     component = { id = 5014 name = TECH_CMP_INDUSTRY_1_4_NAME type = mechanics difficulty = 4 }
-    # ¿ÆÑ§¸û×÷·½·¨ 
+    # ç§‘å­¦è€•ä½œæ–¹æ³• 
     component = { id = 5015 name = TECH_CMP_INDUSTRY_1_5_NAME type = management difficulty = 4 double_time = yes }
     required  = { 5710 }
     effects =
@@ -76,22 +76,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # »úĞµ»¯¸û×÷ÆÕ¼° 
+  # æœºæ¢°åŒ–è€•ä½œæ™®åŠ 
   application =
   { id        = 5020
     name      = TECH_APP_INDUSTRY_2_NAME
     position  = { x = 556 y = 78 }
     picture   = "5020"
     year      = 1928
-    # ¸û×÷»ú 
+    # è€•ä½œæœº 
     component = { id = 5021 name = TECH_CMP_INDUSTRY_2_1_NAME type = vehicle_engineering difficulty = 4 }
-    # ²¥ÖÖ»ú 
+    # æ’­ç§æœº 
     component = { id = 5022 name = TECH_CMP_INDUSTRY_2_2_NAME type = vehicle_engineering difficulty = 4 }
-    # ÊÕ¸î»ú 
+    # æ”¶å‰²æœº 
     component = { id = 5023 name = TECH_CMP_INDUSTRY_2_3_NAME type = vehicle_engineering difficulty = 4 }
-    # ³ı²İ»ú 
+    # é™¤è‰æœº 
     component = { id = 5024 name = TECH_CMP_INDUSTRY_2_4_NAME type = mechanics difficulty = 4 }
-    # »úĞµ»¯¸û×÷·½·¨ 
+    # æœºæ¢°åŒ–è€•ä½œæ–¹æ³• 
     component = { id = 5025 name = TECH_CMP_INDUSTRY_2_5_NAME type = management difficulty = 4 double_time = yes }
     required  = { 5010 }
     effects =
@@ -99,22 +99,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 5 }
     }
   }
-  # Å©Òµ»¯Ñ§ 
+  # å†œä¸šåŒ–å­¦ 
   application =
   { id        = 5030
     name      = TECH_APP_INDUSTRY_3_NAME
     position  = { x = 556 y = 96 }
     picture   = "5030"
     year      = 1937
-    # ÈËÔì·ÊÁÏ 
+    # äººé€ è‚¥æ–™ 
     component = { id = 5031 name = TECH_CMP_INDUSTRY_3_1_NAME type = chemistry difficulty = 5 }
-    # ÈËÔìÉ±³æ¼Á 
+    # äººé€ æ€è™«å‰‚ 
     component = { id = 5032 name = TECH_CMP_INDUSTRY_3_2_NAME type = chemistry difficulty = 5 }
-    # ÈËÔì³ı²İ¼Á 
+    # äººé€ é™¤è‰å‰‚ 
     component = { id = 5033 name = TECH_CMP_INDUSTRY_3_3_NAME type = chemistry difficulty = 5 }
-    # ÈËÔìÉ±Õæ¾ú¼Á 
+    # äººé€ æ€çœŸèŒå‰‚ 
     component = { id = 5034 name = TECH_CMP_INDUSTRY_3_4_NAME type = chemistry difficulty = 5 }
-    # ÔÓ½»¼¼Êõ 
+    # æ‚äº¤æŠ€æœ¯ 
     component = { id = 5035 name = TECH_CMP_INDUSTRY_3_5_NAME type = management difficulty = 6 }
     required  = { 5020 }
     effects =
@@ -122,22 +122,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # Å©ÒµÉú²ú 
+  # å†œä¸šç”Ÿäº§ 
   application =
   { id        = 5040
     name      = TECH_APP_INDUSTRY_4_NAME
     position  = { x = 556 y = 114 }
     picture   = "5040"
     year      = 1945
-    # ×¼ÏÖ´úÅ©Òµ½ø³Ì 
+    # å‡†ç°ä»£å†œä¸šè¿›ç¨‹ 
     component = { id = 5041 name = TECH_CMP_INDUSTRY_4_1_NAME type = chemistry difficulty = 6 }
-    # ´ó¹æÄ£ÖÆÀä¼¼Êõ 
+    # å¤§è§„æ¨¡åˆ¶å†·æŠ€æœ¯ 
     component = { id = 5042 name = TECH_CMP_INDUSTRY_4_2_NAME type = industrial_engineering difficulty = 6 }
-    # ÎŞ¾ú°ü×° 
+    # æ— èŒåŒ…è£… 
     component = { id = 5043 name = TECH_CMP_INDUSTRY_4_3_NAME type = industrial_engineering difficulty = 6 }
-    # ÍÑË®¼¼Êõ 
+    # è„±æ°´æŠ€æœ¯ 
     component = { id = 5044 name = TECH_CMP_INDUSTRY_4_4_NAME type = industrial_engineering difficulty = 6 }
-    # Å©Òµ¹ÜÀí·½·¨ 
+    # å†œä¸šç®¡ç†æ–¹æ³• 
     component = { id = 5045 name = TECH_CMP_INDUSTRY_4_5_NAME type = management difficulty = 7 double_time = yes }
     required  = { 5030 }
     effects =
@@ -147,22 +147,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # ×¼ÏÖ´ú»úĞµ»¯¸û×÷ 
+  # å‡†ç°ä»£æœºæ¢°åŒ–è€•ä½œ 
   application =
   { id        = 5720
     name      = TECH_APP_INDUSTRY_72_NAME
     position  = { x = 556 y = 132 }
     picture   = "13000"
     year      = 1950
-    # ¸ÄÁ¼ÍÏÀ­»ú 
+    # æ”¹è‰¯æ‹–æ‹‰æœº 
     component = { id = 5721 name = TECH_CMP_INDUSTRY_72_1_NAME type = vehicle_engineering difficulty = 7 }
-    # ÁªºÏ»úĞµ 
+    # è”åˆæœºæ¢° 
     component = { id = 5722 name = TECH_CMP_INDUSTRY_72_2_NAME type = vehicle_engineering difficulty = 7 }
-    # ¸ÄÁ¼¸û×÷²¥ÖÖÊÕ¸îÉè±¸ 
+    # æ”¹è‰¯è€•ä½œæ’­ç§æ”¶å‰²è®¾å¤‡ 
     component = { id = 5723 name = TECH_CMP_INDUSTRY_72_3_NAME type = mechanics difficulty = 7 }
-    # ¸ÄÁ¼Å©Òµ¼¼Êõ 
+    # æ”¹è‰¯å†œä¸šæŠ€æœ¯ 
     component = { id = 5724 name = TECH_CMP_INDUSTRY_72_4_NAME type = industrial_engineering difficulty = 7 }
-    # ×¼ÏÖ´úÅ©Òµ½ø³Ì 
+    # å‡†ç°ä»£å†œä¸šè¿›ç¨‹ 
     component = { id = 5725 name = TECH_CMP_INDUSTRY_72_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5040 }
     effects =
@@ -172,7 +172,7 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # ´ó»úĞµ»¯¸û×÷ 
+  # å¤§æœºæ¢°åŒ–è€•ä½œ 
   application =
   { id        = 5730
     name      = TECH_APP_INDUSTRY_59_NAME
@@ -180,15 +180,15 @@ technology =
     position  = { x = 556 y = 150 }
     picture   = "13000"
     year      = 1950
-    # ÁªºÏÍÏÀ­»ú
+    # è”åˆæ‹–æ‹‰æœº
     component = { id = 5731 name = TECH_CMP_INDUSTRY_59_1_NAME type = vehicle_engineering difficulty = 8 }
-    # ÁªºÏ»úĞµ 
+    # è”åˆæœºæ¢° 
     component = { id = 5732 name = TECH_CMP_INDUSTRY_59_2_NAME type = vehicle_engineering difficulty = 8 }
-    # Éú²ú³É±¾½µµÍ»¯
+    # ç”Ÿäº§æˆæœ¬é™ä½åŒ–
     component = { id = 5733 name = TECH_CMP_INDUSTRY_59_3_NAME type = management difficulty = 8 }
-    # ¸ÄÁ¼»¯·Ê
+    # æ”¹è‰¯åŒ–è‚¥
     component = { id = 5734 name = TECH_CMP_INDUSTRY_59_4_NAME type = chemistry difficulty = 8 }
-    # Ğ­ºÍÉú²ú½ø³Ì
+    # åå’Œç”Ÿäº§è¿›ç¨‹
     component = { id = 5735 name = TECH_CMP_INDUSTRY_59_5_NAME type = management difficulty = 9 double_time = yes }
     required  = { 5720 }
     effects =
@@ -198,22 +198,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # ÏÈ½øÅ©ÒµÉú²ú 
+  # å…ˆè¿›å†œä¸šç”Ÿäº§ 
   application =
   { id        = 53000
     name      = TECH_APP_INDUSTRY_100_NAME
     position  = { x = 556 y = 168 }
     picture   = "13010"
     year      = 1957
-    # ¹¤ÒµÍ¬ÖÊ»¯ 
+    # å·¥ä¸šåŒè´¨åŒ– 
     component = { id = 53001 name = TECH_CMP_INDUSTRY_100_1_NAME type = chemistry difficulty = 7 }
-    # µÍÎÂÔËÊä¹ÜÀí 
+    # ä½æ¸©è¿è¾“ç®¡ç† 
     component = { id = 53002 name = TECH_CMP_INDUSTRY_100_2_NAME type = industrial_engineering difficulty = 7 }
-    # ×Ô¶¯Ïû¶¾°ü×° 
+    # è‡ªåŠ¨æ¶ˆæ¯’åŒ…è£… 
     component = { id = 53003 name = TECH_CMP_INDUSTRY_100_3_NAME type = industrial_engineering difficulty = 7 }
-    # ¿ìËÙÍÑË®¼¼Êõ 
+    # å¿«é€Ÿè„±æ°´æŠ€æœ¯ 
     component = { id = 53004 name = TECH_CMP_INDUSTRY_100_4_NAME type = industrial_engineering difficulty = 7 }
-    # ¸ÄÁ¼Å©Òµ¹ÜÀí
+    # æ”¹è‰¯å†œä¸šç®¡ç†
     component = { id = 53005 name = TECH_CMP_INDUSTRY_100_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5730 }
     effects =
@@ -224,7 +224,7 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # ¼¯Ô¼»¯Éú²ú 
+  # é›†çº¦åŒ–ç”Ÿäº§ 
   application =
   { id        = 53080
     name      = TECH_APP_INDUSTRY_68_NAME
@@ -232,15 +232,15 @@ technology =
     position  = { x = 556 y = 186 }
     picture   = "13010"
     year      = 1960
-    # Í¨ÓÃÅ©Òµ»úĞµ
+    # é€šç”¨å†œä¸šæœºæ¢°
     component = { id = 53081 name = TECH_CMP_INDUSTRY_68_1_NAME type = mechanics difficulty = 10 }
-    # ¸ß·ÊÁ¦·ÊÁÏ
+    # é«˜è‚¥åŠ›è‚¥æ–™
     component = { id = 53082 name = TECH_CMP_INDUSTRY_68_2_NAME type = chemistry difficulty = 10 }
-    # Éú²ú±ê×¼»¯
+    # ç”Ÿäº§æ ‡å‡†åŒ–
     component = { id = 53083 name = TECH_CMP_INDUSTRY_68_3_NAME type = management difficulty = 10 }
-    # °ë×Ô¶¯»¯Éú²ú
+    # åŠè‡ªåŠ¨åŒ–ç”Ÿäº§
     component = { id = 53084 name = TECH_CMP_INDUSTRY_68_4_NAME type = industrial_engineering difficulty = 10 }
-    # ¼¯Ô¼»¯Å©Òµ¹ÜÀí
+    # é›†çº¦åŒ–å†œä¸šç®¡ç†
     component = { id = 53085 name = TECH_CMP_INDUSTRY_68_5_NAME type = management difficulty = 10 double_time = yes }
     required  = { 53000 }
     effects =
@@ -251,22 +251,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 2 }
     }
   }
-  # ÏÖ´úÅ©ÒµÉú²ú 
+  # ç°ä»£å†œä¸šç”Ÿäº§ 
   application =
   { id        = 53010
     name      = TECH_APP_INDUSTRY_101_NAME
     position  = { x = 556 y = 204 }
     picture   = "DH53010"
     year      = 1960
-    # ÏÖ´ú»¯»úĞµÂÖ×÷ 
+    # ç°ä»£åŒ–æœºæ¢°è½®ä½œ 
     component = { id = 53011 name = TECH_CMP_INDUSTRY_101_1_NAME type = chemistry difficulty = 12 }
-    # ÏÖ´ú²Ö´¢ 
+    # ç°ä»£ä»“å‚¨ 
     component = { id = 53012 name = TECH_CMP_INDUSTRY_101_2_NAME type = industrial_engineering difficulty = 12 }
-    # ÏÖ´ú°ü×° 
+    # ç°ä»£åŒ…è£… 
     component = { id = 53013 name = TECH_CMP_INDUSTRY_101_3_NAME type = industrial_engineering difficulty = 12 }
-    # ÊÚ·Û¼¼Êõ 
+    # æˆç²‰æŠ€æœ¯ 
     component = { id = 53014 name = TECH_CMP_INDUSTRY_101_4_NAME type = industrial_engineering difficulty = 12 }
-    # ÏÖ´úÅ©ÒµÉú²ú¹¤Ğò 
+    # ç°ä»£å†œä¸šç”Ÿäº§å·¥åº 
     component = { id = 53015 name = TECH_CMP_INDUSTRY_101_5_NAME type = management difficulty = 14 double_time = yes }
     required  = { 53080 }
     effects =
@@ -278,110 +278,110 @@ technology =
   { tag      = TECH_CAT_MANUFACTURING
     position = { x = 12 y = 10 }
   }
-  # ¿ÆÑ§¹ÜÀí 
+  # ç§‘å­¦ç®¡ç† 
   application =
   { id        = 5810
     name      = TECH_APP_INDUSTRY_81_NAME
     position  = { x = 10 y = 24 }
     picture   = "DH5810"
     year      = 1910
-    # ²úÒµ¹¤³Ì·ÖÎö 
+    # äº§ä¸šå·¥ç¨‹åˆ†æ 
     component = { id = 5811 name = TECH_CMP_INDUSTRY_81_1_NAME type = management difficulty = 5 }
-    # Éú²úºÏÀí»¯ 
+    # ç”Ÿäº§åˆç†åŒ– 
     component = { id = 5812 name = TECH_CMP_INDUSTRY_81_2_NAME type = management difficulty = 5 }
-    # ×¢ÖØĞ§ÂÊºÍ¼õÉÙÀË·Ñ 
+    # æ³¨é‡æ•ˆç‡å’Œå‡å°‘æµªè´¹ 
     component = { id = 5813 name = TECH_CMP_INDUSTRY_81_3_NAME type = industrial_engineering difficulty = 5 }
-    # ×î¼ÑÊµ¼ù³É¹û±ê×¼»¯ 
+    # æœ€ä½³å®è·µæˆæœæ ‡å‡†åŒ– 
     component = { id = 5814 name = TECH_CMP_INDUSTRY_81_4_NAME type = industrial_engineering difficulty = 6 }
-    # ÖªÊ¶¼Ì³Ğ 
+    # çŸ¥è¯†ç»§æ‰¿ 
     component = { id = 5815 name = TECH_CMP_INDUSTRY_81_5_NAME type = management difficulty = 5 double_time = yes }
     required  = { }
     effects =
     { command = { type = industrial_modifier which = supplies value = 5 }
     }
   }
-  # ´ó¹æÄ£Éú²ú 
+  # å¤§è§„æ¨¡ç”Ÿäº§ 
   application =
   { id        = 5820
     name      = TECH_APP_INDUSTRY_82_NAME
     position  = { x = 10 y = 41 }
     picture   = "DH5820"
     year      = 1915
-    # ¿ÉÌæ»»Áã¼ş 
+    # å¯æ›¿æ¢é›¶ä»¶ 
     component = { id = 5821 name = TECH_CMP_INDUSTRY_82_1_NAME type = technical_efficiency difficulty = 5 }
-    # »úĞµ¹¤¾ß 
+    # æœºæ¢°å·¥å…· 
     component = { id = 5822 name = TECH_CMP_INDUSTRY_82_2_NAME type = industrial_engineering difficulty = 5 }
-    # ¹¤³§µçÆø»¯ 
+    # å·¥å‚ç”µæ°”åŒ– 
     component = { id = 5823 name = TECH_CMP_INDUSTRY_82_3_NAME type = industrial_engineering difficulty = 5 }
-    # Ê¹ÓÃÅ®ĞÔÎªÀÍ¶¯Á¦ 
+    # ä½¿ç”¨å¥³æ€§ä¸ºåŠ³åŠ¨åŠ› 
     component = { id = 5824 name = TECH_CMP_INDUSTRY_82_4_NAME type = industrial_engineering difficulty = 6 }
-    # ÔçÆÚÁ÷Ë®Ïß 
+    # æ—©æœŸæµæ°´çº¿ 
     component = { id = 5825 name = TECH_CMP_INDUSTRY_82_5_NAME type = industrial_engineering difficulty = 5 double_time = yes }
     required  = { 5810 }
     effects =
     { command = { type = industrial_modifier which = total value = 3 }
     }
   }
-  # ÉèÊ©Éè¼Æ 
+  # è®¾æ–½è®¾è®¡ 
   application =
   { id        = 5830
     name      = TECH_APP_INDUSTRY_5_NAME
     position  = { x = 10 y = 58 }
     picture   = "5050"
     year      = 1920
-    # Ì¼»¯ÎÙÓ²ÖÊºÏ½ğ 
+    # ç¢³åŒ–é’¨ç¡¬è´¨åˆé‡‘ 
     component = { id = 5051 name = TECH_CMP_INDUSTRY_5_1_NAME type = technical_efficiency difficulty = 5 }
-    # ¾«ÃÜ¼¼Êõ 
+    # ç²¾å¯†æŠ€æœ¯ 
     component = { id = 5052 name = TECH_CMP_INDUSTRY_5_2_NAME type = industrial_engineering difficulty = 5 }
-    # »ù±¾º¸½Ó¼¼Êõ 
+    # åŸºæœ¬ç„Šæ¥æŠ€æœ¯ 
     component = { id = 5053 name = TECH_CMP_INDUSTRY_5_3_NAME type = industrial_engineering difficulty = 5 }
-    # ÄÍ¸ßÎÂ¼¼Êõ 
+    # è€é«˜æ¸©æŠ€æœ¯ 
     component = { id = 5054 name = TECH_CMP_INDUSTRY_5_4_NAME type = industrial_engineering difficulty = 6 }
-    # »ù±¾»ú´²·¢Õ¹¹¤ÒÕ 
+    # åŸºæœ¬æœºåºŠå‘å±•å·¥è‰º 
     component = { id = 5055 name = TECH_CMP_INDUSTRY_5_5_NAME type = industrial_engineering difficulty = 5 double_time = yes }
     required  = { 5820 }
     effects =
     { command = { type = industrial_modifier which = total value = 2 }
     }
   }
-  # ÖÆÔìÖ§³ÖÏµÍ³ 
+  # åˆ¶é€ æ”¯æŒç³»ç»Ÿ 
   application =
   { id        = 5840
     name      = TECH_APP_INDUSTRY_83_NAME
     position  = { x = 10 y = 75 }
     picture   = "5080"
     year      = 1925
-    # Ä£¾ß±ê×¼»¯ 
+    # æ¨¡å…·æ ‡å‡†åŒ– 
     component = { id = 5831 name = TECH_CMP_INDUSTRY_83_1_NAME type = technical_efficiency difficulty = 5 }
-    # Ã¿ÔÂÉú²úÖ¸±ê 
+    # æ¯æœˆç”Ÿäº§æŒ‡æ ‡ 
     component = { id = 5832 name = TECH_CMP_INDUSTRY_83_2_NAME type = industrial_engineering difficulty = 5 }
-    # ¸ÄÁ¼Éú²úºÏÀí»¯ 
+    # æ”¹è‰¯ç”Ÿäº§åˆç†åŒ– 
     component = { id = 5833 name = TECH_CMP_INDUSTRY_83_3_NAME type = industrial_engineering difficulty = 5 }
-    # ×¼ÏÖ´úÖÆÔì¹¤³§ 
+    # å‡†ç°ä»£åˆ¶é€ å·¥å‚ 
     component = { id = 5834 name = TECH_CMP_INDUSTRY_83_4_NAME type = industrial_engineering difficulty = 6 }
-    # ²úÆ·¿ØÖÆ 
+    # äº§å“æ§åˆ¶ 
     component = { id = 5835 name = TECH_CMP_INDUSTRY_83_5_NAME type = management difficulty = 5 double_time = yes }
     required  = { 5050 }
     effects =
     { command = { type = industrial_modifier which = total value = 2 }
     }
   }
-  # Á÷³ÌÖØ·ÖÅä 
+  # æµç¨‹é‡åˆ†é… 
   application =
   { id        = 5850
     name      = TECH_APP_INDUSTRY_6_NAME
     position  = { x = 10 y = 92 }
     picture   = "5060"
     year      = 1930
-    # ¹¤ÒµÌÕ´É¼¼Êõ 
+    # å·¥ä¸šé™¶ç“·æŠ€æœ¯ 
     component = { id = 5061 name = TECH_CMP_INDUSTRY_6_1_NAME type = technical_efficiency difficulty = 5 }
-    # ´«¸ĞÆ÷¼¼Êõ 
+    # ä¼ æ„Ÿå™¨æŠ€æœ¯ 
     component = { id = 5062 name = TECH_CMP_INDUSTRY_6_2_NAME type = industrial_engineering difficulty = 5 }
-    # ¸ÄÁ¼º¸½Ó¼¼Êõ 
+    # æ”¹è‰¯ç„Šæ¥æŠ€æœ¯ 
     component = { id = 5063 name = TECH_CMP_INDUSTRY_6_3_NAME type = industrial_engineering difficulty = 5 }
-    # ¸ßËÙÉú²úÄÜÁ¦ 
+    # é«˜é€Ÿç”Ÿäº§èƒ½åŠ› 
     component = { id = 5064 name = TECH_CMP_INDUSTRY_6_4_NAME type = industrial_engineering difficulty = 6 }
-    # ¸ÄÁ¼»ú´²·¢Õ¹¹¤ÒÕ 
+    # æ”¹è‰¯æœºåºŠå‘å±•å·¥è‰º 
     component = { id = 5065 name = TECH_CMP_INDUSTRY_6_5_NAME type = industrial_engineering difficulty = 5 double_time = yes }
     required  = { 5830 }
     effects =
@@ -392,44 +392,44 @@ technology =
       command = { type = new_model which = naval_improved_hull_s value = 0 }
     }
   }
-  # ±ê×¼»¯Éú²ú 
+  # æ ‡å‡†åŒ–ç”Ÿäº§ 
   application =
   { id        = 5860
     name      = TECH_APP_INDUSTRY_7_NAME
     position  = { x = 10 y = 109 }
     picture   = "5070"
     year      = 1935
-    # ¹¤ÒµÓÃ½ğ¸ÕÊ¯ 
+    # å·¥ä¸šç”¨é‡‘åˆšçŸ³ 
     component = { id = 5071 name = TECH_CMP_INDUSTRY_7_1_NAME type = technical_efficiency difficulty = 6 }
-    # ¹¤Òµ×Ô¶¯»¯ 
+    # å·¥ä¸šè‡ªåŠ¨åŒ– 
     component = { id = 5072 name = TECH_CMP_INDUSTRY_7_2_NAME type = industrial_engineering difficulty = 6 }
-    # ÏÈ½øº¸½Ó¼¼Êõ 
+    # å…ˆè¿›ç„Šæ¥æŠ€æœ¯ 
     component = { id = 5073 name = TECH_CMP_INDUSTRY_7_3_NAME type = industrial_engineering difficulty = 6 }
-    # ³¬¸ßËÙÉú²úÄÜÁ¦ 
+    # è¶…é«˜é€Ÿç”Ÿäº§èƒ½åŠ› 
     component = { id = 5074 name = TECH_CMP_INDUSTRY_7_4_NAME type = industrial_engineering difficulty = 7 }
-    # ÏÈ½ø»ú´²·¢Õ¹¹¤ÒÕ 
+    # å…ˆè¿›æœºåºŠå‘å±•å·¥è‰º 
     component = { id = 5075 name = TECH_CMP_INDUSTRY_7_5_NAME type = industrial_engineering difficulty = 6 double_time = yes }
     required  = { 5060 }
     effects =
     { command = { type = industrial_modifier which = total value = 2 }
     }
   }
-  # ×°ÅäÉú²úÏßÊµÑé 
+  # è£…é…ç”Ÿäº§çº¿å®éªŒ 
   application =
   { id        = 5870
     name      = TECH_APP_INDUSTRY_13_NAME
     position  = { x = 10 y = 126 }
     picture   = "5130"
     year      = 1940
-    # ±ê×¼Éè¼Æ 
+    # æ ‡å‡†è®¾è®¡ 
     component = { id = 5131 name = TECH_CMP_INDUSTRY_13_1_NAME type = technical_efficiency difficulty = 7 }
-    # ·¢Õ¹Æ½Ì¨ 
+    # å‘å±•å¹³å° 
     component = { id = 5132 name = TECH_CMP_INDUSTRY_13_2_NAME type = management difficulty = 7 }
-    # ¿É×éºÏ×°Åä 
+    # å¯ç»„åˆè£…é… 
     component = { id = 5133 name = TECH_CMP_INDUSTRY_13_3_NAME type = industrial_engineering difficulty = 7 }
-    # ¶ÏÁÑÁ¦Ñ§ 
+    # æ–­è£‚åŠ›å­¦ 
     component = { id = 5134 name = TECH_CMP_INDUSTRY_13_4_NAME type = industrial_engineering difficulty = 8 }
-    # ÊµÑé·½·¨ 
+    # å®éªŒæ–¹æ³• 
     component = { id = 5135 name = TECH_CMP_INDUSTRY_13_5_NAME type = management difficulty = 7 double_time = yes }
     required  = { 5070 }
     effects =
@@ -437,22 +437,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 10 }
     }
   }
-  # Éú²ú¿ØÖÆ 
+  # ç”Ÿäº§æ§åˆ¶ 
   application =
   { id        = 5880
     name      = TECH_APP_INDUSTRY_11_NAME
     position  = { x = 10 y = 143 }
     picture   = "5110"
     year      = 1945
-    # ´ó¹æÄ£Éú²ú 
+    # å¤§è§„æ¨¡ç”Ÿäº§ 
     component = { id = 5111 name = TECH_CMP_INDUSTRY_11_1_NAME type = industrial_engineering difficulty = 8 }
-    # ¿ÆÑ§¹ÜÀí 
+    # ç§‘å­¦ç®¡ç† 
     component = { id = 5112 name = TECH_CMP_INDUSTRY_11_2_NAME type = management difficulty = 8 }
-    # ³ÖĞø¸Ä½ø 
+    # æŒç»­æ”¹è¿› 
     component = { id = 5113 name = TECH_CMP_INDUSTRY_11_3_NAME type = management difficulty = 8 }
-    # ¼õÉÙ×¼±¸Ê±¼ä 
+    # å‡å°‘å‡†å¤‡æ—¶é—´ 
     component = { id = 5114 name = TECH_CMP_INDUSTRY_11_4_NAME type = management difficulty = 9 }
-    # Éú²ú¿ØÖÆ·¢Õ¹¹¤ÒÕ 
+    # ç”Ÿäº§æ§åˆ¶å‘å±•å·¥è‰º 
     component = { id = 5115 name = TECH_CMP_INDUSTRY_11_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5130 }
     effects =
@@ -460,22 +460,22 @@ technology =
       command = { type = industrial_modifier which = supplies value = 5 }
     }
   }
-  # Éú²ú¼Æ»® 
+  # ç”Ÿäº§è®¡åˆ’ 
   application =
   { id        = 5890
     name      = TECH_APP_INDUSTRY_12_NAME
     position  = { x = 10 y = 160 }
     picture   = "5120"
     year      = 1950
-    # ³£¹æÉú²ú¼Æ»® 
+    # å¸¸è§„ç”Ÿäº§è®¡åˆ’ 
     component = { id = 5121 name = TECH_CMP_INDUSTRY_12_1_NAME type = management difficulty = 9 }
-    # ¿â´æ¼Æ»® 
+    # åº“å­˜è®¡åˆ’ 
     component = { id = 5122 name = TECH_CMP_INDUSTRY_12_2_NAME type = management difficulty = 9 }
-    # ×ÊÔ´¶ÓÁĞÏµÍ³ 
+    # èµ„æºé˜Ÿåˆ—ç³»ç»Ÿ 
     component = { id = 5123 name = TECH_CMP_INDUSTRY_12_3_NAME type = management difficulty = 9 }
-    # ÏÈ½ø¹¤ÈËÊ±¿Ì±í 
+    # å…ˆè¿›å·¥äººæ—¶åˆ»è¡¨ 
     component = { id = 5124 name = TECH_CMP_INDUSTRY_12_4_NAME type = management difficulty = 10 }
-    # Éú²ú¼Æ»®·¢Õ¹¹¤ÒÕ 
+    # ç”Ÿäº§è®¡åˆ’å‘å±•å·¥è‰º 
     component = { id = 5125 name = TECH_CMP_INDUSTRY_12_5_NAME type = management difficulty = 9 double_time = yes }
     required  = { 5110 }
     effects =
@@ -483,44 +483,44 @@ technology =
       command = { type = industrial_modifier which = supplies value = 5 }
     }
   }
-  # ´ó¹æÄ£¶¨ÖÆÉú²ú 
+  # å¤§è§„æ¨¡å®šåˆ¶ç”Ÿäº§ 
   application =
   { id        = 5900
     name      = TECH_APP_INDUSTRY_84_NAME
     position  = { x = 10 y = 177 }
     picture   = "DH5840"
     year      = 1955
-    # ÓÅ»¯¾«ÃÜ¼¼Êõ 
+    # ä¼˜åŒ–ç²¾å¯†æŠ€æœ¯ 
     component = { id = 5841 name = TECH_CMP_INDUSTRY_84_1_NAME type = technical_efficiency difficulty = 10 }
-    # ³¤ÆÚ¶©µ¥ 
+    # é•¿æœŸè®¢å• 
     component = { id = 5842 name = TECH_CMP_INDUSTRY_84_2_NAME type = industrial_engineering difficulty = 10 }
-    # ÓÅ»¯¹¤ÈË×÷Ï¢Ê±¼ä±í 
+    # ä¼˜åŒ–å·¥äººä½œæ¯æ—¶é—´è¡¨ 
     component = { id = 5843 name = TECH_CMP_INDUSTRY_84_3_NAME type = industrial_engineering difficulty = 10 }
-    # ÏÈ½ø×ÊÔ´Ë³ĞòÅä¸øÏµÍ³ 
+    # å…ˆè¿›èµ„æºé¡ºåºé…ç»™ç³»ç»Ÿ 
     component = { id = 5844 name = TECH_CMP_INDUSTRY_84_4_NAME type = industrial_engineering difficulty = 10 }
-    # ½á¹û¿ØÖÆ  
+    # ç»“æœæ§åˆ¶  
     component = { id = 5845 name = TECH_CMP_INDUSTRY_84_5_NAME type = management difficulty = 10 double_time = yes }
     required  = { 5120 }
     effects =
     { command = { type = industrial_modifier which = total value = 5 }
     }
   }
-  # ÏÈ½ø¼Æ»®ºÍÈÕ³Ì±í 
+  # å…ˆè¿›è®¡åˆ’å’Œæ—¥ç¨‹è¡¨ 
   application =
   { id        = 5910
     name      = TECH_APP_INDUSTRY_85_NAME
     position  = { x = 10 y = 194 }
     picture   = "DH5850"
     year      = 1960
-    # ¹¤³§µÄµçÆø»¯ 
+    # å·¥å‚çš„ç”µæ°”åŒ– 
     component = { id = 5871 name = TECH_CMP_INDUSTRY_85_1_NAME type = electronics difficulty = 9 }
-    # ÔçÍí°àÂÖ»» 
+    # æ—©æ™šç­è½®æ¢ 
     component = { id = 5852 name = TECH_CMP_INDUSTRY_85_2_NAME type = management difficulty = 9 }
-    # Áì°àÂÖ»» 
+    # é¢†ç­è½®æ¢ 
     component = { id = 5853 name = TECH_CMP_INDUSTRY_85_3_NAME type = management difficulty = 9 }
-    # ÏÈ½øµÄ¿â´æ¼Æ»® 
+    # å…ˆè¿›çš„åº“å­˜è®¡åˆ’ 
     component = { id = 5854 name = TECH_CMP_INDUSTRY_85_4_NAME type = industrial_engineering difficulty = 10 }
-    # ÍÅ¶ÓÔğÈÎÖÆ 
+    # å›¢é˜Ÿè´£ä»»åˆ¶ 
     component = { id = 5855 name = TECH_CMP_INDUSTRY_85_5_NAME type = management difficulty = 10 double_time = yes }
     required  = { 5840 }
     effects =
@@ -528,29 +528,29 @@ technology =
       command = { type = industrial_modifier which = supplies value = 5 }
     }
   }
-  # ¼ÆËã»ú¹¤ÒµÓ¦ÓÃ 
+  # è®¡ç®—æœºå·¥ä¸šåº”ç”¨ 
   application =
   { id        = 5920
     name      = TECH_APP_INDUSTRY_86_NAME
     position  = { x = 10 y = 211 }
     picture   = "DH5860"
     year      = 1964
-    # ÏÈ½ø²ÄÁÏ 
+    # å…ˆè¿›ææ–™ 
     component = { id = 5861 name = TECH_CMP_INDUSTRY_86_1_NAME type = technical_efficiency difficulty = 10 }
-    # ¼ÆËã»ú¿â´æ¿ØÖÆ 
+    # è®¡ç®—æœºåº“å­˜æ§åˆ¶ 
     component = { id = 5862 name = TECH_CMP_INDUSTRY_86_2_NAME type = electronics difficulty = 10 }
-    # ¼ÆËã»úÉú²ú¿ØÖÆ 
+    # è®¡ç®—æœºç”Ÿäº§æ§åˆ¶ 
     component = { id = 5863 name = TECH_CMP_INDUSTRY_86_3_NAME type = electronics difficulty = 10 }
-    # ¼ÆËã»ú¿â´æ¹æ»® 
+    # è®¡ç®—æœºåº“å­˜è§„åˆ’ 
     component = { id = 5864 name = TECH_CMP_INDUSTRY_86_4_NAME type = industrial_engineering difficulty = 10 }
-    # ÏÖ´úÖÆÔì¹¤³§ 
+    # ç°ä»£åˆ¶é€ å·¥å‚ 
     component = { id = 5865 name = TECH_CMP_INDUSTRY_86_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 5850 }
     effects =
     { command = { type = industrial_modifier which = total value = 5 }
     }
   }
-  # Ä£¿é»¯Éú²ú
+  # æ¨¡å—åŒ–ç”Ÿäº§
   application =
   { id        = 5930
     name      = TECH_APP_INDUSTRY_74_NAME
@@ -558,15 +558,15 @@ technology =
     position  = { x = 10 y = 228 }
     picture   = "DH5860"
     year      = 1964
-    # ÏÈ½ø²ÄÁÏ 
+    # å…ˆè¿›ææ–™ 
     component = { id = 5871 name = TECH_CMP_INDUSTRY_74_1_NAME type = technical_efficiency difficulty = 10 }
-    # Í¨ÓÃ±ê×¼
+    # é€šç”¨æ ‡å‡†
     component = { id = 5872 name = TECH_CMP_INDUSTRY_74_2_NAME type = management difficulty = 10 }
-    # Í¨ÓÃ»úĞµ
+    # é€šç”¨æœºæ¢°
     component = { id = 5873 name = TECH_CMP_INDUSTRY_74_3_NAME type = management difficulty = 10 }
-    # ±ê×¼»¯¼¼ÊõÁ÷³Ì
+    # æ ‡å‡†åŒ–æŠ€æœ¯æµç¨‹
     component = { id = 5874 name = TECH_CMP_INDUSTRY_74_4_NAME type = industrial_engineering difficulty = 10 }
-    # ÏÖ´ú±ê×¼ÍÆ¹ã¼°Ó¦ÓÃ
+    # ç°ä»£æ ‡å‡†æ¨å¹¿åŠåº”ç”¨
     component = { id = 5875 name = TECH_CMP_INDUSTRY_74_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 5850 }
     effects =
@@ -577,22 +577,22 @@ technology =
   { tag      = TECH_CAT_ASSEMBLYLINES
     position = { x = 24 y = 249 }
   }
-  # ·É»ú×°ÅäÏß 
+  # é£æœºè£…é…çº¿ 
   application =
   { id        = 5120
     name      = TECH_APP_INDUSTRY_14_NAME
     position  = { x = 12 y = 302 }
     picture   = "5140"
     year      = 1940
-    # ·É»úÄ£¿é 
+    # é£æœºæ¨¡å— 
     component = { id = 5141 name = TECH_CMP_INDUSTRY_14_1_NAME type = aeronautics difficulty = 8 }
-    # »·¾³²âÊÔ 
+    # ç¯å¢ƒæµ‹è¯• 
     component = { id = 5142 name = TECH_CMP_INDUSTRY_14_2_NAME type = industrial_engineering difficulty = 7 }
-    # ÍÆ½øÆ÷µ÷½Ú 
+    # æ¨è¿›å™¨è°ƒèŠ‚ 
     component = { id = 5143 name = TECH_CMP_INDUSTRY_14_3_NAME type = industrial_engineering difficulty = 7 }
-    # ×°ÅäÏß¹¤ÒÕ 
+    # è£…é…çº¿å·¥è‰º 
     component = { id = 5144 name = TECH_CMP_INDUSTRY_14_4_NAME type = industrial_engineering difficulty = 7 }
-    # Éú²ú²âÊÔ 
+    # ç”Ÿäº§æµ‹è¯• 
     component = { id = 5145 name = TECH_CMP_INDUSTRY_14_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5130 }
     effects =
@@ -610,22 +610,22 @@ technology =
       command = { type = build_time which = floatplane when = on_upgrade where = relative value = -20 }
     }
   }
-  # ´¬²°×°ÅäÏß 
+  # èˆ¹èˆ¶è£…é…çº¿ 
   application =
   { id        = 5110
     name      = TECH_APP_INDUSTRY_15_NAME
     position  = { x = 12 y = 284 }
     picture   = "5150"
     year      = 1940
-    # ½¢Í§Ä£¿é 
+    # èˆ°è‰‡æ¨¡å— 
     component = { id = 5151 name = TECH_CMP_INDUSTRY_15_1_NAME type = naval_engineering difficulty = 8 }
-    # »·¾³²âÊÔ 
+    # ç¯å¢ƒæµ‹è¯• 
     component = { id = 5152 name = TECH_CMP_INDUSTRY_15_2_NAME type = industrial_engineering difficulty = 7 }
-    # ÍÆ½øÆ÷µ÷½Ú 
+    # æ¨è¿›å™¨è°ƒèŠ‚ 
     component = { id = 5153 name = TECH_CMP_INDUSTRY_15_3_NAME type = industrial_engineering difficulty = 7 }
-    # ×°ÅäÏß¹¤ÒÕ 
+    # è£…é…çº¿å·¥è‰º 
     component = { id = 5154 name = TECH_CMP_INDUSTRY_15_4_NAME type = industrial_engineering difficulty = 7 }
-    # Éú²ú²âÊÔ 
+    # ç”Ÿäº§æµ‹è¯• 
     component = { id = 5155 name = TECH_CMP_INDUSTRY_15_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5130 }
     effects =
@@ -654,22 +654,22 @@ technology =
       command = { type = convoy_prod_mod which = escorts value = 20 }
     }
   }
-  # ³µÁ¾×°ÅäÏß 
+  # è½¦è¾†è£…é…çº¿ 
   application =
   { id        = 5100
     name      = TECH_APP_INDUSTRY_16_NAME
     position  = { x = 12 y = 266 }
     picture   = "5160"
     year      = 1940
-    # ³µÁ¾Ä£¿é 
+    # è½¦è¾†æ¨¡å— 
     component = { id = 5161 name = TECH_CMP_INDUSTRY_16_1_NAME type = vehicle_engineering difficulty = 8 }
-    # »·¾³²âÊÔ 
+    # ç¯å¢ƒæµ‹è¯• 
     component = { id = 5162 name = TECH_CMP_INDUSTRY_16_2_NAME type = industrial_engineering difficulty = 7 }
-    # ÍÆ½øÆ÷µ÷½Ú 
+    # æ¨è¿›å™¨è°ƒèŠ‚ 
     component = { id = 5163 name = TECH_CMP_INDUSTRY_16_3_NAME type = industrial_engineering difficulty = 7 }
-    # ×°ÅäÏß¹¤ÒÕ 
+    # è£…é…çº¿å·¥è‰º 
     component = { id = 5164 name = TECH_CMP_INDUSTRY_16_4_NAME type = industrial_engineering difficulty = 7 }
-    # Éú²ú²âÊÔ 
+    # ç”Ÿäº§æµ‹è¯• 
     component = { id = 5165 name = TECH_CMP_INDUSTRY_16_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5130 }
     effects =
@@ -689,22 +689,22 @@ technology =
       command = { type = build_time which = sp_anti_air when = on_upgrade where = relative value = -20 }
     }
   }
-  # »ğ¼ı×°ÅäÏß 
+  # ç«ç®­è£…é…çº¿ 
   application =
   { id        = 5130
     name      = TECH_APP_INDUSTRY_17_NAME
     position  = { x = 12 y = 320 }
     picture   = "5170"
     year      = 1942
-    # »ğ¼ıÄ£¿é 
+    # ç«ç®­æ¨¡å— 
     component = { id = 5171 name = TECH_CMP_INDUSTRY_17_1_NAME type = rocketry difficulty = 9 }
-    # »·¾³²âÊÔ 
+    # ç¯å¢ƒæµ‹è¯• 
     component = { id = 5172 name = TECH_CMP_INDUSTRY_17_2_NAME type = industrial_engineering difficulty = 8 }
-    # ÍÆ½øÆ÷µ÷½Ú 
+    # æ¨è¿›å™¨è°ƒèŠ‚ 
     component = { id = 5173 name = TECH_CMP_INDUSTRY_17_3_NAME type = industrial_engineering difficulty = 8 }
-    # ×°ÅäÏß¹¤ÒÕ 
+    # è£…é…çº¿å·¥è‰º 
     component = { id = 5174 name = TECH_CMP_INDUSTRY_17_4_NAME type = industrial_engineering difficulty = 8 }
-    # Éú²ú²âÊÔ 
+    # ç”Ÿäº§æµ‹è¯• 
     component = { id = 5175 name = TECH_CMP_INDUSTRY_17_5_NAME type = management difficulty = 9 double_time = yes }
     required  = { 5130 7100 }
     effects =
@@ -713,22 +713,22 @@ technology =
       command = { type = build_time which = rocket_interceptor when = on_upgrade where = relative value = -10 }
     }
   }
-  # ÇáÎäÆ÷×°ÅäÏß 
+  # è½»æ­¦å™¨è£…é…çº¿ 
   application =
   { id        = 5140
     name      = TECH_APP_INDUSTRY_18_NAME
     position  = { x = 12 y = 338 }
     picture   = "5180"
     year      = 1940
-    # ²¿¼ş½á¹¹ 
+    # éƒ¨ä»¶ç»“æ„ 
     component = { id = 5181 name = TECH_CMP_INDUSTRY_18_1_NAME type = general_equipment difficulty = 8 }
-    # »·¾³²âÊÔ 
+    # ç¯å¢ƒæµ‹è¯• 
     component = { id = 5182 name = TECH_CMP_INDUSTRY_18_2_NAME type = industrial_engineering difficulty = 7 }
-    # ¹¦Ğ§²âÊÔ 
+    # åŠŸæ•ˆæµ‹è¯• 
     component = { id = 5183 name = TECH_CMP_INDUSTRY_18_3_NAME type = industrial_engineering difficulty = 7 }
-    # ×°ÅäÏß¹¤ÒÕ 
+    # è£…é…çº¿å·¥è‰º 
     component = { id = 5184 name = TECH_CMP_INDUSTRY_18_4_NAME type = industrial_engineering difficulty = 7 }
-    # Éú²ú²âÊÔ 
+    # ç”Ÿäº§æµ‹è¯• 
     component = { id = 5185 name = TECH_CMP_INDUSTRY_18_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5130 }
     effects =
@@ -754,22 +754,22 @@ technology =
   { tag      = TECH_CAT_CONSTRUCTION
     position = { x = 124 y = 10 }
   }
-  # ÔçÆÚ½¨Öş¹¤³ÌÑ§ 
+  # æ—©æœŸå»ºç­‘å·¥ç¨‹å­¦ 
   application =
   { id        = 5000
     name      = TECH_APP_INDUSTRY_80_NAME
     position  = { x = 118 y = 24 }
     picture   = "DH5800"
     year      = 1870
-    # Ã¿ÈÕ¹¤³Ì½ø¶ÈÔ¤¶¨ 
+    # æ¯æ—¥å·¥ç¨‹è¿›åº¦é¢„å®š 
     component = { id = 5801 name = TECH_CMP_INDUSTRY_80_1_NAME type = industrial_engineering difficulty = 4 }
-    # Ê±¼ä¿ØÖÆ 
+    # æ—¶é—´æ§åˆ¶ 
     component = { id = 5802 name = TECH_CMP_INDUSTRY_80_2_NAME type = management difficulty = 4 }
-    # Éú²úÍÅ¶Ó 
+    # ç”Ÿäº§å›¢é˜Ÿ 
     component = { id = 5803 name = TECH_CMP_INDUSTRY_80_3_NAME type = industrial_engineering difficulty = 5 }
-    # Áì°àÑµÁ· 
+    # é¢†ç­è®­ç»ƒ 
     component = { id = 5804 name = TECH_CMP_INDUSTRY_80_4_NAME type = industrial_engineering difficulty = 4 }
-    # »ù±¾½¨Öş¹¤³ÌÑ§·¢Õ¹¹¤ÒÕ 
+    # åŸºæœ¬å»ºç­‘å·¥ç¨‹å­¦å‘å±•å·¥è‰º 
     component = { id = 5805 name = TECH_CMP_INDUSTRY_8_5_NAME type = industrial_engineering difficulty = 4 double_time = yes }
     required  = { }
     effects =
@@ -781,22 +781,22 @@ technology =
       command = { type = allow_building which = naval_base }
     }
   }
-  # »ù±¾½¨Öş¹¤³ÌÑ§ 
+  # åŸºæœ¬å»ºç­‘å·¥ç¨‹å­¦ 
   application =
   { id        = 5010
     name      = TECH_APP_INDUSTRY_8_NAME
     position  = { x = 118 y = 41 }
     picture   = "DH1830"
     year      = 1910
-    # »ù±¾±ê×¼»¯ 
+    # åŸºæœ¬æ ‡å‡†åŒ– 
     component = { id = 5081 name = TECH_CMP_INDUSTRY_8_1_NAME type = industrial_engineering difficulty = 5 }
-    # »ù±¾ÖÊÁ¿¿ØÖÆ 
+    # åŸºæœ¬è´¨é‡æ§åˆ¶ 
     component = { id = 5082 name = TECH_CMP_INDUSTRY_8_2_NAME type = management difficulty = 5 }
-    # »ù±¾¿É¿¿ĞÔ¹¤³Ì 
+    # åŸºæœ¬å¯é æ€§å·¥ç¨‹ 
     component = { id = 5083 name = TECH_CMP_INDUSTRY_8_3_NAME type = industrial_engineering difficulty = 5 }
-    # »ù±¾²âÊÔ¼Æ»® 
+    # åŸºæœ¬æµ‹è¯•è®¡åˆ’ 
     component = { id = 5084 name = TECH_CMP_INDUSTRY_8_4_NAME type = industrial_engineering difficulty = 6 }
-    # »ù±¾½¨Öş¹¤³ÌÑ§·¢Õ¹¹¤ÒÕ 
+    # åŸºæœ¬å»ºç­‘å·¥ç¨‹å­¦å‘å±•å·¥è‰º 
     component = { id = 5085 name = TECH_CMP_INDUSTRY_8_5_NAME type = industrial_engineering difficulty = 5 double_time = yes }
     required  = { 5800 }
     effects =
@@ -805,22 +805,22 @@ technology =
       command = { type = building_prod_mod which = coastal_fort value = 20 }
     }
   }
-  # ¸ÄÁ¼½¨Öş¹¤³ÌÑ§ 
+  # æ”¹è‰¯å»ºç­‘å·¥ç¨‹å­¦ 
   application =
   { id        = 5020
     name      = TECH_APP_INDUSTRY_9_NAME
     position  = { x = 118 y = 58 }
     picture   = "5090"
     year      = 1930
-    # ¸ÄÁ¼±ê×¼»¯ 
+    # æ”¹è‰¯æ ‡å‡†åŒ– 
     component = { id = 5091 name = TECH_CMP_INDUSTRY_9_1_NAME type = industrial_engineering difficulty = 6 }
-    # ¸ÄÁ¼ÖÊÁ¿¿ØÖÆ 
+    # æ”¹è‰¯è´¨é‡æ§åˆ¶ 
     component = { id = 5092 name = TECH_CMP_INDUSTRY_9_2_NAME type = management difficulty = 6 }
-    # ¸ÄÁ¼¿É¿¿ĞÔ¹¤³Ì 
+    # æ”¹è‰¯å¯é æ€§å·¥ç¨‹ 
     component = { id = 5093 name = TECH_CMP_INDUSTRY_9_3_NAME type = industrial_engineering difficulty = 6 }
-    # ¸ÄÁ¼²âÊÔ¼Æ»® 
+    # æ”¹è‰¯æµ‹è¯•è®¡åˆ’ 
     component = { id = 5094 name = TECH_CMP_INDUSTRY_9_4_NAME type = industrial_engineering difficulty = 7 }
-    # ¸ÄÁ¼½¨Öş¹¤³ÌÑ§·¢Õ¹¹¤ÒÕ 
+    # æ”¹è‰¯å»ºç­‘å·¥ç¨‹å­¦å‘å±•å·¥è‰º 
     component = { id = 5095 name = TECH_CMP_INDUSTRY_9_5_NAME type = industrial_engineering difficulty = 6 double_time = yes }
     required  = { 5080 }
     effects =
@@ -830,22 +830,22 @@ technology =
       command = { type = building_prod_mod which = coastal_fort value = 10 }
     }
   }
-  # ÏÈ½ø½¨Öş¹¤³ÌÑ§ 
+  # å…ˆè¿›å»ºç­‘å·¥ç¨‹å­¦ 
   application =
   { id        = 5030
     name      = TECH_APP_INDUSTRY_10_NAME
     position  = { x = 118 y = 75 }
     picture   = "5100"
     year      = 1940
-    # ÏÈ½ø±ê×¼»¯ 
+    # å…ˆè¿›æ ‡å‡†åŒ– 
     component = { id = 5101 name = TECH_CMP_INDUSTRY_10_1_NAME type = industrial_engineering difficulty = 7 }
-    # ÏÈ½øÖÊÁ¿¿ØÖÆ 
+    # å…ˆè¿›è´¨é‡æ§åˆ¶ 
     component = { id = 5102 name = TECH_CMP_INDUSTRY_10_2_NAME type = management difficulty = 7 }
-    # ÏÈ½ø¿É¿¿ĞÔ¹¤³Ì 
+    # å…ˆè¿›å¯é æ€§å·¥ç¨‹ 
     component = { id = 5103 name = TECH_CMP_INDUSTRY_10_3_NAME type = industrial_engineering difficulty = 7 }
-    # ÏÈ½ø²âÊÔ¼Æ»® 
+    # å…ˆè¿›æµ‹è¯•è®¡åˆ’ 
     component = { id = 5104 name = TECH_CMP_INDUSTRY_10_4_NAME type = industrial_engineering difficulty = 8 }
-    # ÏÈ½ø½¨Öş¹¤³ÌÑ§·¢Õ¹¹¤ÒÕ 
+    # å…ˆè¿›å»ºç­‘å·¥ç¨‹å­¦å‘å±•å·¥è‰º 
     component = { id = 5105 name = TECH_CMP_INDUSTRY_10_5_NAME type = industrial_engineering difficulty = 7 double_time = yes }
     required  = { 5090 }
     effects =
@@ -858,22 +858,22 @@ technology =
       command = { type = building_prod_mod which = coastal_fort value = 20 }
     }
   }
-  # ×¼ÏÖ´ú½¨Öş¹¤³ÌÑ§ 
+  # å‡†ç°ä»£å»ºç­‘å·¥ç¨‹å­¦ 
   application =
   { id        = 5040
     name      = TECH_APP_INDUSTRY_90_NAME
     position  = { x = 118 y = 92 }
     picture   = "DH5900"
     year      = 1950
-    # ×¼ÏÖ´ú±ê×¼»¯ 
+    # å‡†ç°ä»£æ ‡å‡†åŒ– 
     component = { id = 5901 name = TECH_CMP_INDUSTRY_90_1_NAME type = industrial_engineering difficulty = 8 }
-    # ×¼ÏÖ´úÖÊÁ¿¿ØÖÆ 
+    # å‡†ç°ä»£è´¨é‡æ§åˆ¶ 
     component = { id = 5902 name = TECH_CMP_INDUSTRY_90_2_NAME type = management difficulty = 8 }
-    # ×¼ÏÖ´ú¿É¿¿ĞÔ¹¤³Ì 
+    # å‡†ç°ä»£å¯é æ€§å·¥ç¨‹ 
     component = { id = 5903 name = TECH_CMP_INDUSTRY_90_3_NAME type = industrial_engineering difficulty = 8 }
-    # ×¼ÏÖ´ú²âÊÔ¼Æ»® 
+    # å‡†ç°ä»£æµ‹è¯•è®¡åˆ’ 
     component = { id = 5904 name = TECH_CMP_INDUSTRY_90_4_NAME type = industrial_engineering difficulty = 9 }
-    # ×¼ÏÖ´ú½¨Öş¹¤³ÌÑ§·¢Õ¹¹¤ÒÕ 
+    # å‡†ç°ä»£å»ºç­‘å·¥ç¨‹å­¦å‘å±•å·¥è‰º 
     component = { id = 5905 name = TECH_CMP_INDUSTRY_90_5_NAME type = industrial_engineering difficulty = 8 double_time = yes }
     required  = { 5100 }
     effects =
@@ -885,22 +885,22 @@ technology =
       command = { type = building_prod_mod which = nuclear_reactor value = 20 }
     }
   }
-  # ÏÖ´ú½¨Öş¹¤³ÌÑ§ 
+  # ç°ä»£å»ºç­‘å·¥ç¨‹å­¦ 
   application =
   { id        = 5050
     name      = TECH_APP_INDUSTRY_91_NAME
     position  = { x = 118 y = 109 }
     picture   = "DH5910"
     year      = 1960
-    # ÏÖ´ú±ê×¼»¯ 
+    # ç°ä»£æ ‡å‡†åŒ– 
     component = { id = 5911 name = TECH_CMP_INDUSTRY_91_1_NAME type = industrial_engineering difficulty = 9 }
-    # ÏÖ´úÖÊÁ¿¿ØÖÆ 
+    # ç°ä»£è´¨é‡æ§åˆ¶ 
     component = { id = 5912 name = TECH_CMP_INDUSTRY_91_2_NAME type = management difficulty = 9 }
-    # ÏÖ´ú¿É¿¿ĞÔ¹¤³Ì 
+    # ç°ä»£å¯é æ€§å·¥ç¨‹ 
     component = { id = 5913 name = TECH_CMP_INDUSTRY_91_3_NAME type = industrial_engineering difficulty = 9 }
-    # ¼ÆËã»ú»¯²âÊÔ¼Æ»® 
+    # è®¡ç®—æœºåŒ–æµ‹è¯•è®¡åˆ’ 
     component = { id = 5914 name = TECH_CMP_INDUSTRY_91_4_NAME type = industrial_engineering difficulty = 10 }
-    # ÏÖ´ú½¨Öş¹¤³ÌÑ§·¢Õ¹¹¤ÒÕ 
+    # ç°ä»£å»ºç­‘å·¥ç¨‹å­¦å‘å±•å·¥è‰º 
     component = { id = 5915 name = TECH_CMP_INDUSTRY_91_5_NAME type = industrial_engineering difficulty = 9 double_time = yes }
     required  = { 5900 }
     effects =
@@ -916,29 +916,29 @@ technology =
   { tag      = TECH_CAT_MATERIALS
     position = { x = 24 y = 359 }
   }
-  # ËÜÁÏ 
+  # å¡‘æ–™ 
   application =
   { id        = 5210
     name      = TECH_APP_INDUSTRY_104_NAME
     position  = { x = 12 y = 391 }
     picture   = "13040"
     year      = 1945
-    # ËÜÁÏºÏ³É¼ÆËã
+    # å¡‘æ–™åˆæˆè®¡ç®—
     component = { id = 53041 name = TECH_CMP_INDUSTRY_104_1_NAME type = mathematics difficulty = 9 }
-    # ¸ß·Ö×Ó»¯Ñ§ 
+    # é«˜åˆ†å­åŒ–å­¦ 
     component = { id = 53042 name = TECH_CMP_INDUSTRY_104_2_NAME type = chemistry difficulty = 9 }
-    # Ó¦ÓÃÑĞ¾¿ 
+    # åº”ç”¨ç ”ç©¶ 
     component = { id = 53043 name = TECH_CMP_INDUSTRY_104_3_NAME type = chemistry difficulty = 9 }
-    # ËÜÁÏ¹¤Òµ·¢Õ¹
+    # å¡‘æ–™å·¥ä¸šå‘å±•
     component = { id = 53044 name = TECH_CMP_INDUSTRY_104_4_NAME type = management difficulty = 9 }
-    # ËÜÁÏÉú²ú
+    # å¡‘æ–™ç”Ÿäº§
     component = { id = 53045 name = TECH_CMP_INDUSTRY_104_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 53090 }
     effects =
     { command = { type = industrial_modifier which = total value = 5 }
     }
   }
-  # »ù´¡»¯Ñ§ºÏ³É
+  # åŸºç¡€åŒ–å­¦åˆæˆ
   application =
   { id        = 5200
     name      = TECH_APP_INDUSTRY_69_NAME
@@ -946,37 +946,37 @@ technology =
     position  = { x = 12 y = 374 }
     picture   = "13040"
     year      = 1943
-    # ÓĞ»úÎïºÏ³ÉÄ£ĞÍ
+    # æœ‰æœºç‰©åˆæˆæ¨¡å‹
     component = { id = 53091 name = TECH_CMP_INDUSTRY_69_1_NAME type = mathematics difficulty = 8 }
-    # ¸ß·Ö×Ó»¯Ñ§ 
+    # é«˜åˆ†å­åŒ–å­¦ 
     component = { id = 53092 name = TECH_CMP_INDUSTRY_69_2_NAME type = chemistry difficulty = 8 }
-    # Ó¦ÓÃÑĞ¾¿ 
+    # åº”ç”¨ç ”ç©¶ 
     component = { id = 53093 name = TECH_CMP_INDUSTRY_69_3_NAME type = chemistry difficulty = 8 }
-    # ËÜÁÏ¹¤Òµ·¢Õ¹ 
+    # å¡‘æ–™å·¥ä¸šå‘å±• 
     component = { id = 53094 name = TECH_CMP_INDUSTRY_69_4_NAME type = management difficulty = 8 }
-    # »¯ºÏÎïÊÔºÏ³É
+    # åŒ–åˆç‰©è¯•åˆæˆ
     component = { id = 53095 name = TECH_CMP_INDUSTRY_69_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 5240 }
     effects =
     { command = { type = industrial_modifier which = total value = 5 }
     }
   }
-  # ÏÈ½ø²ÄÁÏ¿ÆÑ§ 
+  # å…ˆè¿›ææ–™ç§‘å­¦ 
   application =
   { id        = 5220
     name      = TECH_APP_INDUSTRY_105_NAME
     position  = { x = 12 y = 408 }
     picture   = "13050"
     year      = 1951
-    # ²ÄÁÏÑĞ¾¿ 
+    # ææ–™ç ”ç©¶ 
     component = { id = 53051 name = TECH_CMP_INDUSTRY_105_1_NAME type = chemistry difficulty = 10 }
-    # ÏÈ½ø¸ß·Ö×Ó»¯Ñ§ 
+    # å…ˆè¿›é«˜åˆ†å­åŒ–å­¦ 
     component = { id = 53052 name = TECH_CMP_INDUSTRY_105_2_NAME type = chemistry difficulty = 10 }
-    # Ó¦ÓÃÑĞ¾¿ 
+    # åº”ç”¨ç ”ç©¶ 
     component = { id = 53053 name = TECH_CMP_INDUSTRY_105_3_NAME type = chemistry difficulty = 10 }
-    # ¹¤Òµ·¢Õ¹ 
+    # å·¥ä¸šå‘å±• 
     component = { id = 53054 name = TECH_CMP_INDUSTRY_105_4_NAME type = chemistry difficulty = 10 }
-    # ºÏ³É²ÄÁÏÖÆÔì 
+    # åˆæˆææ–™åˆ¶é€  
     component = { id = 53055 name = TECH_CMP_INDUSTRY_105_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 53040 }
     effects =
@@ -988,22 +988,22 @@ technology =
   { tag      = TECH_CAT_ROCKETRY
     position = { x = 24 y = 431 }
   }
-  # »ğ¼ı²âÊÔºÍÑĞ¾¿ÉèÊ© 
+  # ç«ç®­æµ‹è¯•å’Œç ”ç©¶è®¾æ–½ 
   application =
   { id        = 5560
     name      = TECH_APP_INDUSTRY_56_NAME
     position  = { x = 12 y = 448 }
     picture   = "5560"
     year      = 1928
-    # È¼ÉÕÊÒ 
+    # ç‡ƒçƒ§å®¤ 
     component = { id = 5561 name = TECH_CMP_INDUSTRY_56_1_NAME type = rocketry difficulty = 9 }
-    # À©É¢Æ÷ 
+    # æ‰©æ•£å™¨ 
     component = { id = 5562 name = TECH_CMP_INDUSTRY_56_2_NAME type = rocketry difficulty = 9 }
-    # ÅçÉäÆ÷ 
+    # å–·å°„å™¨ 
     component = { id = 5563 name = TECH_CMP_INDUSTRY_56_3_NAME type = rocketry difficulty = 9 }
-    # È¼ÁÏÅçÉÕÆ÷ 
+    # ç‡ƒæ–™å–·çƒ§å™¨ 
     component = { id = 5564 name = TECH_CMP_INDUSTRY_56_4_NAME type = rocketry difficulty = 9 }
-    # µã»ğÆ÷ 
+    # ç‚¹ç«å™¨ 
     component = { id = 5565 name = TECH_CMP_INDUSTRY_56_5_NAME type = rocketry difficulty = 6 double_time = yes }
     required  = { }
     effects =
@@ -1014,66 +1014,66 @@ technology =
   { tag      = TECH_CAT_COMPUTERS
     position = { x = 334 y = 10 }
   }
-  # ÈË¿ÚÆÕ²éÖÆ±í»ú 
+  # äººå£æ™®æŸ¥åˆ¶è¡¨æœº 
   application =
   { id        = 18400
     name      = TECH_APP_INDUSTRY_31_NAME
     position  = { x = 339 y = 24 }
     picture   = "5310"
     year      = 1897
-    # ¾«ÃÜ»úĞµ 
+    # ç²¾å¯†æœºæ¢° 
     component = { id = 5311 name = TECH_CMP_INDUSTRY_31_1_NAME type = mechanics difficulty = 5 }
-    # ÈË¹¤¸Ä±äÏµÍ³½á¹¹ 
+    # äººå·¥æ”¹å˜ç³»ç»Ÿç»“æ„ 
     component = { id = 5312 name = TECH_CMP_INDUSTRY_31_2_NAME type = mechanics difficulty = 4 }
-    # ¿¨Æ¬´æ´¢ºÍ×ÊÁÏÅÅ¼Ü 
+    # å¡ç‰‡å­˜å‚¨å’Œèµ„æ–™æ’æ¶ 
     component = { id = 5313 name = TECH_CMP_INDUSTRY_31_3_NAME type = mechanics difficulty = 4 }
-    # ´©¿×¿¨Æ¬ 
+    # ç©¿å­”å¡ç‰‡ 
     component = { id = 5314 name = TECH_CMP_INDUSTRY_31_4_NAME type = mechanics difficulty = 2 }
-    # ÈË¿ÚÆÕ²éÖÆ±í»úÔ­ĞÍ²âÊÔ 
+    # äººå£æ™®æŸ¥åˆ¶è¡¨æœºåŸå‹æµ‹è¯• 
     component = { id = 5315 name = TECH_CMP_INDUSTRY_31_5_NAME type = mechanics difficulty = 5 double_time = yes }
     required  = { }
     effects =
     { command = { type = research_mod value = 3 }
     }
   }
-  # ×Ô¶¯ËÍÖ½ÖÆ±í»ú 
+  # è‡ªåŠ¨é€çº¸åˆ¶è¡¨æœº 
   application =
   { id        = 18410
     name      = TECH_APP_INDUSTRY_401_NAME
     position  = { x = 339 y = 42 }
     picture   = "DH54010"
     year      = 1908
-    # ¾«ÃÜ»úĞµ 
+    # ç²¾å¯†æœºæ¢° 
     component = { id = 54011 name = TECH_CMP_INDUSTRY_401_1_NAME type = mechanics difficulty = 5 }
-    # ÈË¹¤¸Ä±äÏµÍ³½á¹¹ 
+    # äººå·¥æ”¹å˜ç³»ç»Ÿç»“æ„ 
     component = { id = 54012 name = TECH_CMP_INDUSTRY_401_2_NAME type = mechanics difficulty = 4 }
-    # ¿¨Æ¬´æ´¢ºÍ×ÊÁÏÅÅ¼Ü 
+    # å¡ç‰‡å­˜å‚¨å’Œèµ„æ–™æ’æ¶ 
     component = { id = 54013 name = TECH_CMP_INDUSTRY_401_3_NAME type = mechanics difficulty = 4 }
-    # ´©¿×¿¨Æ¬ 
+    # ç©¿å­”å¡ç‰‡ 
     component = { id = 54014 name = TECH_CMP_INDUSTRY_401_4_NAME type = mechanics difficulty = 2 }
-    # ×Ô¶¯Ô­ÁÏÖÆ±í»úÔ­ĞÍ²âÊÔ 
+    # è‡ªåŠ¨åŸæ–™åˆ¶è¡¨æœºåŸå‹æµ‹è¯• 
     component = { id = 54015 name = TECH_CMP_INDUSTRY_401_5_NAME type = mechanics difficulty = 5 double_time = yes }
     required  = { 18400 }
     effects =
     { command = { type = research_mod value = 4 }
     }
   }
-  # Ä£Äâ»ğÁ¦¿ØÖÆ 
+  # æ¨¡æ‹Ÿç«åŠ›æ§åˆ¶ 
   application =
   { id        = 18420
     name      = TECH_APP_INDUSTRY_402_NAME
     position  = { x = 339 y = 60 }
     picture   = "DH54020"
     year      = 1916
-    # ¾«ÃÜ»úĞµ 
+    # ç²¾å¯†æœºæ¢° 
     component = { id = 54021 name = TECH_CMP_INDUSTRY_402_1_NAME type = mechanics difficulty = 6 }
-    # ÈË¹¤¸Ä±äÏµÍ³½á¹¹ 
+    # äººå·¥æ”¹å˜ç³»ç»Ÿç»“æ„ 
     component = { id = 54022 name = TECH_CMP_INDUSTRY_402_2_NAME type = mechanics difficulty = 5 }
-    # »ğ¿Ø±í¸ñ 
+    # ç«æ§è¡¨æ ¼ 
     component = { id = 54023 name = TECH_CMP_INDUSTRY_402_3_NAME type = mathematics difficulty = 5 }
-    # Î¢·Ö·ÖÎö»úÑĞ¾¿ 
+    # å¾®åˆ†åˆ†ææœºç ”ç©¶ 
     component = { id = 54024 name = TECH_CMP_INDUSTRY_402_4_NAME type = mathematics difficulty = 3 }
-    # ÖĞÑë»æÖÆÕ¾ 
+    # ä¸­å¤®ç»˜åˆ¶ç«™ 
     component = { id = 54025 name = TECH_CMP_INDUSTRY_402_5_NAME type = mechanics difficulty = 6 double_time = yes }
     required  = { 18410 }
     effects =
@@ -1083,88 +1083,88 @@ technology =
       command = { type = new_model which = naval_fire_controll_s value = 0 }
     }
   }
-  # Í³¼ÆÓÃ¼ÆËã»ú 
+  # ç»Ÿè®¡ç”¨è®¡ç®—æœº 
   application =
   { id        = 18430
     name      = TECH_APP_INDUSTRY_403_NAME
     position  = { x = 339 y = 78 }
     picture   = "DH54030"
     year      = 1928
-    # ¾«ÃÜ»úĞµ 
+    # ç²¾å¯†æœºæ¢° 
     component = { id = 54031 name = TECH_CMP_INDUSTRY_403_1_NAME type = mechanics difficulty = 6 }
-    # ÈË¹¤¸Ä±äÏµÍ³½á¹¹ 
+    # äººå·¥æ”¹å˜ç³»ç»Ÿç»“æ„ 
     component = { id = 54032 name = TECH_CMP_INDUSTRY_403_2_NAME type = mechanics difficulty = 5 }
-    # ¿¨Æ¬´æ´¢ºÍ×ÊÁÏÅÅ¼Ü 
+    # å¡ç‰‡å­˜å‚¨å’Œèµ„æ–™æ’æ¶ 
     component = { id = 54033 name = TECH_CMP_INDUSTRY_403_3_NAME type = mechanics difficulty = 5 }
-    # ´©¿×¿¨Æ¬ 
+    # ç©¿å­”å¡ç‰‡ 
     component = { id = 54034 name = TECH_CMP_INDUSTRY_403_4_NAME type = mechanics difficulty = 3 }
-    # Í³¼Æ¼ÆËã»úÔ­ĞÍ²âÊÔ 
+    # ç»Ÿè®¡è®¡ç®—æœºåŸå‹æµ‹è¯• 
     component = { id = 54035 name = TECH_CMP_INDUSTRY_403_5_NAME type = mechanics difficulty = 6 double_time = yes }
     required  = { 18420 }
     effects =
     { command = { type = research_mod value = 6 }
     }
   }
-  # »ù±¾¼ÆËã»ú 
+  # åŸºæœ¬è®¡ç®—æœº 
   application =
   { id        = 18440
     name      = TECH_APP_INDUSTRY_32_NAME
     position  = { x = 339 y = 96 }
     picture   = "5320"
     year      = 1937
-    # Ó¦ÓÃÊıÑ§ 
+    # åº”ç”¨æ•°å­¦ 
     component = { id = 5321 name = TECH_CMP_INDUSTRY_32_1_NAME type = mathematics difficulty = 6 }
-    # ËãÊõ¿ØÖÆµ¥Ôª 
+    # ç®—æœ¯æ§åˆ¶å•å…ƒ 
     component = { id = 5322 name = TECH_CMP_INDUSTRY_32_2_NAME type = electronics difficulty = 6 }
-    # ´æ´¢Éè±¸  
+    # å­˜å‚¨è®¾å¤‡  
     component = { id = 5323 name = TECH_CMP_INDUSTRY_32_3_NAME type = mechanics difficulty = 6 }
-    # ´©¿×Ö½´øºÍ¶Á´ø»ú 
+    # ç©¿å­”çº¸å¸¦å’Œè¯»å¸¦æœº 
     component = { id = 5324 name = TECH_CMP_INDUSTRY_32_4_NAME type = mechanics difficulty = 6 }
-    # »ù±¾¼ÆËã»úÔ­ĞÍ²âÊÔ 
+    # åŸºæœ¬è®¡ç®—æœºåŸå‹æµ‹è¯• 
     component = { id = 5325 name = TECH_CMP_INDUSTRY_32_5_NAME type = management difficulty = 6 double_time = yes }
     required  = { 18430 }
     effects =
     { command = { type = research_mod value = 8 }
     }
   }
-  # ¸ÄÁ¼¼ÆËã»ú 
+  # æ”¹è‰¯è®¡ç®—æœº 
   application =
   { id        = 18450
     name      = TECH_APP_INDUSTRY_33_NAME
     position  = { x = 339 y = 114 }
     picture   = "5330"
     year      = 1940
-    # »úÆ÷Âë 
+    # æœºå™¨ç  
     component = { id = 5331 name = TECH_CMP_INDUSTRY_33_1_NAME type = mathematics difficulty = 7 }
-    # ËãÊõ¿ØÖÆµ¥Ôª 
+    # ç®—æœ¯æ§åˆ¶å•å…ƒ 
     component = { id = 5332 name = TECH_CMP_INDUSTRY_33_2_NAME type = electronics difficulty = 7 }
-    # Êı¾İ´æ´¢Æ÷ 
+    # æ•°æ®å­˜å‚¨å™¨ 
     component = { id = 5333 name = TECH_CMP_INDUSTRY_33_3_NAME type = electronics difficulty = 7 }
-    # ´©¿×Ö½´øºÍ¶Á´ø»ú 
+    # ç©¿å­”çº¸å¸¦å’Œè¯»å¸¦æœº 
     component = { id = 5334 name = TECH_CMP_INDUSTRY_33_4_NAME type = mechanics difficulty = 7 }
-    # ¸ÄÁ¼¼ÆËã»úÔ­ĞÍ²âÊÔ 
+    # æ”¹è‰¯è®¡ç®—æœºåŸå‹æµ‹è¯• 
     component = { id = 5335 name = TECH_CMP_INDUSTRY_33_5_NAME type = management difficulty = 7 double_time = yes }
     required  = { 18440 }
     effects =
     { command = { type = research_mod value = 8 }
     }
   }
-  # ÏÈ½ø¼ÆËã»ú 
+  # å…ˆè¿›è®¡ç®—æœº 
   application =
   { id        = 18460
     name      = TECH_APP_INDUSTRY_34_NAME
     position  = { x = 339 y = 132 }
     picture   = "5340"
     year      = 1942
-    # »ã±àÓïÑÔ 
+    # æ±‡ç¼–è¯­è¨€ 
     component = { id = 5341 name = TECH_CMP_INDUSTRY_34_1_NAME type = mathematics difficulty = 8 }
-    # ËãÊõ¿ØÖÆµ¥Ôª 
+    # ç®—æœ¯æ§åˆ¶å•å…ƒ 
     component = { id = 5342 name = TECH_CMP_INDUSTRY_34_2_NAME type = electronics difficulty = 8 }
-    # ¶à¸öÊı¾İ´æ´¢Æ÷ 
+    # å¤šä¸ªæ•°æ®å­˜å‚¨å™¨ 
     component = { id = 5343 name = TECH_CMP_INDUSTRY_34_3_NAME type = mechanics difficulty = 8 }
-    # ¶à¸ö´©¿×´øºÍ¶Á´ø»ú 
+    # å¤šä¸ªç©¿å­”å¸¦å’Œè¯»å¸¦æœº 
     component = { id = 5344 name = TECH_CMP_INDUSTRY_34_4_NAME type = electronics difficulty = 8 }
-    # ÏÈ½ø¼ÆËã»úÔ­ĞÍ²âÊÔ 
+    # å…ˆè¿›è®¡ç®—æœºåŸå‹æµ‹è¯• 
     component = { id = 5345 name = TECH_CMP_INDUSTRY_34_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 18450 }
     effects =
@@ -1180,22 +1180,22 @@ technology =
   { tag      = TECH_CAT_CRYPTOGRAPHY
     position = { x = 446 y = 10 }
   }
-  # ÔçÆÚ¼ÓÃÜÉè±¸ 
+  # æ—©æœŸåŠ å¯†è®¾å¤‡ 
   application =
   { id        = 5316
     name      = TECH_APP_INDUSTRY_316_NAME
     position  = { x = 447 y = 24 }
     picture   = "DH5316"
     year      = 1918
-    # ¼üÅÌ
+    # é”®ç›˜
     component = { id = 53161 name = TECH_CMP_INDUSTRY_316_1_NAME type = mechanics difficulty = 3 }
-    # ±ãĞ¯Ê½µçÔ´ 
+    # ä¾¿æºå¼ç”µæº 
     component = { id = 53162 name = TECH_CMP_INDUSTRY_316_2_NAME type = mechanics difficulty = 3 }
-    # Èı×ª×ÓÏµÍ³ 
+    # ä¸‰è½¬å­ç³»ç»Ÿ 
     component = { id = 53163 name = TECH_CMP_INDUSTRY_316_3_NAME type = mechanics difficulty = 3 }
-    # »ù±¾·´ÉäÆ÷ 
+    # åŸºæœ¬åå°„å™¨ 
     component = { id = 53164 name = TECH_CMP_INDUSTRY_316_4_NAME type = mechanics difficulty = 3 }
-    # »ù±¾ÃÜÂë 
+    # åŸºæœ¬å¯†ç  
     component = { id = 53165 name = TECH_CMP_INDUSTRY_316_5_NAME type = mathematics difficulty = 3 }
     required  = { 5310 }
     effects =
@@ -1206,22 +1206,22 @@ technology =
       command = { type = army_detection which = them value = -10 }
     }
   }
-  # ¼ÓÃÜ·¢±¨Éè±¸
+  # åŠ å¯†å‘æŠ¥è®¾å¤‡
   application =
   { id        = 5326
     name      = TECH_APP_INDUSTRY_326_NAME
     position  = { x = 447 y = 42 }
     picture   = "DH5326"
     year      = 1922
-    # ¼üÅÌ 
+    # é”®ç›˜ 
     component = { id = 53261 name = TECH_CMP_INDUSTRY_326_1_NAME type = mechanics difficulty = 3 }
-    # ±ãĞ¯Ê½µçÔ´ 
+    # ä¾¿æºå¼ç”µæº 
     component = { id = 53262 name = TECH_CMP_INDUSTRY_326_2_NAME type = mechanics difficulty = 3 }
-    # ×ª×Ó¼ÓÃÜ¼¼Êõ 
+    # è½¬å­åŠ å¯†æŠ€æœ¯ 
     component = { id = 53263 name = TECH_CMP_INDUSTRY_326_3_NAME type = mechanics difficulty = 3 }
-    # »ù±¾·´ÉäÆ÷ 
+    # åŸºæœ¬åå°„å™¨ 
     component = { id = 53264 name = TECH_CMP_INDUSTRY_326_4_NAME type = mechanics difficulty = 3 }
-    # ¼ÓÃÜ¼¼Êõ 
+    # åŠ å¯†æŠ€æœ¯ 
     component = { id = 53265 name = TECH_CMP_INDUSTRY_326_5_NAME type = mathematics difficulty = 3 }
     required  = { 5316 }
     effects =
@@ -1232,22 +1232,22 @@ technology =
       command = { type = army_detection which = them value = -5 }
     }
   }
-  # ÔçÆÚ½âÃÜÉè±¸ 
+  # æ—©æœŸè§£å¯†è®¾å¤‡ 
   application =
   { id        = 5327
     name      = TECH_APP_INDUSTRY_327_NAME
     position  = { x = 447 y = 60 }
     picture   = "DH5327"
     year      = 1923
-    # ÃÜÔ¿Ê¶±ğ 
+    # å¯†é’¥è¯†åˆ« 
     component = { id = 53271 name = TECH_CMP_INDUSTRY_327_1_NAME type = mathematics difficulty = 4 }
-    # ¹Ì¶¨Á´(Crib)Ê¶±ğ 
+    # å›ºå®šé“¾(Crib)è¯†åˆ« 
     component = { id = 53272 name = TECH_CMP_INDUSTRY_327_2_NAME type = mathematics difficulty = 4 }
-    # ÔçÆÚÃÜÂëÊıÑ§ÀíÂÛ 
+    # æ—©æœŸå¯†ç æ•°å­¦ç†è®º 
     component = { id = 53273 name = TECH_CMP_INDUSTRY_327_3_NAME type = mathematics difficulty = 4 }
-    # ×¨Òµ½âÃÜ×é 
+    # ä¸“ä¸šè§£å¯†ç»„ 
     component = { id = 53274 name = TECH_CMP_INDUSTRY_327_4_NAME type = training difficulty = 4 }
-    # ÔçÆÚ¼ÆËã»úÖ§³Ö 
+    # æ—©æœŸè®¡ç®—æœºæ”¯æŒ 
     component = { id = 53275 name = TECH_CMP_INDUSTRY_327_5_NAME type = mechanics difficulty = 4 }
     required  = { 5316 }
     effects =
@@ -1258,22 +1258,22 @@ technology =
       command = { type = army_detection which = us value = 10 }
     }
   }
-  # »ù±¾¼ÓÃÜÉè±¸ 
+  # åŸºæœ¬åŠ å¯†è®¾å¤‡ 
   application =
   { id        = 5350
     name      = TECH_APP_INDUSTRY_35_NAME
     position  = { x = 447 y = 78 }
     picture   = "5350"
     year      = 1937
-    # ¼üÅÌ 
+    # é”®ç›˜ 
     component = { id = 5351 name = TECH_CMP_INDUSTRY_35_1_NAME type = mechanics difficulty = 4 }
-    # ±ãĞ¯µç³Ø 
+    # ä¾¿æºç”µæ±  
     component = { id = 5352 name = TECH_CMP_INDUSTRY_35_2_NAME type = electronics difficulty = 4 }
-    # Èı×ª×ÓÏµÍ³ 
+    # ä¸‰è½¬å­ç³»ç»Ÿ 
     component = { id = 5353 name = TECH_CMP_INDUSTRY_35_3_NAME type = mechanics difficulty = 4 }
-    # »ù±¾·´ÉäÆ÷ 
+    # åŸºæœ¬åå°„å™¨ 
     component = { id = 5354 name = TECH_CMP_INDUSTRY_35_4_NAME type = mechanics difficulty = 4 }
-    # »ù±¾±àÂë 
+    # åŸºæœ¬ç¼–ç  
     component = { id = 5355 name = TECH_CMP_INDUSTRY_35_5_NAME type = mathematics difficulty = 4 }
     required  = { 5320 5326 }
     effects =
@@ -1284,22 +1284,22 @@ technology =
       command = { type = army_detection which = them value = -10 }
     }
   }
-  # »ù±¾ÒëÂëÉè±¸ 
+  # åŸºæœ¬è¯‘ç è®¾å¤‡ 
   application =
   { id        = 5360
     name      = TECH_APP_INDUSTRY_36_NAME
     position  = { x = 447 y = 96 }
     picture   = "5360"
     year      = 1938
-    # ĞÅÏ¢ÂëÊ¶±ğ 
+    # ä¿¡æ¯ç è¯†åˆ« 
     component = { id = 5361 name = TECH_CMP_INDUSTRY_36_1_NAME type = mathematics difficulty = 5 }
-    # ¼ÆËã»ú»¯×ÊÔ´ĞÅÏ¢¿âµÄÊ¶±ğ 
+    # è®¡ç®—æœºåŒ–èµ„æºä¿¡æ¯åº“çš„è¯†åˆ« 
     component = { id = 5362 name = TECH_CMP_INDUSTRY_36_2_NAME type = mathematics difficulty = 5 }
-    # »ù±¾ÃÜÂëÊıÑ§ÀíÂÛ 
+    # åŸºæœ¬å¯†ç æ•°å­¦ç†è®º 
     component = { id = 5363 name = TECH_CMP_INDUSTRY_36_3_NAME type = mathematics difficulty = 5 }
-    # ×¨ÓÃ½âÂë×é 
+    # ä¸“ç”¨è§£ç ç»„ 
     component = { id = 5364 name = TECH_CMP_INDUSTRY_36_4_NAME type = training difficulty = 5 }
-    # »ù±¾¼ÆËã»ú¼¼ÊõÖ§³Ö 
+    # åŸºæœ¬è®¡ç®—æœºæŠ€æœ¯æ”¯æŒ 
     component = { id = 5365 name = TECH_CMP_INDUSTRY_36_5_NAME type = mechanics difficulty = 5 }
     required  = { 5320 5327 }
     effects =
@@ -1310,22 +1310,22 @@ technology =
       command = { type = army_detection which = us value = 15 }
     }
   }
-  # ¸ÄÁ¼¼ÓÃÜÉè±¸ 
+  # æ”¹è‰¯åŠ å¯†è®¾å¤‡ 
   application =
   { id        = 5370
     name      = TECH_APP_INDUSTRY_37_NAME
     position  = { x = 447 y = 114 }
     picture   = "5370"
     year      = 1940
-    # ¶ş½øÖÆÌØÕ÷ 
+    # äºŒè¿›åˆ¶ç‰¹å¾ 
     component = { id = 5371 name = TECH_CMP_INDUSTRY_37_1_NAME type = mathematics difficulty = 5 }
-    # µçÔ´¸ÄÁ¼ 
+    # ç”µæºæ”¹è‰¯ 
     component = { id = 5372 name = TECH_CMP_INDUSTRY_37_2_NAME type = electronics difficulty = 5 }
-    # Áù×ª×ÓÏµÍ³ 
+    # å…­è½¬å­ç³»ç»Ÿ 
     component = { id = 5373 name = TECH_CMP_INDUSTRY_37_3_NAME type = mechanics difficulty = 5 }
-    # Ë«¾«¶Èµç´«´ò×Ö»ú 
+    # åŒç²¾åº¦ç”µä¼ æ‰“å­—æœº 
     component = { id = 5374 name = TECH_CMP_INDUSTRY_37_4_NAME type = mechanics difficulty = 5 }
-    # ¶ÀÁ¢µ××ù 
+    # ç‹¬ç«‹åº•åº§ 
     component = { id = 5375 name = TECH_CMP_INDUSTRY_37_5_NAME type = management difficulty = 5 }
     required  = { 5330 5350 }
     effects =
@@ -1336,22 +1336,22 @@ technology =
       command = { type = army_detection which = them value = -10 }
     }
   }
-  # ¸ÄÁ¼ÒëÂëÉè±¸ 
+  # æ”¹è‰¯è¯‘ç è®¾å¤‡ 
   application =
   { id        = 5380
     name      = TECH_APP_INDUSTRY_38_NAME
     position  = { x = 447 y = 132 }
     picture   = "5380"
     year      = 1941
-    # ¶àÖØ¹Ø¼üĞÅÏ¢Ê¶±ğ 
+    # å¤šé‡å…³é”®ä¿¡æ¯è¯†åˆ« 
     component = { id = 5381 name = TECH_CMP_INDUSTRY_38_1_NAME type = mathematics difficulty = 6 }
-    # ÖØ¸´ÑéÖ¤ 
+    # é‡å¤éªŒè¯ 
     component = { id = 5382 name = TECH_CMP_INDUSTRY_38_2_NAME type = mathematics difficulty = 6 }
-    # ÀíÂÛ¼ÆËã»ú 
+    # ç†è®ºè®¡ç®—æœº 
     component = { id = 5383 name = TECH_CMP_INDUSTRY_38_3_NAME type = mathematics difficulty = 6 }
-    # ÌØ±ğµÄ½âÂë×°ÖÃ 
+    # ç‰¹åˆ«çš„è§£ç è£…ç½® 
     component = { id = 5384 name = TECH_CMP_INDUSTRY_38_4_NAME type = training difficulty = 6 }
-    # ¸ÄÁ¼¼ÆËã»úÖ§³Ö 
+    # æ”¹è‰¯è®¡ç®—æœºæ”¯æŒ 
     component = { id = 5385 name = TECH_CMP_INDUSTRY_38_5_NAME type = mechanics difficulty = 6 }
     required  = { 5330 5360 }
     effects =
@@ -1362,22 +1362,22 @@ technology =
       command = { type = army_detection which = us value = 10 }
     }
   }
-  # ÏÈ½ø¼ÓÃÜÉè±¸ 
+  # å…ˆè¿›åŠ å¯†è®¾å¤‡ 
   application =
   { id        = 5390
     name      = TECH_APP_INDUSTRY_39_NAME
     position  = { x = 447 y = 150 }
     picture   = "5390"
     year      = 1943
-    # 5´ÎÎ»×éºÏ 
+    # 5æ¬¡ä½ç»„åˆ 
     component = { id = 5391 name = TECH_CMP_INDUSTRY_39_1_NAME type = mathematics difficulty = 6 }
-    # ÏÈ½øĞÍµç»ú 
+    # å…ˆè¿›å‹ç”µæœº 
     component = { id = 5392 name = TECH_CMP_INDUSTRY_39_2_NAME type = electronics difficulty = 6 }
-    # Ê®×ª×ÓÏµÍ³ 
+    # åè½¬å­ç³»ç»Ÿ 
     component = { id = 5393 name = TECH_CMP_INDUSTRY_39_3_NAME type = mechanics difficulty = 6 }
-    # Í¬²½¼ÓÃÜ 
+    # åŒæ­¥åŠ å¯† 
     component = { id = 5394 name = TECH_CMP_INDUSTRY_39_4_NAME type = mathematics difficulty = 6 }
-    # Ò»´ÎÒ»ÃÜÂÒÊıÃÜÂë±¾ 
+    # ä¸€æ¬¡ä¸€å¯†ä¹±æ•°å¯†ç æœ¬ 
     component = { id = 5395 name = TECH_CMP_INDUSTRY_39_5_NAME type = mathematics difficulty = 6 }
     required  = { 5340 5370 }
     effects =
@@ -1388,22 +1388,22 @@ technology =
       command = { type = army_detection which = them value = -10 }
     }
   }
-  # ÏÈ½øÒëÂëÉè±¸ 
+  # å…ˆè¿›è¯‘ç è®¾å¤‡ 
   application =
   { id        = 5400
     name      = TECH_APP_INDUSTRY_40_NAME
     position  = { x = 447 y = 168 }
     picture   = "5400"
     year      = 1943
-    # ²¢ĞĞµçÎÄÊ¶±ğ 
+    # å¹¶è¡Œç”µæ–‡è¯†åˆ« 
     component = { id = 5401 name = TECH_CMP_INDUSTRY_40_1_NAME type = mathematics difficulty = 7 }
-    # ÏÈ½øÖØĞÂ¹¹½¨ 
+    # å…ˆè¿›é‡æ–°æ„å»º 
     component = { id = 5402 name = TECH_CMP_INDUSTRY_40_2_NAME type = mathematics difficulty = 7 }
-    # ÏÈ½øÊ×ÒªÊıÂÛ 
+    # å…ˆè¿›é¦–è¦æ•°è®º 
     component = { id = 5403 name = TECH_CMP_INDUSTRY_40_3_NAME type = mathematics difficulty = 7 }
-    # ¶à¸öÍ¬²½½âÂë×°ÖÃ 
+    # å¤šä¸ªåŒæ­¥è§£ç è£…ç½® 
     component = { id = 5404 name = TECH_CMP_INDUSTRY_40_4_NAME type = training difficulty = 7 }
-    # ÏÈ½ø¼ÆËã»úÖ§³Ö 
+    # å…ˆè¿›è®¡ç®—æœºæ”¯æŒ 
     component = { id = 5405 name = TECH_CMP_INDUSTRY_40_5_NAME type = mechanics difficulty = 7 }
     required  = { 5340 5380 }
     effects =
@@ -1414,22 +1414,22 @@ technology =
       command = { type = army_detection which = us value = 10 }
     }
   }
-  # »ù´¡ĞÅÏ¢ÀíÂÛ 
+  # åŸºç¡€ä¿¡æ¯ç†è®º 
   application =
   { id        = 53060
     name      = TECH_APP_INDUSTRY_106_NAME
     position  = { x = 447 y = 186 }
     picture   = "13060"
     year      = 1948
-    # ĞÅÏ¢Ò»ÖÂĞÔ 
+    # ä¿¡æ¯ä¸€è‡´æ€§ 
     component = { id = 53061 name = TECH_CMP_INDUSTRY_106_1_NAME type = mathematics difficulty = 6 }
-    # Êı¾İÑ¹ËõÀíÂÛ 
+    # æ•°æ®å‹ç¼©ç†è®º 
     component = { id = 53062 name = TECH_CMP_INDUSTRY_106_2_NAME type = mathematics difficulty = 6 }
-    # ¾À´íÀíÂÛ 
+    # çº é”™ç†è®º 
     component = { id = 53063 name = TECH_CMP_INDUSTRY_106_3_NAME type = mathematics difficulty = 6 }
-    # ÃÜÂë·ÖÎö 
+    # å¯†ç åˆ†æ 
     component = { id = 53064 name = TECH_CMP_INDUSTRY_106_4_NAME type = mathematics difficulty = 6 }
-    # ÏÈ½ø¸ÅÂÊÂÛ 
+    # å…ˆè¿›æ¦‚ç‡è®º 
     component = { id = 53065 name = TECH_CMP_INDUSTRY_106_5_NAME type = mathematics difficulty = 6 }
     required  = { 5390 5400 }
     effects =
@@ -1440,22 +1440,22 @@ technology =
       command = { type = army_detection which = them value = -10 }
     }
   }
-  # ½ø½×ĞÅÏ¢ÀíÂÛ 
+  # è¿›é˜¶ä¿¡æ¯ç†è®º 
   application =
   { id        = 53116
     name      = TECH_APP_INDUSTRY_116_NAME
     position  = { x = 447 y = 204 }
     picture   = "DH53116"
     year      = 1952
-    # Í¨Ñ¶ìØ·ÖÎö 
+    # é€šè®¯ç†µåˆ†æ 
     component = { id = 51161 name = TECH_CMP_INDUSTRY_116_1_NAME type = mathematics difficulty = 7 }
-    # Êı¾İÑ¹ËõÀíÂÛ 
+    # æ•°æ®å‹ç¼©ç†è®º 
     component = { id = 51162 name = TECH_CMP_INDUSTRY_116_2_NAME type = mathematics difficulty = 7 }
-    # ´íÎóĞŞÕıÀíÂÛ 
+    # é”™è¯¯ä¿®æ­£ç†è®º 
     component = { id = 51163 name = TECH_CMP_INDUSTRY_116_3_NAME type = mathematics difficulty = 7 }
-    # ÏÈ½ø°²È«ĞÔ·ÖÎö
+    # å…ˆè¿›å®‰å…¨æ€§åˆ†æ
     component = { id = 51164 name = TECH_CMP_INDUSTRY_116_4_NAME type = mathematics difficulty = 7 }
-    # ÏÈ½ø¸ÅÂÊÂÛ
+    # å…ˆè¿›æ¦‚ç‡è®º
     component = { id = 51165 name = TECH_CMP_INDUSTRY_116_5_NAME type = mathematics difficulty = 7 }
     required  = { 53060 }
     effects =
@@ -1470,22 +1470,22 @@ technology =
   { tag      = TECH_CAT_RRWARNING
     position = { x = 174 y = 218 }
   }
-  # »ù±¾·ÖÃ×²¨À×´ïÓë·ÖÃ×²¨ÎŞÏßµç
+  # åŸºæœ¬åˆ†ç±³æ³¢é›·è¾¾ä¸åˆ†ç±³æ³¢æ— çº¿ç”µ
   application =
   { id        = 5410
     name      = TECH_APP_INDUSTRY_41_NAME
     position  = { x = 174 y = 232 }
     picture   = "5410"
     year      = 1936
-    # »ù±¾ÌìÏß 
+    # åŸºæœ¬å¤©çº¿ 
     component = { id = 5411 name = TECH_CMP_INDUSTRY_41_1_NAME type = technical_efficiency difficulty = 5 }
-    # 10Ã×/30MHz ·¢ÉäÆµÂÊ 
+    # 10ç±³/30MHz å‘å°„é¢‘ç‡ 
     component = { id = 5412 name = TECH_CMP_INDUSTRY_41_2_NAME type = electronics difficulty = 5 }
-    # »ù±¾»úĞµ½á¹¹ 
+    # åŸºæœ¬æœºæ¢°ç»“æ„ 
     component = { id = 5413 name = TECH_CMP_INDUSTRY_41_3_NAME type = electronics difficulty = 5 }
-    # »ù±¾ÊÖ¹¤»æÍ¼×°ÖÃ 
+    # åŸºæœ¬æ‰‹å·¥ç»˜å›¾è£…ç½® 
     component = { id = 5414 name = TECH_CMP_INDUSTRY_41_4_NAME type = electronics difficulty = 5 }
-    # »ù±¾×ÛºÏ·À¿Õ 
+    # åŸºæœ¬ç»¼åˆé˜²ç©º 
     component = { id = 5415 name = TECH_CMP_INDUSTRY_41_5_NAME type = management difficulty = 5 double_time = yes }
     required  = { }
     effects =
@@ -1494,22 +1494,22 @@ technology =
       command = { type = enable_task which = air_scramble }
     }
   }
-  # ÔçÆÚÂ½»ùÀ×´ïÓ¦ÓÃ 
+  # æ—©æœŸé™†åŸºé›·è¾¾åº”ç”¨ 
   application =
   { id        = 5416
     name      = TECH_APP_INDUSTRY_416_NAME
     position  = { x = 189 y = 250 }
     picture   = "DH5416"
     year      = 1937
-    # ÔçÆÚÂ½»ùÀ×´ïÌìÏß 
+    # æ—©æœŸé™†åŸºé›·è¾¾å¤©çº¿ 
     component = { id = 54161 name = TECH_CMP_INDUSTRY_416_1_NAME type = mechanics difficulty = 4 }
-    # 50cm/300MHz ·¢ÉäÆµÂÊ 
+    # 50cm/300MHz å‘å°„é¢‘ç‡ 
     component = { id = 54162 name = TECH_CMP_INDUSTRY_416_2_NAME type = electronics difficulty = 4 }
-    # ÔçÆÚ»úĞµ½á¹¹ 
+    # æ—©æœŸæœºæ¢°ç»“æ„ 
     component = { id = 54163 name = TECH_CMP_INDUSTRY_416_3_NAME type = electronics difficulty = 4 }
-    # ÔçÆÚÊÖ¹¤»æÍ¼×°ÖÃ 
+    # æ—©æœŸæ‰‹å·¥ç»˜å›¾è£…ç½® 
     component = { id = 54164 name = TECH_CMP_INDUSTRY_416_4_NAME type = electronics difficulty = 4 }
-    # ÔçÆÚ×ÛºÏ·À¿Õ 
+    # æ—©æœŸç»¼åˆé˜²ç©º 
     component = { id = 54165 name = TECH_CMP_INDUSTRY_416_5_NAME type = training difficulty = 4 }
     required  = { 5410 }
     effects =
@@ -1517,22 +1517,22 @@ technology =
       command = { type = new_model which = naval_radar_l value = 0 }
     }
   }
-  # ÔçÆÚ½¢ÔØÀ×´ïÓ¦ÓÃ 
+  # æ—©æœŸèˆ°è½½é›·è¾¾åº”ç”¨ 
   application =
   { id        = 5417
     name      = TECH_APP_INDUSTRY_417_NAME
     position  = { x = 189 y = 268 }
     picture   = "DH5417"
     year      = 1939
-    # ÔçÆÚ½¢ÔØÀ×´ïÌìÏß 
+    # æ—©æœŸèˆ°è½½é›·è¾¾å¤©çº¿ 
     component = { id = 54171 name = TECH_CMP_INDUSTRY_417_1_NAME type = mechanics difficulty = 4 }
-    # 75cm/600MHz ·¢ÉäÆµÂÊ 
+    # 75cm/600MHz å‘å°„é¢‘ç‡ 
     component = { id = 54172 name = TECH_CMP_INDUSTRY_417_2_NAME type = electronics difficulty = 4 }
-    # »ù±¾»úĞµ½á¹¹ 
+    # åŸºæœ¬æœºæ¢°ç»“æ„ 
     component = { id = 54173 name = TECH_CMP_INDUSTRY_417_3_NAME type = electronics difficulty = 4 }
-    # »ù±¾ÊÖ¹¤»æÍ¼×°ÖÃ 
+    # åŸºæœ¬æ‰‹å·¥ç»˜å›¾è£…ç½® 
     component = { id = 54174 name = TECH_CMP_INDUSTRY_417_4_NAME type = electronics difficulty = 4 }
-    # »ù±¾×ÛºÏ·À¿Õ 
+    # åŸºæœ¬ç»¼åˆé˜²ç©º 
     component = { id = 54175 name = TECH_CMP_INDUSTRY_417_5_NAME type = training difficulty = 4 }
     required  = { 5416 }
     effects =
@@ -1546,44 +1546,44 @@ technology =
       command = { type = new_model which = naval_radar_s value = 0 }
     }
   }
-  # ¸ÄÁ¼·ÖÃ×²¨À×´ïÓëÎŞÏßµç 
+  # æ”¹è‰¯åˆ†ç±³æ³¢é›·è¾¾ä¸æ— çº¿ç”µ 
   application =
   { id        = 5420
     name      = TECH_APP_INDUSTRY_42_NAME
     position  = { x = 174 y = 286 }
     picture   = "5420"
     year      = 1940
-    # ¸ÄÁ¼ÌìÏß 
+    # æ”¹è‰¯å¤©çº¿ 
     component = { id = 5421 name = TECH_CMP_INDUSTRY_42_1_NAME type = technical_efficiency difficulty = 7 }
-    # 1.5Ã×/200MHz ·¢ÉäÆµÂÊ 
+    # 1.5ç±³/200MHz å‘å°„é¢‘ç‡ 
     component = { id = 5422 name = TECH_CMP_INDUSTRY_42_2_NAME type = electronics difficulty = 7 }
-    # ¸ÄÁ¼»úĞµ½á¹¹ 
+    # æ”¹è‰¯æœºæ¢°ç»“æ„ 
     component = { id = 5423 name = TECH_CMP_INDUSTRY_42_3_NAME type = electronics difficulty = 7 }
-    # ¸ÄÁ¼ÊÖ¹¤»æÍ¼×°ÖÃ 
+    # æ”¹è‰¯æ‰‹å·¥ç»˜å›¾è£…ç½® 
     component = { id = 5424 name = TECH_CMP_INDUSTRY_42_4_NAME type = electronics difficulty = 7 }
-    # ¸ÄÁ¼×ÛºÏ·À¿Õ 
+    # æ”¹è‰¯ç»¼åˆé˜²ç©º 
     component = { id = 5425 name = TECH_CMP_INDUSTRY_42_5_NAME type = management difficulty = 7 }
     required  = { 5410 }
     effects =
     { command = { type = radar_eff value = 10 }
     }
   }
-  # »úÔØÀ×´ïÓ¦ÓÃ 
+  # æœºè½½é›·è¾¾åº”ç”¨ 
   application =
   { id        = 5426
     name      = TECH_APP_INDUSTRY_426_NAME
     position  = { x = 189 y = 304 }
     picture   = "DH5426"
     year      = 1941
-    # ÒÆ¶¯Ê½ÌìÏß 
+    # ç§»åŠ¨å¼å¤©çº¿ 
     component = { id = 54261 name = TECH_CMP_INDUSTRY_426_1_NAME type = mechanics difficulty = 8 }
-    # 10cm/3GHz ·¢ÉäÆµÂÊ 
+    # 10cm/3GHz å‘å°„é¢‘ç‡ 
     component = { id = 54262 name = TECH_CMP_INDUSTRY_426_2_NAME type = electronics difficulty = 8 }
-    # »ù±¾¿ÕÖĞÀ×´ï½á¹¹
+    # åŸºæœ¬ç©ºä¸­é›·è¾¾ç»“æ„
     component = { id = 54263 name = TECH_CMP_INDUSTRY_426_3_NAME type = electronics difficulty = 8 }
-    # »ù±¾»úµç»æÍ¼ÒÇ 
+    # åŸºæœ¬æœºç”µç»˜å›¾ä»ª 
     component = { id = 54264 name = TECH_CMP_INDUSTRY_426_4_NAME type = electronics difficulty = 8 }
-    # »ù±¾·À¿ÕÍø
+    # åŸºæœ¬é˜²ç©ºç½‘
     component = { id = 54265 name = TECH_CMP_INDUSTRY_426_5_NAME type = training difficulty = 8 }
     required  = { 5420 }
     effects =
@@ -1620,66 +1620,66 @@ technology =
       command = { type = rain_defense which = naval_radar_s value = 5 }
     }
   }
-  # ÏÈ½ø·ÖÃ×²¨À×´ïÓëÎŞÏßµç  
+  # å…ˆè¿›åˆ†ç±³æ³¢é›·è¾¾ä¸æ— çº¿ç”µ  
   application =
   { id        = 5430
     name      = TECH_APP_INDUSTRY_43_NAME
     position  = { x = 174 y = 322 }
     picture   = "5430"
     year      = 1942
-    # ÏÈ½øÌìÏß 
+    # å…ˆè¿›å¤©çº¿ 
     component = { id = 5431 name = TECH_CMP_INDUSTRY_43_1_NAME type = technical_efficiency difficulty = 8 }
-    # 50ÀåÃ×/600MHz ·¢ÉäÆµÂÊ 
+    # 50å˜ç±³/600MHz å‘å°„é¢‘ç‡ 
     component = { id = 5432 name = TECH_CMP_INDUSTRY_43_2_NAME type = electronics difficulty = 8 }
-    # ÏÈ½ø»úĞµ½á¹¹ 
+    # å…ˆè¿›æœºæ¢°ç»“æ„ 
     component = { id = 5433 name = TECH_CMP_INDUSTRY_43_3_NAME type = electronics difficulty = 8 }
-    # ÏÈ½øÊÖ¹¤»æÍ¼×°ÖÃ 
+    # å…ˆè¿›æ‰‹å·¥ç»˜å›¾è£…ç½® 
     component = { id = 5434 name = TECH_CMP_INDUSTRY_43_4_NAME type = electronics difficulty = 8 }
-    # ÏÈ½ø×ÛºÏ·À¿Õ 
+    # å…ˆè¿›ç»¼åˆé˜²ç©º 
     component = { id = 5435 name = TECH_CMP_INDUSTRY_43_5_NAME type = management difficulty = 8 }
     required  = { 5420 }
     effects =
     { command = { type = radar_eff value = 10 }
     }
   }
-  # »ù±¾ÀåÃ×²¨À×´ïÓëÎŞÏßµç  
+  # åŸºæœ¬å˜ç±³æ³¢é›·è¾¾ä¸æ— çº¿ç”µ  
   application =
   { id        = 5440
     name      = TECH_APP_INDUSTRY_44_NAME
     position  = { x = 174 y = 340 }
     picture   = "5440"
     year      = 1944
-    # ËşÊ½ÌìÏß 
+    # å¡”å¼å¤©çº¿ 
     component = { id = 5441 name = TECH_CMP_INDUSTRY_44_1_NAME type = technical_efficiency difficulty = 8 }
-    # 10ÀåÃ×/3GHz ·¢ÉäÆµÂÊ 
+    # 10å˜ç±³/3GHz å‘å°„é¢‘ç‡ 
     component = { id = 5442 name = TECH_CMP_INDUSTRY_44_2_NAME type = electronics difficulty = 8 }
-    # »ù±¾»úµç½á¹¹ 
+    # åŸºæœ¬æœºç”µç»“æ„ 
     component = { id = 5443 name = TECH_CMP_INDUSTRY_44_3_NAME type = electronics difficulty = 8 }
-    # »ù±¾»úµç»æÍ¼×°ÖÃ 
+    # åŸºæœ¬æœºç”µç»˜å›¾è£…ç½® 
     component = { id = 5444 name = TECH_CMP_INDUSTRY_44_4_NAME type = electronics difficulty = 8 }
-    # »ù±¾·À¿ÕÍø 
+    # åŸºæœ¬é˜²ç©ºç½‘ 
     component = { id = 5445 name = TECH_CMP_INDUSTRY_44_5_NAME type = management difficulty = 10 }
     required  = { 5430 }
     effects =
     { command = { type = radar_eff value = 10 }
     }
   }
-  # ¸ÄÁ¼¿É´îÔØÀ×´ïÓ¦ÓÃ 
+  # æ”¹è‰¯å¯æ­è½½é›·è¾¾åº”ç”¨ 
   application =
   { id        = 5466
     name      = TECH_APP_INDUSTRY_466_NAME
     position  = { x = 189 y = 358 }
     picture   = "DH5466"
     year      = 1945
-    # ¸ÄÁ¼·ÉĞĞ¹¤³ÌÊ¦ÑµÁ· 
+    # æ”¹è‰¯é£è¡Œå·¥ç¨‹å¸ˆè®­ç»ƒ 
     component = { id = 54661 name = TECH_CMP_INDUSTRY_466_1_NAME type = mechanics difficulty = 7 }
-    # ¸ÄÁ¼ÌìÏß 
+    # æ”¹è‰¯å¤©çº¿ 
     component = { id = 54662 name = TECH_CMP_INDUSTRY_466_2_NAME type = electronics difficulty = 7 }
-    # ¸ÄÁ¼½ÓÊÕµ¥Ôª 
+    # æ”¹è‰¯æ¥æ”¶å•å…ƒ 
     component = { id = 54663 name = TECH_CMP_INDUSTRY_466_3_NAME type = electronics difficulty = 7 }
-    # ¸ÄÁ¼µç×Ó¶Ô¿¹ÄÜÁ¦ 
+    # æ”¹è‰¯ç”µå­å¯¹æŠ—èƒ½åŠ› 
     component = { id = 54664 name = TECH_CMP_INDUSTRY_466_4_NAME type = electronics difficulty = 7 }
-    # ¸ÄÁ¼·À¿ÕÍø 
+    # æ”¹è‰¯é˜²ç©ºç½‘ 
     component = { id = 54665 name = TECH_CMP_INDUSTRY_466_5_NAME type = training difficulty = 7 }
     required  = { 5440 }
     effects =
@@ -1717,88 +1717,88 @@ technology =
       command = { type = rain_defense which = naval_radar_s value = 3 }
     }
   }
-  # ¸ÄÁ¼ÀåÃ×²¨À×´ïÓëÎŞÏßµç
+  # æ”¹è‰¯å˜ç±³æ³¢é›·è¾¾ä¸æ— çº¿ç”µ
   application =
   { id        = 5450
     name      = TECH_APP_INDUSTRY_45_NAME
     position  = { x = 174 y = 376 }
     picture   = "5450"
     year      = 1946
-    # ÒÆ¶¯Ê½ÌìÏß 
+    # ç§»åŠ¨å¼å¤©çº¿ 
     component = { id = 5451 name = TECH_CMP_INDUSTRY_45_1_NAME type = technical_efficiency difficulty = 9 }
-    # 12ÀåÃ×/4GHz ·¢ÉäÆµÂÊ 
+    # 12å˜ç±³/4GHz å‘å°„é¢‘ç‡ 
     component = { id = 5452 name = TECH_CMP_INDUSTRY_45_2_NAME type = electronics difficulty = 10 }
-    # ¸ÄÁ¼»úµç½á¹¹ 
+    # æ”¹è‰¯æœºç”µç»“æ„ 
     component = { id = 5453 name = TECH_CMP_INDUSTRY_45_3_NAME type = electronics difficulty = 9 }
-    # ¸ÄÁ¼»úµç»æÍ¼×°ÖÃ 
+    # æ”¹è‰¯æœºç”µç»˜å›¾è£…ç½® 
     component = { id = 5454 name = TECH_CMP_INDUSTRY_45_4_NAME type = electronics difficulty = 9 }
-    # ¸ÄÁ¼·À¿ÕÍø 
+    # æ”¹è‰¯é˜²ç©ºç½‘ 
     component = { id = 5455 name = TECH_CMP_INDUSTRY_45_5_NAME type = management difficulty = 10 }
     required  = { 5440 }
     effects =
     { command = { type = radar_eff value = 10 }
     }
   }
-  # ÏÈ½øÀåÃ×²¨À×´ïÓëÎŞÏßµç 
+  # å…ˆè¿›å˜ç±³æ³¢é›·è¾¾ä¸æ— çº¿ç”µ 
   application =
   { id        = 5460
     name      = TECH_APP_INDUSTRY_46_NAME
     position  = { x = 174 y = 394 }
     picture   = "5460"
     year      = 1949
-    # ÒÆ¶¯ÌìÏßÆ½Ì¨ 
+    # ç§»åŠ¨å¤©çº¿å¹³å° 
     component = { id = 5461 name = TECH_CMP_INDUSTRY_46_1_NAME type = technical_efficiency difficulty = 10 }
-    # 15ÀåÃ×/5GHz ·¢ÉäÆµÂÊ 
+    # 15å˜ç±³/5GHz å‘å°„é¢‘ç‡ 
     component = { id = 5462 name = TECH_CMP_INDUSTRY_46_2_NAME type = electronics difficulty = 10 }
-    # ÏÈ½ø»úµç¹¹Ôì 
+    # å…ˆè¿›æœºç”µæ„é€  
     component = { id = 5463 name = TECH_CMP_INDUSTRY_46_3_NAME type = electronics difficulty = 10 }
-    # ÏÈ½ø»úµç»æÍ¼×°ÖÃ 
+    # å…ˆè¿›æœºç”µç»˜å›¾è£…ç½® 
     component = { id = 5464 name = TECH_CMP_INDUSTRY_46_4_NAME type = electronics difficulty = 10 }
-    # ÏÈ½ø·À¿ÕÍø 
+    # å…ˆè¿›é˜²ç©ºç½‘ 
     component = { id = 5465 name = TECH_CMP_INDUSTRY_46_5_NAME type = management difficulty = 10 }
     required  = { 5450 }
     effects =
     { command = { type = radar_eff value = 15 }
     }
   }
-  # ÏÖ´úÀåÃ×²¨À×´ïÓëÎŞÏßµç  
+  # ç°ä»£å˜ç±³æ³¢é›·è¾¾ä¸æ— çº¿ç”µ  
   application =
   { id        = 53030
     name      = TECH_APP_INDUSTRY_103_NAME
     position  = { x = 174 y = 412 }
     picture   = "13030"
     year      = 1952
-    # ¿É»ú¶¯ÌìÏß 
+    # å¯æœºåŠ¨å¤©çº¿ 
     component = { id = 53031 name = TECH_CMP_INDUSTRY_103_1_NAME type = technical_efficiency difficulty = 10 }
-    # 18cm/6GHz ·¢ÉäÆµÂÊ 
+    # 18cm/6GHz å‘å°„é¢‘ç‡ 
     component = { id = 53032 name = TECH_CMP_INDUSTRY_103_2_NAME type = electronics difficulty = 10 }
-    # ÏÖ´úµç×Ó½á¹¹ 
+    # ç°ä»£ç”µå­ç»“æ„ 
     component = { id = 53033 name = TECH_CMP_INDUSTRY_103_3_NAME type = electronics difficulty = 10 }
-    # ÏÖ´ú»úµç»æÍ¼Éè±¸ 
+    # ç°ä»£æœºç”µç»˜å›¾è®¾å¤‡ 
     component = { id = 53034 name = TECH_CMP_INDUSTRY_103_4_NAME type = electronics difficulty = 10 }
-    # ÏÖ´ú·À¿ÕÍøÂç 
+    # ç°ä»£é˜²ç©ºç½‘ç»œ 
     component = { id = 53035 name = TECH_CMP_INDUSTRY_103_5_NAME type = management difficulty = 10 }
     required  = { 5460 }
     effects =
     { command = { type = radar_eff value = 15 }
     }
   }
-  # À×´ï¸¨ÖúÎäÆ÷ÏµÍ³ 
+  # é›·è¾¾è¾…åŠ©æ­¦å™¨ç³»ç»Ÿ 
   application =
   { id        = 5476
     name      = TECH_APP_INDUSTRY_476_NAME
     position  = { x = 189 y = 430 }
     picture   = "DH5476"
     year      = 1953
-    # ÏÈ½ø¿É´îÔØÏµÍ³ 
+    # å…ˆè¿›å¯æ­è½½ç³»ç»Ÿ 
     component = { id = 54761 name = TECH_CMP_INDUSTRY_476_1_NAME type = technical_efficiency difficulty = 8 }
-    # ÏÈ½øÂ½»ùÏµÍ³ 
+    # å…ˆè¿›é™†åŸºç³»ç»Ÿ 
     component = { id = 54762 name = TECH_CMP_INDUSTRY_476_2_NAME type = electronics difficulty = 8 }
-    # ÏÈ½øµç×Ó¶Ô¿¹ÏµÍ³ 
+    # å…ˆè¿›ç”µå­å¯¹æŠ—ç³»ç»Ÿ 
     component = { id = 54763 name = TECH_CMP_INDUSTRY_476_3_NAME type = electronics difficulty = 8 }
-    # ÏÈ½øÍ¨Ñ¶Ô±Á·Ï° 
+    # å…ˆè¿›é€šè®¯å‘˜ç»ƒä¹  
     component = { id = 54764 name = TECH_CMP_INDUSTRY_476_4_NAME type = electronics difficulty = 8 }
-    # Ô­ĞÍ²âÊÔ 
+    # åŸå‹æµ‹è¯• 
     component = { id = 54765 name = TECH_CMP_INDUSTRY_476_5_NAME type = training difficulty = 8 }
     required  = { 53030 }
     effects =
@@ -1828,22 +1828,22 @@ technology =
       command = { type = rain_defense which = naval_radar_s value = 3 }
     }
   }
-  # ÏÖ´úÏÈ½øÀåÃ×²¨À×´ïÓëÎŞÏßµç 
+  # ç°ä»£å…ˆè¿›å˜ç±³æ³¢é›·è¾¾ä¸æ— çº¿ç”µ 
   application =
   { id        = 53070
     name      = TECH_APP_INDUSTRY_107_NAME
     position  = { x = 174 y = 448 }
     picture   = "DH53070"
     year      = 1955
-    # ÏÈ½øÒÆ¶¯ÌìÏß
+    # å…ˆè¿›ç§»åŠ¨å¤©çº¿
     component = { id = 53071 name = TECH_CMP_INDUSTRY_107_1_NAME type = technical_efficiency difficulty = 10 }
-    # ÏÈ½ø18cm/6GHz ·¢ÉäÆµÂÊ 
+    # å…ˆè¿›18cm/6GHz å‘å°„é¢‘ç‡ 
     component = { id = 53072 name = TECH_CMP_INDUSTRY_107_2_NAME type = electronics difficulty = 10 }
-    # ÏÖ´úµç×Ó½á¹¹
+    # ç°ä»£ç”µå­ç»“æ„
     component = { id = 53073 name = TECH_CMP_INDUSTRY_107_3_NAME type = electronics difficulty = 10 }
-    # µç×Ó¼ÆËã»ú»æÍ¼ÒÇ 
+    # ç”µå­è®¡ç®—æœºç»˜å›¾ä»ª 
     component = { id = 53074 name = TECH_CMP_INDUSTRY_107_4_NAME type = electronics difficulty = 10 }
-    # µç×Ó·À¿ÕÍø 
+    # ç”µå­é˜²ç©ºç½‘ 
     component = { id = 53075 name = TECH_CMP_INDUSTRY_107_5_NAME type = management difficulty = 10 }
     required  = { 53030 }
     effects =
@@ -1854,29 +1854,29 @@ technology =
   { tag      = TECH_CAT_SYNTHETICOIL
     position = { x = 334 y = 237 }
   }
-  # ÏÈ½øÁ¶ÓÍ¼¼Êõ 
+  # å…ˆè¿›ç‚¼æ²¹æŠ€æœ¯ 
   application =
   { id        = 5210
     name      = TECH_APP_INDUSTRY_21_NAME
     position  = { x = 334 y = 288 }
     picture   = "5210"
     year      = 1936
-    # ÏÈ½øÕôÁó¼¼Êõ 
+    # å…ˆè¿›è’¸é¦æŠ€æœ¯ 
     component = { id = 5211 name = TECH_CMP_INDUSTRY_21_1_NAME type = chemistry difficulty = 7 }
-    # ÏÈ½øÁÑ½â¼¼Êõ 
+    # å…ˆè¿›è£‚è§£æŠ€æœ¯ 
     component = { id = 5212 name = TECH_CMP_INDUSTRY_21_2_NAME type = chemistry difficulty = 7 }
-    # ÏÈ½øÒì¹¹»¯¼¼Êõ 
+    # å…ˆè¿›å¼‚æ„åŒ–æŠ€æœ¯ 
     component = { id = 5213 name = TECH_CMP_INDUSTRY_21_3_NAME type = chemistry difficulty = 7 }
-    # ÏÈ½øÇâ»¯¼¼Êõ 
+    # å…ˆè¿›æ°¢åŒ–æŠ€æœ¯ 
     component = { id = 5214 name = TECH_CMP_INDUSTRY_21_4_NAME type = chemistry difficulty = 7 }
-    # ÏÈ½ø²âÊÔÉè±¸ 
+    # å…ˆè¿›æµ‹è¯•è®¾å¤‡ 
     component = { id = 5215 name = TECH_CMP_INDUSTRY_21_5_NAME type = industrial_engineering difficulty = 8 double_time = yes }
     required  = { 5200 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 0.4 }
     }
   }
-  # »ù±¾Á¶ÓÍ¼¼Êõ 
+  # åŸºæœ¬ç‚¼æ²¹æŠ€æœ¯ 
   application =
   { id        = 5190
     name      = TECH_APP_INDUSTRY_113_NAME
@@ -1884,22 +1884,22 @@ technology =
     position  = { x = 334 y = 254 }
     picture   = "5190"
     year      = 1914
-    # »ù±¾ÕôÁó¼¼Êõ 
+    # åŸºæœ¬è’¸é¦æŠ€æœ¯ 
     component = { id = 5251 name = TECH_CMP_INDUSTRY_113_1_NAME type = chemistry difficulty = 5 }
-    # »ù±¾ÁÑ½â¼¼Êõ 
+    # åŸºæœ¬è£‚è§£æŠ€æœ¯ 
     component = { id = 5252 name = TECH_CMP_INDUSTRY_113_2_NAME type = chemistry difficulty = 5 }
-    # »ù±¾Òì¹¹»¯¼¼Êõ 
+    # åŸºæœ¬å¼‚æ„åŒ–æŠ€æœ¯ 
     component = { id = 5253 name = TECH_CMP_INDUSTRY_113_3_NAME type = chemistry difficulty = 5 }
-    # »ù±¾Çâ»¯¼¼Êõ 
+    # åŸºæœ¬æ°¢åŒ–æŠ€æœ¯ 
     component = { id = 5254 name = TECH_CMP_INDUSTRY_113_4_NAME type = chemistry difficulty = 5 }
-    # »ù±¾²âÊÔÉè±¸ 
+    # åŸºæœ¬æµ‹è¯•è®¾å¤‡ 
     component = { id = 5255 name = TECH_CMP_INDUSTRY_113_5_NAME type = industrial_engineering difficulty = 6 double_time = yes }
     required  = { }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 0.1 }
     }
   }
-  # ¸ÄÁ¼Á¶ÓÍ¼¼Êõ 
+  # æ”¹è‰¯ç‚¼æ²¹æŠ€æœ¯ 
   application =
   { id        = 5200
     name      = TECH_APP_INDUSTRY_114_NAME
@@ -1907,110 +1907,110 @@ technology =
     position  = { x = 334 y = 271 }
     picture   = "5200"
     year      = 1936
-    # ¸ÄÁ¼ÕôÁó¼¼Êõ 
+    # æ”¹è‰¯è’¸é¦æŠ€æœ¯ 
     component = { id = 5201 name = TECH_CMP_INDUSTRY_114_1_NAME type = chemistry difficulty = 6 }
-    # ¸ÄÁ¼ÁÑ½â¼¼Êõ 
+    # æ”¹è‰¯è£‚è§£æŠ€æœ¯ 
     component = { id = 5202 name = TECH_CMP_INDUSTRY_114_2_NAME type = chemistry difficulty = 6 }
-    # ¸ÄÁ¼Òì¹¹»¯¼¼Êõ 
+    # æ”¹è‰¯å¼‚æ„åŒ–æŠ€æœ¯ 
     component = { id = 5203 name = TECH_CMP_INDUSTRY_114_3_NAME type = chemistry difficulty = 6 }
-    # ¸ÄÁ¼Çâ»¯¼¼Êõ 
+    # æ”¹è‰¯æ°¢åŒ–æŠ€æœ¯ 
     component = { id = 5204 name = TECH_CMP_INDUSTRY_114_4_NAME type = chemistry difficulty = 6 }
-    # ¸ÄÁ¼²âÊÔÉè±¸ 
+    # æ”¹è‰¯æµ‹è¯•è®¾å¤‡ 
     component = { id = 5205 name = TECH_CMP_INDUSTRY_114_5_NAME type = industrial_engineering difficulty = 7 double_time = yes }
     required  = { 5190 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 0.2 }
     }
   }
-  # »ù±¾ºÏ³ÉÁ¶ÓÍ³§ 
+  # åŸºæœ¬åˆæˆç‚¼æ²¹å‚ 
   application =
   { id        = 5220
     name      = TECH_APP_INDUSTRY_22_NAME
     position  = { x = 334 y = 305 }
     picture   = "5220"
     year      = 1941
-    # »ù±¾´ß»¯¼Á 
+    # åŸºæœ¬å‚¬åŒ–å‰‚ 
     component = { id = 5221 name = TECH_CMP_INDUSTRY_22_1_NAME type = chemistry difficulty = 7 }
-    # »ù±¾·´Ó¦Æ÷ 
+    # åŸºæœ¬ååº”å™¨ 
     component = { id = 5222 name = TECH_CMP_INDUSTRY_22_2_NAME type = chemistry difficulty = 7 }
-    # »ù±¾Éú²ú´¦Àí 
+    # åŸºæœ¬ç”Ÿäº§å¤„ç† 
     component = { id = 5223 name = TECH_CMP_INDUSTRY_22_3_NAME type = chemistry difficulty = 7 }
-    # »ù±¾¸øÁÏ×¼±¸ 
+    # åŸºæœ¬ç»™æ–™å‡†å¤‡ 
     component = { id = 5224 name = TECH_CMP_INDUSTRY_22_4_NAME type = chemistry difficulty = 7 }
-    # »ù±¾Á¶ÓÍ³§Ô­ĞÍ²âÊÔ 
+    # åŸºæœ¬ç‚¼æ²¹å‚åŸå‹æµ‹è¯• 
     component = { id = 5225 name = TECH_CMP_INDUSTRY_22_5_NAME type = industrial_engineering difficulty = 9 double_time = yes }
     required  = { 5210 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 0.7 }
     }
   }
-  # ¸ÄÁ¼ºÏ³ÉÁ¶ÓÍ³§ 
+  # æ”¹è‰¯åˆæˆç‚¼æ²¹å‚ 
   application =
   { id        = 5230
     name      = TECH_APP_INDUSTRY_23_NAME
     position  = { x = 334 y = 322 }
     picture   = "5230"
     year      = 1943
-    # ¸ÄÁ¼´ß»¯¼Á 
+    # æ”¹è‰¯å‚¬åŒ–å‰‚ 
     component = { id = 5231 name = TECH_CMP_INDUSTRY_23_1_NAME type = chemistry difficulty = 8 }
-    # ¸ÄÁ¼·´Ó¦Æ÷ 
+    # æ”¹è‰¯ååº”å™¨ 
     component = { id = 5232 name = TECH_CMP_INDUSTRY_23_2_NAME type = chemistry difficulty = 8 }
-    # ¸ÄÁ¼Éú²ú´¦Àí 
+    # æ”¹è‰¯ç”Ÿäº§å¤„ç† 
     component = { id = 5233 name = TECH_CMP_INDUSTRY_23_3_NAME type = chemistry difficulty = 8 }
-    # ¸ÄÁ¼¸øÁÏ×¼±¸ 
+    # æ”¹è‰¯ç»™æ–™å‡†å¤‡ 
     component = { id = 5234 name = TECH_CMP_INDUSTRY_23_4_NAME type = chemistry difficulty = 8 }
-    # ¸ÄÁ¼Á¶ÓÍ³§Ô­ĞÍ²âÊÔ 
+    # æ”¹è‰¯ç‚¼æ²¹å‚åŸå‹æµ‹è¯• 
     component = { id = 5235 name = TECH_CMP_INDUSTRY_23_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 5220 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 0.9 }
     }
   }
-  # ÏÈ½øºÏ³ÉÁ¶ÓÍ³§ 
+  # å…ˆè¿›åˆæˆç‚¼æ²¹å‚ 
   application =
   { id        = 5240
     name      = TECH_APP_INDUSTRY_24_NAME
     position  = { x = 334 y = 339 }
     picture   = "5240"
     year      = 1945
-    # ÏÈ½ø´ß»¯¼Á 
+    # å…ˆè¿›å‚¬åŒ–å‰‚ 
     component = { id = 5241 name = TECH_CMP_INDUSTRY_24_1_NAME type = chemistry difficulty = 8 }
-    # ÏÈ½ø·´Ó¦Æ÷ 
+    # å…ˆè¿›ååº”å™¨ 
     component = { id = 5242 name = TECH_CMP_INDUSTRY_24_2_NAME type = chemistry difficulty = 8 }
-    # ÏÈ½øÉú²ú´¦Àí 
+    # å…ˆè¿›ç”Ÿäº§å¤„ç† 
     component = { id = 5243 name = TECH_CMP_INDUSTRY_24_3_NAME type = chemistry difficulty = 8 }
-    # ÏÈ½ø¸øÁÏ×¼±¸ 
+    # å…ˆè¿›ç»™æ–™å‡†å¤‡ 
     component = { id = 5244 name = TECH_CMP_INDUSTRY_24_4_NAME type = chemistry difficulty = 8 }
-    # ÏÈ½øÁ¶ÓÍ³§Ô­ĞÍ²âÊÔ 
+    # å…ˆè¿›ç‚¼æ²¹å‚åŸå‹æµ‹è¯• 
     component = { id = 5245 name = TECH_CMP_INDUSTRY_24_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 5230 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 1.1 }
     }
   }
-  # ×¼ÏÖ´úºÏ³ÉÊ¯ÓÍ¹¤³§ 
+  # å‡†ç°ä»£åˆæˆçŸ³æ²¹å·¥å‚ 
   application =
   { id        = 53020
     name      = TECH_APP_INDUSTRY_102_NAME
     position  = { x = 334 y = 356 }
     picture   = "13020"
     year      = 1945
-    # ×¼ÏÖ´ú´ß»¯¼Á 
+    # å‡†ç°ä»£å‚¬åŒ–å‰‚ 
     component = { id = 53021 name = TECH_CMP_INDUSTRY_102_1_NAME type = chemistry difficulty = 8 }
-    # ×¼ÏÖ´ú·´Ó¦Æ÷ 
+    # å‡†ç°ä»£ååº”å™¨ 
     component = { id = 53022 name = TECH_CMP_INDUSTRY_102_2_NAME type = chemistry difficulty = 8 }
-    # ×¼ÏÖ´ú²úÆ·´¦Àí¹¤ÒÕ 
+    # å‡†ç°ä»£äº§å“å¤„ç†å·¥è‰º 
     component = { id = 53023 name = TECH_CMP_INDUSTRY_102_3_NAME type = chemistry difficulty = 8 }
-    # ×¼ÏÖ´úÔ­ÁÏ×¼±¸ÏµÍ³ 
+    # å‡†ç°ä»£åŸæ–™å‡†å¤‡ç³»ç»Ÿ 
     component = { id = 53024 name = TECH_CMP_INDUSTRY_102_4_NAME type = chemistry difficulty = 8 }
-    # ×¼ÏÖ´úÁ¶ÓÍ³§Ô­ĞÍ²âÊÔ 
+    # å‡†ç°ä»£ç‚¼æ²¹å‚åŸå‹æµ‹è¯• 
     component = { id = 53025 name = TECH_CMP_INDUSTRY_102_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 5240 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 1.2 }
     }
   }
-  # ÏÖ´úºÏ³ÉÊ¯ÓÍ¹¤³§ 
+  # ç°ä»£åˆæˆçŸ³æ²¹å·¥å‚ 
   application =
   { id        = 53100
     name      = TECH_APP_INDUSTRY_75_NAME
@@ -2018,15 +2018,15 @@ technology =
     position  = { x = 334 y = 373 }
     picture   = "13020"
     year      = 1945
-    # ÏÖ´ú´ß»¯¼Á 
+    # ç°ä»£å‚¬åŒ–å‰‚ 
     component = { id = 53101 name = TECH_CMP_INDUSTRY_75_1_NAME type = chemistry difficulty = 9 }
-    # ÏÖ´ú·´Ó¦Æ÷ 
+    # ç°ä»£ååº”å™¨ 
     component = { id = 53102 name = TECH_CMP_INDUSTRY_75_2_NAME type = chemistry difficulty = 9 }
-    # ÏÖ´ú²úÆ·´¦Àí¹¤ÒÕ 
+    # ç°ä»£äº§å“å¤„ç†å·¥è‰º 
     component = { id = 53103 name = TECH_CMP_INDUSTRY_75_3_NAME type = chemistry difficulty = 9 }
-    # ÏÖ´úÔ­ÁÏ×¼±¸ÏµÍ³ 
+    # ç°ä»£åŸæ–™å‡†å¤‡ç³»ç»Ÿ 
     component = { id = 53104 name = TECH_CMP_INDUSTRY_75_4_NAME type = chemistry difficulty = 9 }
-    # ÏÖ´úÁ¶ÓÍ³§Ô­ĞÍ²âÊÔ 
+    # ç°ä»£ç‚¼æ²¹å‚åŸå‹æµ‹è¯• 
     component = { id = 53105 name = TECH_CMP_INDUSTRY_75_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 53020 }
     effects =
@@ -2037,88 +2037,88 @@ technology =
   { tag      = TECH_CAT_NUCLEAR
     position = { x = 446 y = 238 }
   }
-  # Ô­×ÓÑĞ¾¿Ñ§Ôº 
+  # åŸå­ç ”ç©¶å­¦é™¢ 
   application =
   { id        = 5470
     name      = TECH_APP_INDUSTRY_47_NAME
     position  = { x = 444 y = 254 }
     picture   = "5470"
     year      = 1936
-    # Ô­×ÓÎïÀíÑ§²¿ 
+    # åŸå­ç‰©ç†å­¦éƒ¨ 
     component = { id = 5471 name = TECH_CMP_INDUSTRY_47_1_NAME type = nuclear_physics difficulty = 10 }
-    # ·ÅÉäÎïÑĞ¾¿´¦ 
+    # æ”¾å°„ç‰©ç ”ç©¶å¤„ 
     component = { id = 5472 name = TECH_CMP_INDUSTRY_47_2_NAME type = nuclear_physics difficulty = 10 }
-    # ¸ßµÈÊıÑ§²¿ 
+    # é«˜ç­‰æ•°å­¦éƒ¨ 
     component = { id = 5473 name = TECH_CMP_INDUSTRY_47_3_NAME type = mathematics difficulty = 10 }
-    # ÌìÎÄÎïÀíÑ§²¿ 
+    # å¤©æ–‡ç‰©ç†å­¦éƒ¨ 
     component = { id = 5474 name = TECH_CMP_INDUSTRY_47_4_NAME type = nuclear_physics difficulty = 10 }
-    # ÎïÀí»¯Ñ§²¿ 
+    # ç‰©ç†åŒ–å­¦éƒ¨ 
     component = { id = 5475 name = TECH_CMP_INDUSTRY_47_5_NAME type = chemistry difficulty = 10 }
     required  = { }
     effects =
     { command = { }
     }
   }
-  # Ô­×ÓÑĞ¾¿ÊÔÑéÊÒ 
+  # åŸå­ç ”ç©¶è¯•éªŒå®¤ 
   application =
   { id        = 5480
     name      = TECH_APP_INDUSTRY_48_NAME
     position  = { x = 444 y = 271 }
     picture   = "5480"
     year      = 1936
-    # XÉäÏß²âÆ×Ñ§ÊµÑéÊÒ 
+    # Xå°„çº¿æµ‹è°±å­¦å®éªŒå®¤ 
     component = { id = 5481 name = TECH_CMP_INDUSTRY_48_1_NAME type = nuclear_engineering difficulty = 10 }
-    # Òõ¼«²âÆ×Ñ§ÊµÑéÊÒ 
+    # é˜´ææµ‹è°±å­¦å®éªŒå®¤ 
     component = { id = 5482 name = TECH_CMP_INDUSTRY_48_2_NAME type = nuclear_engineering difficulty = 10 }
-    # Ñô¼«²âÆ×Ñ§ÊµÑéÊÒ 
+    # é˜³ææµ‹è°±å­¦å®éªŒå®¤ 
     component = { id = 5483 name = TECH_CMP_INDUSTRY_48_3_NAME type = nuclear_engineering difficulty = 10 }
-    # ·ÅÉäĞÔºËËØÊµÑéÊÒ 
+    # æ”¾å°„æ€§æ ¸ç´ å®éªŒå®¤ 
     component = { id = 5484 name = TECH_CMP_INDUSTRY_48_4_NAME type = nuclear_engineering difficulty = 10 }
-    # ÎïÀíæÓ±äÊµÑéÊÒ 
+    # ç‰©ç†å¬—å˜å®éªŒå®¤ 
     component = { id = 5485 name = TECH_CMP_INDUSTRY_48_5_NAME type = nuclear_engineering difficulty = 10 }
     required  = { 5470 }
     effects =
     { command = { }
     }
   }
-  # ºË×ÓÑĞ¾¿Ñ§Ôº 
+  # æ ¸å­ç ”ç©¶å­¦é™¢ 
   application =
   { id        = 5490
     name      = TECH_APP_INDUSTRY_49_NAME
     position  = { x = 444 y = 288 }
     picture   = "5490"
     year      = 1939
-    # ºËÎïÀíÑ§²¿ 
+    # æ ¸ç‰©ç†å­¦éƒ¨ 
     component = { id = 5491 name = TECH_CMP_INDUSTRY_49_1_NAME type = nuclear_physics difficulty = 10 }
-    # ¸ßÄÜ·øÉäÑĞ¾¿´¦ 
+    # é«˜èƒ½è¾å°„ç ”ç©¶å¤„ 
     component = { id = 5492 name = TECH_CMP_INDUSTRY_49_2_NAME type = nuclear_physics difficulty = 10 }
-    # ÊıÑ§ÎïÀíÑ§²¿ 
+    # æ•°å­¦ç‰©ç†å­¦éƒ¨ 
     component = { id = 5493 name = TECH_CMP_INDUSTRY_49_3_NAME type = mathematics difficulty = 10 }
-    # Ïà¶ÔÂÛĞÔÁ¦Ñ§²¿ 
+    # ç›¸å¯¹è®ºæ€§åŠ›å­¦éƒ¨ 
     component = { id = 5494 name = TECH_CMP_INDUSTRY_49_4_NAME type = nuclear_physics difficulty = 10 }
-    # ºË»¯Ñ§²¿ 
+    # æ ¸åŒ–å­¦éƒ¨ 
     component = { id = 5495 name = TECH_CMP_INDUSTRY_49_5_NAME type = nuclear_physics difficulty = 10 }
     required  = { 5480 }
     effects =
     { command = { }
     }
   }
-  # Í¬Î»ËØ·ÖÀëÉèÊ© 
+  # åŒä½ç´ åˆ†ç¦»è®¾æ–½ 
   application =
   { id        = 5500
     name      = TECH_APP_INDUSTRY_50_NAME
     position  = { x = 444 y = 305 }
     picture   = "5500"
     year      = 1941
-    # ÖÊÄÜ×ª»»µÄÊµÑéÖ¤Ã÷ 
+    # è´¨èƒ½è½¬æ¢çš„å®éªŒè¯æ˜ 
     component = { id = 5501 name = TECH_CMP_INDUSTRY_50_1_NAME type = nuclear_engineering difficulty = 10 }
-    # ·ÅÉäĞÔÎïÁÏ»¯Ñ§³É·Ö 
+    # æ”¾å°„æ€§ç‰©æ–™åŒ–å­¦æˆåˆ† 
     component = { id = 5502 name = TECH_CMP_INDUSTRY_50_2_NAME type = nuclear_engineering difficulty = 10 }
-    # ÊµÑéÊÒÖÆÔìºËÁÑ±ä 
+    # å®éªŒå®¤åˆ¶é€ æ ¸è£‚å˜ 
     component = { id = 5503 name = TECH_CMP_INDUSTRY_50_3_NAME type = nuclear_engineering difficulty = 10 }
-    # Á¬Ëø·´Ó¦¹ı³Ì·¢ÏÖ 
+    # è¿é”ååº”è¿‡ç¨‹å‘ç° 
     component = { id = 5504 name = TECH_CMP_INDUSTRY_50_4_NAME type = nuclear_engineering difficulty = 10 }
-    # Í¬Î»ËØ·ÖÀë¹ı³Ì 
+    # åŒä½ç´ åˆ†ç¦»è¿‡ç¨‹ 
     component = { id = 5505 name = TECH_CMP_INDUSTRY_50_5_NAME type = nuclear_engineering difficulty = 10 double_time = yes }
     required  = { 5490 }
     effects =
@@ -2126,88 +2126,88 @@ technology =
       command = { type = max_reactor_size value = 1 }
     }
   }
-  # ºËÈ¼ÁÏ·ÖÎö 
+  # æ ¸ç‡ƒæ–™åˆ†æ 
   application =
   { id        = 5510
     name      = TECH_APP_INDUSTRY_51_NAME
     position  = { x = 444 y = 322 }
     picture   = "5510"
     year      = 1941
-    # Á£×Ó¼ÓËÙÆ÷ 
+    # ç²’å­åŠ é€Ÿå™¨ 
     component = { id = 5511 name = TECH_CMP_INDUSTRY_51_1_NAME type = nuclear_engineering difficulty = 10 }
-    # ÓË238 (Uranium 238) 
+    # é“€238 (Uranium 238) 
     component = { id = 5512 name = TECH_CMP_INDUSTRY_51_2_NAME type = nuclear_physics difficulty = 10 }
-    # îÊ232 (Thorium 232) 
+    # é’232 (Thorium 232) 
     component = { id = 5513 name = TECH_CMP_INDUSTRY_51_3_NAME type = nuclear_physics difficulty = 10 }
-    # ÓË235 (Uranium 235) 
+    # é“€235 (Uranium 235) 
     component = { id = 5514 name = TECH_CMP_INDUSTRY_51_4_NAME type = nuclear_physics difficulty = 10 }
-    # ÎïÖÊÎÈ¶¨ĞÔÊÔÑé 
+    # ç‰©è´¨ç¨³å®šæ€§è¯•éªŒ 
     component = { id = 5515 name = TECH_CMP_INDUSTRY_51_5_NAME type = nuclear_engineering difficulty = 10 double_time = yes }
     required  = { 5500 }
     effects =
     { command = { type = max_reactor_size value = 2 }
     }
   }
-  # ÊµÑé·´Ó¦¶Ñ 
+  # å®éªŒååº”å † 
   application =
   { id        = 5520
     name      = TECH_APP_INDUSTRY_52_NAME
     position  = { x = 444 y = 339 }
     picture   = "5520"
     year      = 1941
-    # ºË·´Ó¦¶ÑÉè¼Æ 
+    # æ ¸ååº”å †è®¾è®¡ 
     component = { id = 5521 name = TECH_CMP_INDUSTRY_52_1_NAME type = nuclear_engineering difficulty = 10 }
-    # ·´Éä²ã²ÄÁÏ²âÊÔ 
+    # åå°„å±‚ææ–™æµ‹è¯• 
     component = { id = 5522 name = TECH_CMP_INDUSTRY_52_2_NAME type = nuclear_engineering difficulty = 10 }
-    # ¼õËÙ¼Á²ÄÁÏ²âÊÔ 
+    # å‡é€Ÿå‰‚ææ–™æµ‹è¯• 
     component = { id = 5523 name = TECH_CMP_INDUSTRY_52_3_NAME type = nuclear_engineering difficulty = 10 }
-    # ÖØË®¹¤³§ 
+    # é‡æ°´å·¥å‚ 
     component = { id = 5524 name = TECH_CMP_INDUSTRY_52_4_NAME type = nuclear_engineering difficulty = 10 }
-    # ·´Ó¦¶ÑÔ­ĞÍ²âÊÔ 
+    # ååº”å †åŸå‹æµ‹è¯• 
     component = { id = 5525 name = TECH_CMP_INDUSTRY_52_5_NAME type = management difficulty = 10 double_time = yes }
     required  = { 5510 }
     effects =
     { command = { type = max_reactor_size value = 3 }
     }
   }
-  # ºË·´Ó¦¶Ñ¿ÉÓÃĞÔÊµÑé 
+  # æ ¸ååº”å †å¯ç”¨æ€§å®éªŒ 
   application =
   { id        = 5530
     name      = TECH_APP_INDUSTRY_53_NAME
     position  = { x = 444 y = 356 }
     picture   = "5530"
     year      = 1943
-    # ºËĞÄ½á¹¹ 
+    # æ ¸å¿ƒç»“æ„ 
     component = { id = 5531 name = TECH_CMP_INDUSTRY_53_1_NAME type = nuclear_engineering difficulty = 10 }
-    # ·´Éä²ã 
+    # åå°„å±‚ 
     component = { id = 5532 name = TECH_CMP_INDUSTRY_53_2_NAME type = nuclear_engineering difficulty = 10 }
-    # ¼õËÙ¼Á 
+    # å‡é€Ÿå‰‚ 
     component = { id = 5533 name = TECH_CMP_INDUSTRY_53_3_NAME type = nuclear_engineering difficulty = 10 }
-    # Ï¡ÓĞ¿óÎïÖÊÓ¦ÓÃ 
+    # ç¨€æœ‰çŸ¿ç‰©è´¨åº”ç”¨ 
     component = { id = 5534 name = TECH_CMP_INDUSTRY_53_4_NAME type = nuclear_engineering difficulty = 10 }
-    # ¿ÉĞĞĞÔ²âÊÔ 
+    # å¯è¡Œæ€§æµ‹è¯• 
     component = { id = 5535 name = TECH_CMP_INDUSTRY_53_5_NAME type = management difficulty = 10 double_time = yes }
     required  = { 5520 }
     effects =
     { command = { type = max_reactor_size value = 4 }
     }
   }
-  # ºËÄÜÉú²ú 
+  # æ ¸èƒ½ç”Ÿäº§ 
   application =
   { id        = 5540
     name      = TECH_APP_INDUSTRY_54_NAME
     position  = { x = 444 y = 373 }
     picture   = "5540"
     year      = 1944
-    # ºËµç³§Éè¼Æ  
+    # æ ¸ç”µå‚è®¾è®¡  
     component = { id = 5541 name = TECH_CMP_INDUSTRY_54_1_NAME type = nuclear_engineering difficulty = 10 }
-    # ºË¶¯Á¦ÍÆ½øÉè¼Æ  
+    # æ ¸åŠ¨åŠ›æ¨è¿›è®¾è®¡  
     component = { id = 5542 name = TECH_CMP_INDUSTRY_54_2_NAME type = nuclear_engineering difficulty = 10 }
-    # ·´Ó¦¶Ñ½ô¼±Í£¶ÑÏµÍ³  
+    # ååº”å †ç´§æ€¥åœå †ç³»ç»Ÿ  
     component = { id = 5543 name = TECH_CMP_INDUSTRY_54_3_NAME type = nuclear_engineering difficulty = 10 }
-    # ºË·ÏÁÏ´¦Àí 
+    # æ ¸åºŸæ–™å¤„ç† 
     component = { id = 5544 name = TECH_CMP_INDUSTRY_54_4_NAME type = nuclear_engineering difficulty = 10 }
-    # µç³§Ô­ĞÍ²âÊÔ 
+    # ç”µå‚åŸå‹æµ‹è¯• 
     component = { id = 5545 name = TECH_CMP_INDUSTRY_54_5_NAME type = management difficulty = 10 double_time = yes }
     required  = { 5530 }
     effects =
@@ -2223,22 +2223,22 @@ technology =
   { tag      = TECH_CAT_MEDICINE
     position = { x = 554 y = 238 }
   }
-  # ÔçÆÚ¿¹ÉúËØ 
+  # æ—©æœŸæŠ—ç”Ÿç´  
   application =
   { id        = 5600
     name      = TECH_APP_INDUSTRY_60_NAME
     position  = { x = 554 y = 254 }
     picture   = "DH5600"
     year      = 1910
-    # Ñ¿æß¸Ë¾úÅàÑø 
+    # èŠ½å­¢æ†èŒåŸ¹å…» 
     component = { id = 5601 name = TECH_CMP_INDUSTRY_60_1_NAME type = chemistry difficulty = 4 }
-    # ÇàÃ¹ËØ 
+    # é’éœ‰ç´  
     component = { id = 5602 name = TECH_CMP_INDUSTRY_60_2_NAME type = medicine difficulty = 4 }
-    # Á´Ã¹ËØ 
+    # é“¾éœ‰ç´  
     component = { id = 5603 name = TECH_CMP_INDUSTRY_60_3_NAME type = medicine difficulty = 4 }
-    # ¶Ì¸Ë¾úËØ 
+    # çŸ­æ†èŒç´  
     component = { id = 5604 name = TECH_CMP_INDUSTRY_60_4_NAME type = medicine difficulty = 4 }
-    # Á÷Ë®Ïß²âÊÔ 
+    # æµæ°´çº¿æµ‹è¯• 
     component = { id = 5605 name = TECH_CMP_INDUSTRY_60_5_NAME type = industrial_engineering difficulty = 4 }
     required  = { }
     effects =
@@ -2246,22 +2246,22 @@ technology =
       command = { type = trickleback_mod value = 1 }
     }
   }
-  # ¼ä½ÓÊäÑª¼¼Êõ 
+  # é—´æ¥è¾“è¡€æŠ€æœ¯ 
   application =
   { id        = 5610
     name      = TECH_APP_INDUSTRY_61_NAME
     position  = { x = 554 y = 271 }
     picture   = "DH5610"
     year      = 1915
-    # ¿¹ÄıÑª¼ÁÄûÃÊËáÄÆ 
+    # æŠ—å‡è¡€å‰‚æŸ æª¬é…¸é’  
     component = { id = 5611 name = TECH_CMP_INDUSTRY_61_1_NAME type = chemistry difficulty = 4 }
-    # ÑªÒº´æ´¢ºÍÀäÈ´ 
+    # è¡€æ¶²å­˜å‚¨å’Œå†·å´ 
     component = { id = 5612 name = TECH_CMP_INDUSTRY_61_2_NAME type = medicine difficulty = 4 }
-    # ¶ÌÆÚ´¢Ñª 
+    # çŸ­æœŸå‚¨è¡€ 
     component = { id = 5613 name = TECH_CMP_INDUSTRY_61_3_NAME type = medicine difficulty = 4 }
-    # ÑªÒº²Ö¿â 
+    # è¡€æ¶²ä»“åº“ 
     component = { id = 5614 name = TECH_CMP_INDUSTRY_61_4_NAME type = medicine difficulty = 4 }
-    # Ñª¿â¹ÜÀí 
+    # è¡€åº“ç®¡ç† 
     component = { id = 5615 name = TECH_CMP_INDUSTRY_61_5_NAME type = industrial_engineering difficulty = 4 }
     required  = { 5600 }
     effects =
@@ -2269,22 +2269,22 @@ technology =
       command = { type = trickleback_mod value = 1 }
     }
   }
-  # ÔçÆÚÒ©ÀíÑ§ 
+  # æ—©æœŸè¯ç†å­¦ 
   application =
   { id        = 5620
     name      = TECH_APP_INDUSTRY_62_NAME
     position  = { x = 554 y = 288 }
     picture   = "DH5620"
     year      = 1923
-    # ¶ÔÏ¸¾úµÄ³¤ÆÚ½Ó´¥ 
+    # å¯¹ç»†èŒçš„é•¿æœŸæ¥è§¦ 
     component = { id = 5621 name = TECH_CMP_INDUSTRY_62_1_NAME type = chemistry difficulty = 4 }
-    # ´«È¾²¡ÀíÂÛ 
+    # ä¼ æŸ“ç—…ç†è®º 
     component = { id = 5622 name = TECH_CMP_INDUSTRY_62_2_NAME type = medicine difficulty = 4 }
-    # ÒÖ¾úĞÔÑĞ¾¿ 
+    # æŠ‘èŒæ€§ç ”ç©¶ 
     component = { id = 5623 name = TECH_CMP_INDUSTRY_62_3_NAME type = medicine difficulty = 4 }
-    # ÁÙ´²ÊÔÑé 
+    # ä¸´åºŠè¯•éªŒ 
     component = { id = 5624 name = TECH_CMP_INDUSTRY_62_4_NAME type = medicine difficulty = 4 }
-    # Ò½Ò©Éú²ú 
+    # åŒ»è¯ç”Ÿäº§ 
     component = { id = 5625 name = TECH_CMP_INDUSTRY_62_5_NAME type = industrial_engineering difficulty = 4 }
     required  = { 5610 }
     effects =
@@ -2292,22 +2292,22 @@ technology =
       command = { type = trickleback_mod value = 1 }
     }
   }
-  # »Ç°·ÀàÒ©Îï 
+  # ç£ºèƒºç±»è¯ç‰© 
   application =
   { id        = 5630
     name      = TECH_APP_INDUSTRY_63_NAME
     position  = { x = 554 y = 305 }
     picture   = "DH5630"
     year      = 1932
-    # »úÌå»¯Ñ§ÊµÑé 
+    # æœºä½“åŒ–å­¦å®éªŒ 
     component = { id = 5631 name = TECH_CMP_INDUSTRY_63_1_NAME type = chemistry difficulty = 5 }
-    # ¡°°ÙÀË¶àÏ¢¡± 
+    # â€œç™¾æµªå¤šæ¯â€ 
     component = { id = 5632 name = TECH_CMP_INDUSTRY_63_2_NAME type = medicine difficulty = 5 }
-    # ¶ÔÉúÎï¼¤»î×÷ÓÃµÄÈÏÊ¶ 
+    # å¯¹ç”Ÿç‰©æ¿€æ´»ä½œç”¨çš„è®¤è¯† 
     component = { id = 5633 name = TECH_CMP_INDUSTRY_63_3_NAME type = medicine difficulty = 5 }
-    # »Ç°·½á¹¹ 
+    # ç£ºèƒºç»“æ„ 
     component = { id = 5634 name = TECH_CMP_INDUSTRY_63_4_NAME type = medicine difficulty = 5 }
-    # »Ç°·ÀàÒ©ÍèºÍ·ÛÄ©
+    # ç£ºèƒºç±»è¯ä¸¸å’Œç²‰æœ«
     component = { id = 5635 name = TECH_CMP_INDUSTRY_63_5_NAME type = industrial_engineering difficulty = 5 }
     required  = { 5620 }
     effects =
@@ -2315,22 +2315,22 @@ technology =
       command = { type = trickleback_mod value = 1 }
     }
   }
-  # »ù±¾Ò©ÀíÑ§ 
+  # åŸºæœ¬è¯ç†å­¦ 
   application =
   { id        = 5640
     name      = TECH_APP_INDUSTRY_64_NAME
     position  = { x = 554 y = 322 }
     picture   = "DH5640"
     year      = 1938
-    # ±£ÊØÓÃÒ© 
+    # ä¿å®ˆç”¨è¯ 
     component = { id = 5641 name = TECH_CMP_INDUSTRY_64_1_NAME type = chemistry difficulty = 6 }
-    # ÌìÈ»¿¹ÉúËØ 
+    # å¤©ç„¶æŠ—ç”Ÿç´  
     component = { id = 5642 name = TECH_CMP_INDUSTRY_64_2_NAME type = medicine difficulty = 6 }
-    # ´¿»¯¹ı³Ì 
+    # çº¯åŒ–è¿‡ç¨‹ 
     component = { id = 5643 name = TECH_CMP_INDUSTRY_64_3_NAME type = medicine difficulty = 6 }
-    # ·¢½Í¹ı³Ì 
+    # å‘é…µè¿‡ç¨‹ 
     component = { id = 5644 name = TECH_CMP_INDUSTRY_64_4_NAME type = medicine difficulty = 6 }
-    # Ò½Ò©Á÷Ë®ÏßÉú²ú 
+    # åŒ»è¯æµæ°´çº¿ç”Ÿäº§ 
     component = { id = 5645 name = TECH_CMP_INDUSTRY_64_5_NAME type = industrial_engineering difficulty = 6 }
     required  = { 5630 }
     effects =
@@ -2338,22 +2338,22 @@ technology =
       command = { type = trickleback_mod value = 1 }
     }
   }
-  # ÇàÃ¹ËØÅúÁ¿Éú²ú 
+  # é’éœ‰ç´ æ‰¹é‡ç”Ÿäº§ 
   application =
   { id        = 5650
     name      = TECH_APP_INDUSTRY_65_NAME
     position  = { x = 554 y = 339 }
     picture   = "DH5650"
     year      = 1944
-    # ×Ô¶¯»¯Éú²ú 
+    # è‡ªåŠ¨åŒ–ç”Ÿäº§ 
     component = { id = 5651 name = TECH_CMP_INDUSTRY_65_1_NAME type = chemistry difficulty = 7 }
-    # Éî¹Ş·¢½Í 
+    # æ·±ç½å‘é…µ 
     component = { id = 5652 name = TECH_CMP_INDUSTRY_65_2_NAME type = medicine difficulty = 7 }
-    # ÇàÃ¹ËØµÄ»¯Ñ§½á¹¹ 
+    # é’éœ‰ç´ çš„åŒ–å­¦ç»“æ„ 
     component = { id = 5653 name = TECH_CMP_INDUSTRY_65_3_NAME type = medicine difficulty = 7 }
-    # ÁÙ´²ÊÔÑé 
+    # ä¸´åºŠè¯•éªŒ 
     component = { id = 5654 name = TECH_CMP_INDUSTRY_65_4_NAME type = medicine difficulty = 7 }
-    # Ò©Æ·²úÒµ 
+    # è¯å“äº§ä¸š 
     component = { id = 5655 name = TECH_CMP_INDUSTRY_65_5_NAME type = industrial_engineering difficulty = 7 }
     required  = { 5640 }
     effects =
@@ -2361,22 +2361,22 @@ technology =
       command = { type = trickleback_mod value = 1 }
     }
   }
-  # ¸ÄÁ¼¿¹ÉúËØ 
+  # æ”¹è‰¯æŠ—ç”Ÿç´  
   application =
   { id        = 5660
     name      = TECH_APP_INDUSTRY_66_NAME
     position  = { x = 554 y = 356 }
     picture   = "DH5660"
     year      = 1948
-    # ÎŞ¾úÊµÑéÊÒ 
+    # æ— èŒå®éªŒå®¤ 
     component = { id = 5661 name = TECH_CMP_INDUSTRY_66_1_NAME type = chemistry difficulty = 8 }
-    # °ëºÏ³ÉÇàÃ¹ËØ 
+    # åŠåˆæˆé’éœ‰ç´  
     component = { id = 5662 name = TECH_CMP_INDUSTRY_66_2_NAME type = medicine difficulty = 8 }
-    # ´ÙÄòËá´úĞ»Ò©Îï 
+    # ä¿ƒå°¿é…¸ä»£è°¢è¯ç‰© 
     component = { id = 5663 name = TECH_CMP_INDUSTRY_66_3_NAME type = medicine difficulty = 8 }
-    # ÁÙ´²ÊÔÑé 
+    # ä¸´åºŠè¯•éªŒ 
     component = { id = 5664 name = TECH_CMP_INDUSTRY_66_4_NAME type = medicine difficulty = 8 }
-    # ¿¹ÉúËØÉú²ú 
+    # æŠ—ç”Ÿç´ ç”Ÿäº§ 
     component = { id = 5665 name = TECH_CMP_INDUSTRY_66_5_NAME type = industrial_engineering difficulty = 8 }
     required  = { 5650 }
     effects =
@@ -2384,22 +2384,22 @@ technology =
       command = { type = trickleback_mod value = 2 }
     }
   }
-  # ½ø½×Ò©ÀíÑ§ 
+  # è¿›é˜¶è¯ç†å­¦ 
   application =
   { id        = 5670
     name      = TECH_APP_INDUSTRY_67_NAME
     position  = { x = 554 y = 373 }
     picture   = "DH5670"
     year      = 1954
-    # Ï¸¾ú¿¹Ò©ĞÔ¾­Ñé 
+    # ç»†èŒæŠ—è¯æ€§ç»éªŒ 
     component = { id = 5671 name = TECH_CMP_INDUSTRY_67_1_NAME type = chemistry difficulty = 9 }
-    # »¯Ñ§ºÏ³É 
+    # åŒ–å­¦åˆæˆ 
     component = { id = 5672 name = TECH_CMP_INDUSTRY_67_2_NAME type = medicine difficulty = 9 }
-    # ÇàÃ¹ËØÂıËÙÅÅĞ¹ 
+    # é’éœ‰ç´ æ…¢é€Ÿæ’æ³„ 
     component = { id = 5673 name = TECH_CMP_INDUSTRY_67_3_NAME type = medicine difficulty = 9 }
-    # ¶ÔÂÌÅ§¸Ë¾ú¿¹ÉúËØ 
+    # å¯¹ç»¿è„“æ†èŒæŠ—ç”Ÿç´  
     component = { id = 5674 name = TECH_CMP_INDUSTRY_67_4_NAME type = medicine difficulty = 9 }
-    # ¸ÄÁ¼×¢ÉäÆ÷ 
+    # æ”¹è‰¯æ³¨å°„å™¨ 
     component = { id = 5675 name = TECH_CMP_INDUSTRY_67_5_NAME type = medicine difficulty = 9 }
     required  = { 5660 }
     effects =
@@ -2408,7 +2408,7 @@ technology =
       command = { type = attrition_mod value = 2 }
     }
   }
-  # ºÏ³ÉÒ©Îï
+  # åˆæˆè¯ç‰©
   application =
   { id        = 5680
     name      = TECH_APP_INDUSTRY_112_NAME
@@ -2416,15 +2416,15 @@ technology =
     position  = { x = 554 y = 390 }
     picture   = "DH5670"
     year      = 1958
-    # Ï¸¾ú¿¹Ò©ĞÔ¾­Ñé 
+    # ç»†èŒæŠ—è¯æ€§ç»éªŒ 
     component = { id = 5681 name = TECH_CMP_INDUSTRY_112_1_NAME type = chemistry difficulty = 9 }
-    # »¯Ñ§ºÏ³É 
+    # åŒ–å­¦åˆæˆ 
     component = { id = 5682 name = TECH_CMP_INDUSTRY_112_2_NAME type = medicine difficulty = 9 }
-    # ÇàÃ¹ËØÂıËÙÅÅĞ¹ 
+    # é’éœ‰ç´ æ…¢é€Ÿæ’æ³„ 
     component = { id = 5683 name = TECH_CMP_INDUSTRY_112_3_NAME type = medicine difficulty = 9 }
-    # ¶ÔÂÌÅ§¸Ë¾ú¿¹ÉúËØ 
+    # å¯¹ç»¿è„“æ†èŒæŠ—ç”Ÿç´  
     component = { id = 5684 name = TECH_CMP_INDUSTRY_112_4_NAME type = medicine difficulty = 9 }
-    # ¸ÄÁ¼×¢ÉäÆ÷ 
+    # æ”¹è‰¯æ³¨å°„å™¨ 
     component = { id = 5685 name = TECH_CMP_INDUSTRY_112_5_NAME type = medicine difficulty = 9 }
     required  = { 5670 }
     effects =
@@ -2437,22 +2437,22 @@ technology =
   { tag      = TECH_CAT_EQUIPMENT
     position = { x = 325 y = 417 }
   }
-  # ²½±ø×°±¸ - ¼«º®ÊÊÓ¦ 
+  # æ­¥å…µè£…å¤‡ - æå¯’é€‚åº” 
   application =
   { id        = 5920
     name      = TECH_APP_INDUSTRY_92_NAME
     position  = { x = 314 y = 435 }
     picture   = "DH5920"
     year      = 1939
-    # »¯Ñ§µç´ÅÂ¯ 
+    # åŒ–å­¦ç”µç£ç‚‰ 
     component = { id = 5921 name = TECH_CMP_INDUSTRY_92_1_NAME type = chemistry difficulty = 9 }
-    # ÄÍµÍÎÂÎäÆ÷ 
+    # è€ä½æ¸©æ­¦å™¨ 
     component = { id = 5922 name = TECH_CMP_INDUSTRY_92_2_NAME type = mechanics difficulty = 9 }
-    # Ò½ÁÆÓÃÆ· 
+    # åŒ»ç–—ç”¨å“ 
     component = { id = 5923 name = TECH_CMP_INDUSTRY_92_3_NAME type = medicine difficulty = 9 }
-    # º®ÀäÆøºò¾ü×° 
+    # å¯’å†·æ°”å€™å†›è£… 
     component = { id = 5924 name = TECH_CMP_INDUSTRY_92_4_NAME type = general_equipment difficulty = 9 }
-    # º®ÀäÆøºò×°±¸ 
+    # å¯’å†·æ°”å€™è£…å¤‡ 
     component = { id = 5925 name = TECH_CMP_INDUSTRY_92_5_NAME type = general_equipment difficulty = 9 double_time = yes }
     required  = { 5070 }
     effects =
@@ -2487,22 +2487,22 @@ technology =
       command = { type = snow_defense which = motorized value = 2 }
     }
   }
-  # ¸Ä×°³µÁ¾ - ¼«º®ÊÊÓ¦ 
+  # æ”¹è£…è½¦è¾† - æå¯’é€‚åº” 
   application =
   { id        = 5930
     name      = TECH_APP_INDUSTRY_93_NAME
     position  = { x = 314 y = 452 }
     picture   = "DH5930"
     year      = 1940
-    # ·À¶³ÒºÈó»¬ÓÍ 
+    # é˜²å†»æ¶²æ¶¦æ»‘æ²¹ 
     component = { id = 5931 name = TECH_CMP_INDUSTRY_93_1_NAME type = chemistry difficulty = 9 }
-    # ·Àº®À×¹Ü 
+    # é˜²å¯’é›·ç®¡ 
     component = { id = 5932 name = TECH_CMP_INDUSTRY_93_2_NAME type = munitions difficulty = 9 }
-    # ¼«º®ÌìÆøÉè±¸
+    # æå¯’å¤©æ°”è®¾å¤‡
     component = { id = 5933 name = TECH_CMP_INDUSTRY_93_3_NAME type = general_equipment difficulty = 9 }
-    # ¼ÓÈÈÔª¼ş 
+    # åŠ çƒ­å…ƒä»¶ 
     component = { id = 5934 name = TECH_CMP_INDUSTRY_93_4_NAME type = mechanics difficulty = 9 }
-    # ÄÍµÍÎÂ²ÄÁÏ 
+    # è€ä½æ¸©ææ–™ 
     component = { id = 5935 name = TECH_CMP_INDUSTRY_93_5_NAME type = mechanics difficulty = 9 double_time = yes }
     required  = { 5070 5920 }
     effects =
@@ -2544,22 +2544,22 @@ technology =
       command = { type = snow_defense which = motorized value = 2 }
     }
   }
-  # ²½±ø×°±¸ - ÈÈ´øÊÊÓ¦ 
+  # æ­¥å…µè£…å¤‡ - çƒ­å¸¦é€‚åº” 
   application =
   { id        = 5940
     name      = TECH_APP_INDUSTRY_94_NAME
     position  = { x = 426 y = 435 }
     picture   = "DH5940"
     year      = 1939
-    # ¾»»¯Ë®Ô´ 
+    # å‡€åŒ–æ°´æº 
     component = { id = 5941 name = TECH_CMP_INDUSTRY_94_1_NAME type = chemistry difficulty = 9 }
-    # µÍÎ¬»¤Ç¹Ğµ 
+    # ä½ç»´æŠ¤æªæ¢° 
     component = { id = 5942 name = TECH_CMP_INDUSTRY_94_2_NAME type = mechanics difficulty = 9 }
-    # Ò½ÁÆÓÃÆ· 
+    # åŒ»ç–—ç”¨å“ 
     component = { id = 5943 name = TECH_CMP_INDUSTRY_94_3_NAME type = medicine difficulty = 9 }
-    # Ñ×ÈÈÆøºò¾ü×° 
+    # ç‚çƒ­æ°”å€™å†›è£… 
     component = { id = 5944 name = TECH_CMP_INDUSTRY_94_4_NAME type = general_equipment difficulty = 9 }
-    # µÍÎ¬»¤Éè±¸ 
+    # ä½ç»´æŠ¤è®¾å¤‡ 
     component = { id = 5945 name = TECH_CMP_INDUSTRY_94_5_NAME type = general_equipment difficulty = 9 double_time = yes }
     required  = { 5070 }
     effects =
@@ -2600,22 +2600,22 @@ technology =
       command = { type = forest_defense which = motorized value = 2 }
     }
   }
-  # ¸Ä×°³µÁ¾ - ´ÔÁÖÊÊÓ¦ 
+  # æ”¹è£…è½¦è¾† - ä¸›æ—é€‚åº” 
   application =
   { id        = 5950
     name      = TECH_APP_INDUSTRY_95_NAME
     position  = { x = 426 y = 452 }
     picture   = "DH5950"
     year      = 1940
-    # É±¾ú¼Á 
+    # æ€èŒå‰‚ 
     component = { id = 5951 name = TECH_CMP_INDUSTRY_95_1_NAME type = chemistry difficulty = 9 }
-    # ¸ß¿É¿¿ĞÔÀ×¹Ü 
+    # é«˜å¯é æ€§é›·ç®¡ 
     component = { id = 5952 name = TECH_CMP_INDUSTRY_95_2_NAME type = munitions difficulty = 9 }
-    # µÍÎ¬»¤Éè±¸ 
+    # ä½ç»´æŠ¤è®¾å¤‡ 
     component = { id = 5953 name = TECH_CMP_INDUSTRY_95_3_NAME type = general_equipment difficulty = 9 }
-    # ¿ÕÆø¹ıÂËÆ÷ 
+    # ç©ºæ°”è¿‡æ»¤å™¨ 
     component = { id = 5954 name = TECH_CMP_INDUSTRY_95_4_NAME type = mechanics difficulty = 9 }
-    # ÄÍ¸ßÎÂ²ÄÁÏ 
+    # è€é«˜æ¸©ææ–™ 
     component = { id = 5955 name = TECH_CMP_INDUSTRY_95_5_NAME type = mechanics difficulty = 9 double_time = yes }
     required  = { 5070 5940 }
     effects =
@@ -2657,22 +2657,22 @@ technology =
       command = { type = forest_defense which = motorized value = 1 }
     }
   }
-  # ²½±ø×°±¸ - É³Ä®ÊÊÓ¦ 
+  # æ­¥å…µè£…å¤‡ - æ²™æ¼ é€‚åº” 
   application =
   { id        = 5960
     name      = TECH_APP_INDUSTRY_96_NAME
     position  = { x = 538 y = 435 }
     picture   = "DH5960"
     year      = 1939
-    # ·ÀÉ¹¼¼Êõ 
+    # é˜²æ™’æŠ€æœ¯ 
     component = { id = 5961 name = TECH_CMP_INDUSTRY_96_1_NAME type = chemistry difficulty = 9 }
-    # ÄÍ¸ßÎÂÎäÆ÷ 
+    # è€é«˜æ¸©æ­¦å™¨ 
     component = { id = 5962 name = TECH_CMP_INDUSTRY_96_2_NAME type = mechanics difficulty = 9 }
-    # Ò½ÁÆÓÃÆ· 
+    # åŒ»ç–—ç”¨å“ 
     component = { id = 5963 name = TECH_CMP_INDUSTRY_96_3_NAME type = medicine difficulty = 9 }
-    # ·À»¤·ş 
+    # é˜²æŠ¤æœ 
     component = { id = 5964 name = TECH_CMP_INDUSTRY_96_4_NAME type = general_equipment difficulty = 9 }
-    # ·À»¤Éè±¸ 
+    # é˜²æŠ¤è®¾å¤‡ 
     component = { id = 5965 name = TECH_CMP_INDUSTRY_96_5_NAME type = general_equipment difficulty = 9 double_time = yes }
     required  = { 5070 }
     effects =
@@ -2693,22 +2693,22 @@ technology =
       command = { type = desert_defense which = paratrooper value = 1 }
     }
   }
-  # ¸Ä×°³µÁ¾ - É³Ä®ÊÊÓ¦ 
+  # æ”¹è£…è½¦è¾† - æ²™æ¼ é€‚åº” 
   application =
   { id        = 5970
     name      = TECH_APP_INDUSTRY_97_NAME
     position  = { x = 538 y = 452 }
     picture   = "DH5970"
     year      = 1940
-    # ¸Ä½øÈó»¬ÓÍ 
+    # æ”¹è¿›æ¶¦æ»‘æ²¹ 
     component = { id = 5971 name = TECH_CMP_INDUSTRY_97_1_NAME type = chemistry difficulty = 9 }
-    # ÄÍ¸ßÎÂÀ×¹Ü 
+    # è€é«˜æ¸©é›·ç®¡ 
     component = { id = 5972 name = TECH_CMP_INDUSTRY_97_2_NAME type = munitions difficulty = 9 }
-    # Ñ×ÈÈÆøºò¾ü×° 
+    # ç‚çƒ­æ°”å€™å†›è£… 
     component = { id = 5973 name = TECH_CMP_INDUSTRY_97_3_NAME type = general_equipment difficulty = 9 }
-    # ÀäÈ´Ôª¼ş 
+    # å†·å´å…ƒä»¶ 
     component = { id = 5974 name = TECH_CMP_INDUSTRY_97_4_NAME type = mechanics difficulty = 9 }
-    # ¿ÕÆø¹ıÂËÆ÷ 
+    # ç©ºæ°”è¿‡æ»¤å™¨ 
     component = { id = 5975 name = TECH_CMP_INDUSTRY_97_5_NAME type = mechanics difficulty = 9 double_time = yes }
     required  = { 5070 5960 }
     effects =
@@ -2732,22 +2732,22 @@ technology =
       command = { type = desert_defense which = motorized value = 3 }
     }
   }
-  # ²½±ø×°±¸ - ÇğÁêÊÊÓ¦ 
+  # æ­¥å…µè£…å¤‡ - ä¸˜é™µé€‚åº” 
   application =
   { id        = 5980
     name      = TECH_APP_INDUSTRY_98_NAME
     position  = { x = 426 y = 415 }
     picture   = "DH5980"
     year      = 1939
-    # ×¨ÓÃ²¹¸øÆ· 
+    # ä¸“ç”¨è¡¥ç»™å“ 
     component = { id = 5981 name = TECH_CMP_INDUSTRY_98_1_NAME type = chemistry difficulty = 9 }
-    # µÍÎ¬»¤Ç¹Ğµ 
+    # ä½ç»´æŠ¤æªæ¢° 
     component = { id = 5982 name = TECH_CMP_INDUSTRY_98_2_NAME type = mechanics difficulty = 9 }
-    # Õ½º¾×ãÖÎÁÆ 
+    # æˆ˜å£•è¶³æ²»ç–— 
     component = { id = 5983 name = TECH_CMP_INDUSTRY_98_3_NAME type = medicine difficulty = 9 }
-    # ¼á¹ÌµÄ¾ü×° 
+    # åšå›ºçš„å†›è£… 
     component = { id = 5984 name = TECH_CMP_INDUSTRY_98_4_NAME type = general_equipment difficulty = 9 }
-    # ·ÀÕğÉè±¸ 
+    # é˜²éœ‡è®¾å¤‡ 
     component = { id = 5985 name = TECH_CMP_INDUSTRY_98_5_NAME type = general_equipment difficulty = 9 double_time = yes }
     required  = { 5070 }
     effects =
@@ -2792,22 +2792,22 @@ technology =
       command = { type = muddy_defense which = motorized value = 1 }
     }
   }
-  # ¸Ä×°³µÁ¾ - ÇğÁêÊÊÓ¦ 
+  # æ”¹è£…è½¦è¾† - ä¸˜é™µé€‚åº” 
   application =
   { id        = 5990
     name      = TECH_APP_INDUSTRY_99_NAME
     position  = { x = 538 y = 415 }
     picture   = "DH5990"
     year      = 1940
-    # ¸Ä½øÈó»¬ÓÍ 
+    # æ”¹è¿›æ¶¦æ»‘æ²¹ 
     component = { id = 5991 name = TECH_CMP_INDUSTRY_99_1_NAME type = chemistry difficulty = 9 }
-    # ÄÍ³å»÷À×¹Ü 
+    # è€å†²å‡»é›·ç®¡ 
     component = { id = 5992 name = TECH_CMP_INDUSTRY_99_2_NAME type = munitions difficulty = 9 }
-    # ·ÀÕğÉè±¸ 
+    # é˜²éœ‡è®¾å¤‡ 
     component = { id = 5993 name = TECH_CMP_INDUSTRY_99_3_NAME type = general_equipment difficulty = 9 }
-    # µ¯»É±ÜÕğÆ÷ 
+    # å¼¹ç°§é¿éœ‡å™¨ 
     component = { id = 5994 name = TECH_CMP_INDUSTRY_99_4_NAME type = mechanics difficulty = 9 }
-    # ÄÍÄ¥²ÄÁÏ 
+    # è€ç£¨ææ–™ 
     component = { id = 5995 name = TECH_CMP_INDUSTRY_99_5_NAME type = mechanics difficulty = 9 double_time = yes }
     required  = { 5070 5980 }
     effects =
@@ -2856,66 +2856,66 @@ technology =
   { tag      = TECH_CAT_INDUSTRY_1
     position = { x = 124 y = 142 }
   }
-  # »ù´¡³µÁ¾ÖÆÔì
+  # åŸºç¡€è½¦è¾†åˆ¶é€ 
   application =
   { id        = 5550
     name      = TECH_APP_INDUSTRY_55_NAME
     desc      = TECH_APP_INDUSTRY_55_DESC
     position  = { x = 119 y = 160 }
     year      = 1890
-    # »ù´¡Á÷³Ì
+    # åŸºç¡€æµç¨‹
     component = { id = 5551 name = TECH_CMP_INDUSTRY_55_1_NAME type = management difficulty = 70 }
-    # Éú²úÏßÉè¼Æ
+    # ç”Ÿäº§çº¿è®¾è®¡
     component = { id = 5552 name = TECH_CMP_INDUSTRY_55_2_NAME type = industrial_engineering difficulty = 70 }
-    # ³µÁ¾Ô­ĞÍÖÆÔì
+    # è½¦è¾†åŸå‹åˆ¶é€ 
     component = { id = 5553 name = TECH_CMP_INDUSTRY_55_3_NAME type = vehicle_engineering difficulty = 90 }
-    # Éú²ú¹¤¾ßÖÆÔì
+    # ç”Ÿäº§å·¥å…·åˆ¶é€ 
     component = { id = 5554 name = TECH_CMP_INDUSTRY_55_4_NAME type = mechanics difficulty = 90 }
-    # ³µÁ¾Ô­ĞÍÉú²ú
+    # è½¦è¾†åŸå‹ç”Ÿäº§
     component = { id = 5555 name = TECH_CMP_INDUSTRY_55_5_NAME type = management difficulty = 80 double_time = yes }
     required  = { }
     effects =
     { command = { }
     }
   }
-  # »ù´¡·ÉĞĞÆ÷ÖÆÔì
+  # åŸºç¡€é£è¡Œå™¨åˆ¶é€ 
   application =
   { id        = 5570
     name      = TECH_APP_INDUSTRY_57_NAME
     desc      = TECH_APP_INDUSTRY_57_DESC
     position  = { x = 119 y = 177 }
     year      = 1910
-    # »ù´¡Á÷³Ì
+    # åŸºç¡€æµç¨‹
     component = { id = 5571 name = TECH_CMP_INDUSTRY_57_1_NAME type = management difficulty = 70 }
-    # Éú²úÏßÉè¼Æ
+    # ç”Ÿäº§çº¿è®¾è®¡
     component = { id = 5572 name = TECH_CMP_INDUSTRY_57_2_NAME type = industrial_engineering difficulty = 80 }
-    # ·ÉĞĞÆ÷Ô­ĞÍÖÆÔì
+    # é£è¡Œå™¨åŸå‹åˆ¶é€ 
     component = { id = 5573 name = TECH_CMP_INDUSTRY_57_3_NAME type = aeronautics difficulty = 90 }
-    # Éú²ú¹¤¾ßÖÆÔì
+    # ç”Ÿäº§å·¥å…·åˆ¶é€ 
     component = { id = 5574 name = TECH_CMP_INDUSTRY_57_4_NAME type = mechanics difficulty = 80 }
-    # º½ÌìÆ÷Ô­ĞÍÉú²ú
+    # èˆªå¤©å™¨åŸå‹ç”Ÿäº§
     component = { id = 5575 name = TECH_CMP_INDUSTRY_57_5_NAME type = management difficulty = 80 double_time = yes }
     required  = { }
     effects =
     { command = { }
     }
   }
-  # »ù´¡½¢´¬ÖÆÔì
+  # åŸºç¡€èˆ°èˆ¹åˆ¶é€ 
   application =
   { id        = 5580
     name      = TECH_APP_INDUSTRY_58_NAME
     desc      = TECH_APP_INDUSTRY_58_DESC
     position  = { x = 119 y = 194 }
     year      = 1870
-    # »ù´¡Á÷³Ì
+    # åŸºç¡€æµç¨‹
     component = { id = 5581 name = TECH_CMP_INDUSTRY_58_1_NAME type = management difficulty = 70 }
-    # ´¬ÎëÉè¼Æ
+    # èˆ¹åè®¾è®¡
     component = { id = 5582 name = TECH_CMP_INDUSTRY_58_2_NAME type = industrial_engineering difficulty = 70 }
-    # ½¢´¬Ô­ĞÍÖÆÔì
+    # èˆ°èˆ¹åŸå‹åˆ¶é€ 
     component = { id = 5583 name = TECH_CMP_INDUSTRY_58_3_NAME type = naval_engineering difficulty = 80 }
-    # ´¬ÎëÉú²ú¹¤¾ßÖÆ×÷
+    # èˆ¹åç”Ÿäº§å·¥å…·åˆ¶ä½œ
     component = { id = 5584 name = TECH_CMP_INDUSTRY_58_4_NAME type = naval_engineering difficulty = 80 }
-    # ½¢´¬Ô­ĞÍÊÔÉú²ú
+    # èˆ°èˆ¹åŸå‹è¯•ç”Ÿäº§
     component = { id = 5585 name = TECH_CMP_INDUSTRY_58_5_NAME type = management difficulty = 80 double_time = yes }
     required  = { }
     effects =
@@ -2926,7 +2926,7 @@ technology =
   { tag      = TECH_CAT_INDUSTRY_2
     position = { x = 239 y = 11 }
   }
-  # ¹¤Òµ¸ïÃüÊ±ÆÚÄÜÔ´Éú²ú
+  # å·¥ä¸šé©å‘½æ—¶æœŸèƒ½æºç”Ÿäº§
   application =
   { id        = 1750
     name      = TECH_APP_INDUSTRY_76_NAME
@@ -2948,7 +2948,7 @@ technology =
     { command = { }
     }
   }
-  # ÊÀ½ç´óÕ½Ç°ÆÚÄÜÔ´Éú²ú
+  # ä¸–ç•Œå¤§æˆ˜å‰æœŸèƒ½æºç”Ÿäº§
   application =
   { id        = 1760
     name      = TECH_APP_INDUSTRY_77_NAME
@@ -2970,7 +2970,7 @@ technology =
     { command = { }
     }
   }
-  # ÊÀ½ç´óÕ½ºóÄÜÔ´Éú²ú
+  # ä¸–ç•Œå¤§æˆ˜åèƒ½æºç”Ÿäº§
   application =
   { id        = 1770
     name      = TECH_APP_INDUSTRY_78_NAME
@@ -2992,7 +2992,7 @@ technology =
     { command = { }
     }
   }
-  # Õ½¼äÆÚÄÜÔ´Éú²ú
+  # æˆ˜é—´æœŸèƒ½æºç”Ÿäº§
   application =
   { id        = 1780
     name      = TECH_APP_INDUSTRY_79_NAME
@@ -3014,7 +3014,7 @@ technology =
     { command = { }
     }
   }
-  # ¶şÕ½Ç°ÆÚÄÜÔ´Éú²ú
+  # äºŒæˆ˜å‰æœŸèƒ½æºç”Ÿäº§
   application =
   { id        = 1790
     name      = TECH_APP_INDUSTRY_87_NAME
@@ -3036,7 +3036,7 @@ technology =
     { command = { }
     }
   }
-  # ¶şÕ½Ê±ÆÚÄÜÔ´Éú²ú
+  # äºŒæˆ˜æ—¶æœŸèƒ½æºç”Ÿäº§
   application =
   { id        = 1800
     name      = TECH_APP_INDUSTRY_88_NAME
@@ -3058,7 +3058,7 @@ technology =
     { command = { }
     }
   }
-  # ×¼ÏÖ´úÄÜÔ´Éú²ú
+  # å‡†ç°ä»£èƒ½æºç”Ÿäº§
   application =
   { id        = 1810
     name      = TECH_APP_INDUSTRY_89_NAME
@@ -3080,7 +3080,7 @@ technology =
     { command = { }
     }
   }
-  # ÏÈ½øÄÜÔ´Éú²ú
+  # å…ˆè¿›èƒ½æºç”Ÿäº§
   application =
   { id        = 1820
     name      = TECH_APP_INDUSTRY_109_NAME
@@ -3102,7 +3102,7 @@ technology =
     { command = { }
     }
   }
-  # ÏÖ´úÄÜÔ´Éú²ú
+  # ç°ä»£èƒ½æºç”Ÿäº§
   application =
   { id        = 2000
     name      = TECH_APP_INDUSTRY_110_NAME
@@ -3124,7 +3124,7 @@ technology =
     { command = { }
     }
   }
-  # Ë®Á¦Ñ¹ÁÑ
+  # æ°´åŠ›å‹è£‚
   application =
   { id        = 2560
     name      = TECH_APP_INDUSTRY_111_NAME
@@ -3142,6 +3142,148 @@ technology =
     # 
     component = { id = 2565 name = TECH_CMP_INDUSTRY_111_5_NAME type = industrial_engineering difficulty = 5 }
     required  = { 2000 }
+    effects =
+    { command = { }
+    }
+  }
+}
+  # åŸºæœ¬ç”µå­è®¡ç®—æœº 
+  application =
+  { id        = 5470
+    name      = TECH_APP_SW_14_NAME
+    desc      = TECH_APP_SW_14_DESC
+    position  = { x = 339 y = 143 }
+    picture   = "7140"
+    year      = 1943
+    # æ±‡ç¼–è¯­è¨€ 
+    component = { id = 7141 name = TECH_CMP_SW_14_1_NAME type = mathematics difficulty = 8 }
+    # é˜´æå°„çº¿ç®¡ä¸»å­˜å‚¨å™¨ 
+    component = { id = 7142 name = TECH_CMP_SW_14_2_NAME type = electronics difficulty = 8 }
+    # ç£å¸¦è¾…åŠ©å­˜å‚¨å™¨ 
+    component = { id = 7143 name = TECH_CMP_SW_14_3_NAME type = chemistry difficulty = 7 }
+    # äºŒè¿›åˆ¶ç¼–ç åè¿›åˆ¶è¿ç®—å™¨ 
+    component = { id = 7144 name = TECH_CMP_SW_14_4_NAME type = mathematics difficulty = 7 }
+    # ç¡¬çº¿æ§åˆ¶å¤„ç†å•å…ƒ 
+    component = { id = 7145 name = TECH_CMP_SW_14_5_NAME type = electronics difficulty = 8 double_time = yes }
+    required  = { 5340 }
+    effects =
+    { command = { type = research_mod value = 5 }
+    }
+  }
+  # æ”¹è‰¯ç”µå­è®¡ç®—æœº 
+  application =
+  { id        = 5480
+    name      = TECH_APP_SW_15_NAME
+    desc      = TECH_APP_SW_15_DESC
+    position  = { x = 339 y = 160 }
+    picture   = "7150"
+    year      = 1946
+    # é«˜çº§è®¡ç®—æœºè¯­è¨€ 
+    component = { id = 7151 name = TECH_CMP_SW_15_1_NAME type = mathematics difficulty = 9 }
+    # æ°´é“¶å»¶è¿Ÿçº¿ä¸»å­˜å‚¨å™¨ 
+    component = { id = 7152 name = TECH_CMP_SW_15_2_NAME type = electronics difficulty = 9 }
+    # ç£æ€§è¾…åŠ©å­˜å‚¨å™¨ 
+    component = { id = 7153 name = TECH_CMP_SW_15_3_NAME type = chemistry difficulty = 8 }
+    # äºŒè¿›åˆ¶è¿ç®—å™¨ 
+    component = { id = 7154 name = TECH_CMP_SW_15_4_NAME type = mathematics difficulty = 8 }
+    # å¾®ç¨‹åºè®¾è®¡ 
+    component = { id = 7155 name = TECH_CMP_SW_15_5_NAME type = mathematics difficulty = 9 double_time = yes }
+    required  = { 18470 }
+    effects =
+    { command = { type = research_mod value = 5 }
+    }
+  }
+  # ç°ä»£ç”µå­è®¡ç®—æœº 
+  application =
+  { id        = 5510
+    name      = TECH_APP_SW_31_NAME
+    position  = { x = 339 y = 211 }
+    picture   = "DH16050"
+    year      = 1965
+    # å˜å€å¯„å­˜å™¨ 
+    component = { id = 16051 name = TECH_CMP_SW_31_1_NAME type = mathematics difficulty = 20 }
+    # åŠå¯¼ä½“åˆ¶ä¸»å­˜å‚¨å™¨ 
+    component = { id = 16052 name = TECH_CMP_SW_31_2_NAME type = electronics difficulty = 20 }
+    # é«˜é€Ÿç”µå­è®¡ç®—æœº 
+    component = { id = 16053 name = TECH_CMP_SW_31_3_NAME type = chemistry difficulty = 20 }
+    # Aå‹æ ¼å¼ 
+    component = { id = 16054 name = TECH_CMP_SW_31_4_NAME type = mathematics difficulty = 20 }
+    # Bå‹æ ¼å¼ 
+    component = { id = 16055 name = TECH_CMP_SW_31_5_NAME type = mathematics difficulty = 10 double_time = yes }
+    required  = { 18510 }
+    effects =
+    { command = { type = research_mod value = 2 }
+    }
+  }
+  # å…ˆè¿›ç”µå­è®¡ç®—æœº 
+  application =
+  { id        = 5500
+    name      = TECH_APP_SW_16_NAME
+    desc      = TECH_APP_SW_16_DESC
+    position  = { x = 339 y = 194 }
+    picture   = "7160"
+    year      = 1956
+    # å®ç”¨è®¾è®¡ 
+    component = { id = 7161 name = TECH_CMP_SW_16_1_NAME type = mathematics difficulty = 15 }
+    # åŠå¯¼ä½“ä¸»å­˜å‚¨å™¨ 
+    component = { id = 7162 name = TECH_CMP_SW_16_2_NAME type = electronics difficulty = 15 }
+    # ç¡¬ç›˜è¾…åŠ©å­˜å‚¨å™¨ 
+    component = { id = 7163 name = TECH_CMP_SW_16_3_NAME type = chemistry difficulty = 15 }
+    # æµ®ç‚¹è¿ç®—å™¨ 
+    component = { id = 7164 name = TECH_CMP_SW_16_4_NAME type = mathematics difficulty = 15 }
+    # æ‰¹å¤„ç† 
+    component = { id = 7165 name = TECH_CMP_SW_16_5_NAME type = mathematics difficulty = 10 double_time = yes }
+    required  = { 18500 }
+    effects =
+    { command = { type = research_mod value = 5 }
+      command = { type = new_model which = naval_fire_controll_l value = 2 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 1 }
+      command = { type = new_model which = naval_fire_controll_s value = 2 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 1 }
+    }
+  }
+  # ç¬¬ä¸‰ä»£è®¡ç®—æœº
+  application =
+  { id        = 5520
+    name      = TECH_APP_SW_35_NAME
+    desc      = TECH_APP_SW_35_DESC
+    position  = { x = 339 y = 228 }
+    picture   = "DH16050"
+    year      = 1976
+    # å˜å€å¯„å­˜å™¨ 
+    component = { id = 16051 name = TECH_CMP_SW_31_1_NAME type = mathematics difficulty = 20 }
+    # åŠå¯¼ä½“åˆ¶ä¸»å­˜å‚¨å™¨ 
+    component = { id = 16052 name = TECH_CMP_SW_31_2_NAME type = electronics difficulty = 20 }
+    # 
+    component = { id = 7641 name = TECH_CMP_SW_35_1_NAME type = mathematics difficulty = 12 }
+    # 
+    component = { id = 7642 name = TECH_CMP_SW_35_2_NAME type = mathematics difficulty = 13 }
+    # 
+    component = { id = 7643 name = TECH_CMP_SW_35_3_NAME type = electronics difficulty = 14 }
+    # 
+    component = { id = 7644 name = TECH_CMP_SW_35_4_NAME type = nuclear_physics difficulty = 14 double_time = yes }
+    # 
+    component = { id = 7645 name = TECH_CMP_SW_35_5_NAME type = management difficulty = 14 }
+    required  = { 18520 }
+    effects =
+    { command = { }
+    }
+  }
+  # åŸºç¡€åŠå¯¼ä½“ 
+  application =
+  { id        = 5490
+    name      = TECH_APP_SW_100_NAME
+    desc      = TECH_APP_SW_100_DESC
+    position  = { x = 339 y = 177 }
+    picture   = "16000"
+    year      = 1948
+    # äºŒæç®¡æ”¾å¤§ 
+    component = { id = 16001 name = TECH_CMP_SW_100_1_NAME type = mathematics difficulty = 10 }
+    # åŠå¯¼ä½“ç ”ç©¶ 
+    component = { id = 16002 name = TECH_CMP_SW_100_2_NAME type = chemistry difficulty = 10 }
+    # ç‚¹æ¥è§¦æ™¶ä½“ç®¡ 
+    component = { id = 16003 name = TECH_CMP_SW_100_3_NAME type = electronics difficulty = 10 }
+    required  = { }
     effects =
     { command = { }
     }
