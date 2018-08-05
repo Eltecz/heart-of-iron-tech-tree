@@ -1,0 +1,120 @@
+# 0 - 早期主力舰防空系统
+model = {
+	cost 				= 3
+	buildtime			= 70
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= -1
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 1 - 基础主力舰防空系统
+model = {
+	cost 				= 3
+	buildtime			= 75
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= -2
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 2
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 2 - 改进主力舰防空系统
+model = {
+	cost 				= 4
+	buildtime			= 80
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= -2
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 4
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 3 - 先进主力舰防空系统
+model = {
+	cost 				= 4
+	buildtime			= 85
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= -3
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 6
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 4 - 准现代主力舰防空系统
+model = {
+	cost 				= 5
+	buildtime			= 90
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= -3
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 10
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 5 - 现代主力舰防空系统
+model = {
+	cost 				= 5
+	buildtime			= 100
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= -4
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 13
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}

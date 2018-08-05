@@ -1,0 +1,45 @@
+# 0 - 基础防空导弹
+model = {
+	cost 				= 3
+	buildtime			= 90
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 2
+	subdetectioncapability		= 2
+	airdefence			= 10
+	seadefence			= 2
+	seaattack			= 2
+	convoyattack			= 1
+	subattack			= 0
+	airattack			= 7
+	shorebombardment		= 1
+	distance			= 0.2
+	supplyconsumption 		= 0.2
+	fuelconsumption			= 1
+	upgrade_time_factor 		= 0
+	upgrade_cost_factor 		= 0
+	equipment = { rocket = 10 }
+}
+# 1 - 先进防空导弹
+model = {
+	cost 				= 5
+	buildtime			= 120
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 4
+	subdetectioncapability		= 4
+	airdefence			= 15
+	seadefence			= 4
+	seaattack			= 3
+	convoyattack			= 2
+	subattack			= 1
+	airattack			= 10
+	shorebombardment		= 2
+	distance			= 0.2
+	supplyconsumption 		= 0.2
+	fuelconsumption			= 1
+	upgrade_time_factor 		= 0
+	upgrade_cost_factor 		= 0
+	upgrade_time_boost 	= no
+	equipment = { rocket = 10 }
+}

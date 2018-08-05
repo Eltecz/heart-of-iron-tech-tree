@@ -1,0 +1,369 @@
+allowed_brigades = naval_improved_hull_s
+allowed_brigades = naval_torpedoes_s
+allowed_brigades = naval_radar_s
+max_allowed_brigades = 3
+
+# 0 - ÔçÆÚÐÍÇ±Í§ 
+model = {
+	cost						= 0.1
+	buildtime 					= 270
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.02
+	maxspeed					= 8
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 4
+	seadefence					= 39
+	airdefence					= 26
+	seaattack					= 1
+	airattack					= 0
+	subattack					= 1
+	convoyattack					= 3
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 500
+	supplyconsumption			= 0.3
+	fuelconsumption				= 0.5
+	distance					= 0.15
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 20 }
+}
+# 1 - ²ñÓÍ»úÇ±Í§
+model = {
+	cost						= 0.15
+	buildtime 					= 300
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.04
+	maxspeed					= 12
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 3
+	seadefence					= 38
+	airdefence					= 25
+	seaattack					= 2
+	airattack					= 0
+	subattack					= 2
+	convoyattack					= 5
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 1500
+	supplyconsumption			= 0.4
+	fuelconsumption				= 0.5
+	distance					= 0.16
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 40 }
+}
+# 2 - Ô¶ÑóÇ±Í§
+model = {
+	cost						= 0.2
+	buildtime 					= 330
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.04
+	maxspeed					= 15
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 1
+	seadefence					= 37
+	airdefence					= 24
+	seaattack					= 2
+	airattack					= 1
+	subattack					= 2
+	convoyattack					= 6
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 4000
+	supplyconsumption			= 0.5
+	fuelconsumption				= 0.7
+	distance					= 0.17
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 40 }
+}
+# 3 - Ò»Õ½ºóÇ±Í§
+model = {
+	cost						= 0.225
+	buildtime 					= 330
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.05
+	maxspeed					= 16
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 1
+	seadefence					= 37
+	airdefence					= 24
+	seaattack					= 2
+	airattack					= 1
+	subattack					= 2
+	convoyattack					= 6
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 7500
+	supplyconsumption			= 0.5
+	fuelconsumption				= 0.7
+	distance					= 0.17
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 50 }
+}
+# 4 - ¸Ä½øÇ±Í§
+model = {
+	cost						= 0.25
+	buildtime 					= 360
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.05
+	maxspeed					= 18
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 1
+	seadefence					= 36
+	airdefence					= 22
+	seaattack					= 2
+	airattack					= 1
+	subattack					= 2
+	convoyattack					= 7
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 9000
+	supplyconsumption			= 0.6
+	fuelconsumption				= 0.8
+	distance					= 0.18
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 50 }
+}
+# 5 - Ô¶³ÌÇ±Í§
+model = {
+	cost						= 0.275
+	buildtime 					= 360
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.06
+	maxspeed					= 18
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 1
+	seadefence					= 36
+	airdefence					= 22
+	seaattack					= 2
+	airattack					= 1
+	subattack					= 2
+	convoyattack					= 7
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 12000
+	supplyconsumption			= 0.6
+	fuelconsumption				= 0.8
+	distance					= 0.18
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 60 }
+}
+# 6 - ÑÓ³ÌÐÍÇ±Í§
+model = {
+	cost						= 0.3
+	buildtime 					= 360
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.07
+	maxspeed					= 18
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 1
+	seadefence					= 36
+	airdefence					= 22
+	seaattack					= 2
+	airattack					= 1
+	subattack					= 2
+	convoyattack					= 7
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 15000
+	supplyconsumption			= 0.6
+	fuelconsumption				= 0.8
+	distance					= 0.18
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 70 }
+}
+# 7 - ²ñµçÇ±Í§
+model = {
+	cost						= 0.4
+	buildtime 					= 420
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.08
+	maxspeed					= 18
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.5
+	seadefence					= 35
+	airdefence					= 21
+	seaattack					= 4
+	airattack					= 1
+	subattack					= 4
+	convoyattack					= 9
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 15000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0.5
+	distance					= 0.19
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 80 }
+}
+# 8 - ×¼ÏÖ´úÇ±Í§
+model = {
+	cost						= 0.425
+	buildtime 					= 450
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.08
+	maxspeed					= 21
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 32
+	airdefence					= 19
+	seaattack					= 5
+	airattack					= 1
+	subattack					= 5
+	convoyattack					= 10
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 15000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0.5
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 80 }
+}
+# 9 - ÏÖ´úÇ±Í§
+model = {
+	cost						= 0.5
+	buildtime 					= 450
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.09
+	maxspeed					= 21
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 32
+	airdefence					= 19
+	seaattack					= 5
+	airattack					= 1
+	subattack					= 5
+	convoyattack					= 10
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 15000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0.5
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 90 }
+}
+# 10 - ºË¶¯Á¦Ç±Í§
+model = {
+	cost						= 1
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.12
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 8
+	airattack					= 1
+	subattack					= 8
+	convoyattack					= 12
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 120 }
+}
+# 11 - ºË¶¯Á¦¹¥»÷ÐÍÇ±Í§
+model = {
+	cost						= 1.3
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.13
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 8
+	airattack					= 1
+	subattack					= 8
+	convoyattack					= 12
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 130 }
+}
+# 12 - Õ½ÂÔºËÇ±Í§
+model = {
+	cost						= 1.5
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.15
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 5
+	airattack					= 1
+	subattack					= 4
+	convoyattack					= 7
+	shorebombardment			= 8
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 150 }
+}

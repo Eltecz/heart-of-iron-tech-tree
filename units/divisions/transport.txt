@@ -1,0 +1,168 @@
+# 0 - 运输船
+model = {
+	cost						= 3
+	buildtime 					= 150
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1
+	maxspeed					= 12
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	visibility					= 30
+	seadefence					= 38
+	airdefence					= 30
+	seaattack					= 0
+	airattack					= 0
+	subattack					= 0
+	convoyattack					= 0
+	shorebombardment			= 0
+	transportcapability			= 40
+	range						= 2000
+	supplyconsumption			= 0.3
+	fuelconsumption				= 1
+	distance					= 0.1
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { transport = 25 manpower = 1000 }
+}
+# 1 - 25型运输船
+model = {
+	cost						= 3
+	buildtime 					= 150
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1
+	maxspeed					= 15
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	visibility					= 30
+	seadefence					= 37
+	airdefence					= 30
+	seaattack					= 1
+	airattack					= 0
+	subattack					= 0
+	convoyattack					= 0
+	shorebombardment			= 0
+	transportcapability			= 40
+	range						= 3000
+	supplyconsumption			= 0.3
+	fuelconsumption				= 1
+	distance					= 0.1
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { transport = 25 manpower = 1000 }
+}
+# 2 - 36型运输船
+model = {
+	cost						= 3
+	buildtime 					= 150
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1
+	maxspeed					= 18
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	visibility					= 30
+	seadefence					= 36
+	airdefence					= 28
+	seaattack					= 1
+	airattack					= 0
+	subattack					= 1
+	convoyattack					= 0
+	shorebombardment			= 0
+	transportcapability			= 40
+	range						= 4500
+	supplyconsumption			= 0.4
+	fuelconsumption				= 1.2
+	distance					= 0.1
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { transport = 25 manpower = 1000 }
+}
+# 3 - 41型运输船
+model = {
+	cost						= 3
+	buildtime 					= 150
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 0.75
+	maxspeed					= 20
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	visibility					= 30
+	seadefence					= 34
+	airdefence					= 27
+	seaattack					= 1
+	airattack					= 2
+	subattack					= 1
+	convoyattack					= 0
+	shorebombardment			= 0
+	transportcapability			= 40
+	range						= 6000
+	supplyconsumption			= 0.4
+	fuelconsumption				= 1.2
+	distance					= 0.1
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { transport = 25 manpower = 750 }
+}
+# 4 - 49型运输船
+model = {
+	cost						= 3
+	buildtime 					= 150
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 0.65
+	maxspeed					= 21
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	visibility					= 30
+	seadefence					= 33
+	airdefence					= 26
+	seaattack					= 2
+	airattack					= 2
+	subattack					= 1
+	convoyattack					= 0
+	shorebombardment			= 0
+	transportcapability			= 40
+	range						= 8000
+	supplyconsumption			= 0.5
+	fuelconsumption				= 1.4
+	distance					= 0.1
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { transport = 25 manpower = 650 }
+}
+# 5 - 55型运输船
+model = {
+	cost						= 3
+	buildtime 					= 150
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 0.5
+	maxspeed					= 22
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	visibility					= 30
+	seadefence					= 32
+	airdefence					= 25
+	seaattack					= 2
+	airattack					= 2
+	subattack					= 1
+	convoyattack					= 0
+	shorebombardment			= 0
+	transportcapability			= 40
+	range						= 10000
+	supplyconsumption			= 0.5
+	fuelconsumption				= 1.5
+	distance					= 0.1
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { transport = 25 manpower = 500 }
+}

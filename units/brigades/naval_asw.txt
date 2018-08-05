@@ -1,0 +1,140 @@
+# 0 - 一战反潜系统
+model = {
+	cost 				= 2
+	buildtime			= 25
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 2
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 1
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.8
+	upgrade_cost_factor 		= 0.6
+}
+# 1 - 一战后反潜系统
+model = {
+	cost 				= 4
+	buildtime			= 25
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 3
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 2
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 2 - 早期反潜系统
+model = {
+	cost 				= 5
+	buildtime			= 30
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 4
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 3
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 3 - 基础反潜系统
+model = {
+	cost 				= 5
+	buildtime			= 35
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 5
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 4
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 4 - 改进反潜系统
+model = {
+	cost 				= 5.5
+	buildtime			= 40
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 6
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 5
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 5 - 现代反潜系统
+model = {
+	cost 				= 5.5
+	buildtime			= 40
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 6
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 6
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 6 - 
+model = {
+	cost 				= 6
+	buildtime			= 50
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 7
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 15
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}

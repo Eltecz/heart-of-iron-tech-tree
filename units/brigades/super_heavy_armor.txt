@@ -1,0 +1,54 @@
+# 0 - 一战超重型坦克加强旅
+model = {
+	cost 				= 8
+	buildtime	 		= 180
+	manpower 			= 3
+	softness			= -5
+	softattack			= 4
+	hardattack			= 2
+	supplyconsumption 	= 1
+	fuelconsumption		= 3
+	upgrade_time_factor = 0.8
+	upgrade_cost_factor = 0.6
+	speed_cap			= 5
+	medium_armor				= 0
+	upgrade_time_boost 	= no
+	equipment = { manpower = 3000 heavy_armor = 54 }
+}
+# 1 - 超重型坦克加强旅
+model = {
+	cost 				= 10
+	buildtime	 		= 180
+	manpower 			= 2
+	defaultorganisation = 10
+	defensiveness 		= -5
+	toughness 			= -5
+	softness			= -10
+	softattack			= 7
+	hardattack			= 10
+	supplyconsumption 	= 4.6
+	fuelconsumption		= 5
+	upgrade_time_factor = 0.8
+	upgrade_cost_factor = 0.6
+	speed_cap			= 9
+	equipment = { manpower = 500 medium_armor = 32 heavy_armor = 4 }
+}
+# 2 - 超级重型坦克加强旅
+model = {
+	cost 				= 35
+	buildtime	 		= 250
+	manpower 			= 0.5
+	defaultorganisation = 10
+	defensiveness 		= -15
+	toughness 			= -20
+	softness			= -35
+	softattack			= 12
+	hardattack			= 17
+	supplyconsumption 	= 7
+	fuelconsumption		= 8
+	upgrade_time_factor = 0.8
+	upgrade_cost_factor = 0.6
+	speed_cap			= 9
+	upgrade_time_boost 	= no
+	equipment = { manpower = 500 medium_armor = 32 heavy_armor = 4 }
+}

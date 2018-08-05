@@ -1,0 +1,60 @@
+# 0 - A型主力舰火控系统 
+model = {
+	cost 				= 2
+	buildtime			= 50
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 0
+	seaattack			= 1
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 1
+	distance			= 0.05
+	supplyconsumption 		= 0.1
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 1 - B型主力舰火控系统 
+model = {
+	cost 				= 3
+	buildtime			= 55
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 0
+	seaattack			= 2
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 2
+	distance			= 0.1
+	supplyconsumption 		= 0.1
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}
+# 2 - 先进主力舰火控系统
+model = {
+	cost 				= 4
+	buildtime			= 55
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 0
+	seaattack			= 3
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 3
+	shorebombardment		= 2
+	distance			= 0.1
+	supplyconsumption 		= 0.1
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+}

@@ -1,0 +1,4 @@
+allowed_brigades = anti_air
+allowed_brigades = police
+allowed_brigades = sp_anti_air
+

@@ -1,0 +1,153 @@
+allowed_brigades = b_02
+max_allowed_brigades = 2
+
+# 0 - 战略火箭 
+model = {
+	cost 					= 4
+	buildtime	 			= 40
+	defaultorganisation 		= 100
+	morale					= 100
+	manpower				= 0
+	maxspeed				= 2400
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	surfacedefence				= 75
+	airdefence				= 75
+	airattack				= 0
+	strategicattack				= 150
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 300
+	supplyconsumption 			= 0.5
+	fuelconsumption				= 2
+	upgrade_time_factor = 0
+	upgrade_cost_factor = 0
+	flying_rocket				= -2
+	equipment = { rocket = 20 }
+}
+# 1 - 弹道导弹 
+model = {
+	cost 					= 7
+	buildtime	 			= 60
+	defaultorganisation 		= 100
+	morale					= 100
+	manpower				= 0
+	maxspeed				= 3400
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	surfacedefence				= 77
+	airdefence				= 77
+	airattack				= 0
+	strategicattack				= 240
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 1200
+	supplyconsumption 			= 1
+	fuelconsumption				= 2.5
+	upgrade_time_factor = 0
+	upgrade_cost_factor = 0
+	flying_rocket				= -2
+	equipment = { rocket = 20 }
+}
+# 2 - IRBM
+model = {
+	cost 					= 12
+	buildtime	 			= 75
+	defaultorganisation 		= 100
+	morale					= 100
+	manpower				= 0
+	maxspeed				= 4500
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	surfacedefence				= 80
+	airdefence				= 80
+	airattack				= 0
+	strategicattack				= 400
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 4000
+	supplyconsumption 			= 1.5
+	fuelconsumption				= 4
+	upgrade_time_factor = 0
+	upgrade_cost_factor = 0
+	flying_rocket				= -2
+	equipment = { rocket = 5 }
+}
+# 3 - 洲际弹道导弹
+model = {
+	cost 					= 18
+	buildtime	 			= 90
+	defaultorganisation 		= 100
+	morale					= 100
+	manpower				= 0
+	maxspeed				= 6000
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	surfacedefence				= 85
+	airdefence				= 85
+	airattack				= 0
+	strategicattack				= 480
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 8000
+	supplyconsumption 			= 2
+	fuelconsumption				= 5
+	upgrade_time_factor = 0
+	upgrade_cost_factor = 0
+	flying_rocket				= -2
+	equipment = { rocket = 1 }
+}
+# 4 - 第二代洲际弹道导弹
+model = {
+	cost 					= 25
+	buildtime	 			= 100
+	defaultorganisation 		= 100
+	morale					= 100
+	manpower				= 0
+	maxspeed				= 8000
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	surfacedefence				= 87
+	airdefence				= 87
+	airattack				= 0
+	strategicattack				= 520
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 16000
+	supplyconsumption 			= 2.5
+	fuelconsumption				= 8
+	upgrade_time_factor = 0
+	upgrade_cost_factor = 0
+	flying_rocket				= -2
+	equipment = { rocket = 1 }
+}
+# 5 - 运载火箭
+model = {
+	cost 					= 32
+	buildtime	 			= 100
+	defaultorganisation 		= 100
+	morale					= 100
+	manpower				= 0
+	maxspeed				= 8000
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	surfacedefence				= 90
+	airdefence				= 90
+	airattack				= 0
+	strategicattack				= 550
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 32000
+	supplyconsumption 			= 3
+	fuelconsumption				= 10
+	upgrade_time_factor = 0
+	upgrade_cost_factor = 0
+	flying_rocket				= -2
+	equipment = { rocket = 1 }
+}
